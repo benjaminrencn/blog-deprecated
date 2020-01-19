@@ -1,5 +1,6 @@
 /** {@link https://vuepress.vuejs.org/zh/config/} */
 module.exports = {
+  base: '/blog/',
   title: 'BR\'s Blog',
   description: 'BR 的 Web 前端 学习记录分享',
   locales: {
