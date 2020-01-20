@@ -6,7 +6,7 @@ tag:
   - 前端基础预习课
 author: BR
 location: 宁波
-summary: CSS Reset
+summary: CSS Reset。背景，目的，延伸历史演变、解决方案。
 ---
 
 # CSS Reset
