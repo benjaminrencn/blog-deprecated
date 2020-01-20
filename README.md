@@ -1,6 +1,7 @@
 # Blog
 
-> Web 前端 学习记录分享博客 基于 VuePress
+> Web 前端 学习记录分享博客 基于 VuePress  
+> https://benjaminrencn.github.io/blog/
 
 ## Development
 
