@@ -20,3 +20,9 @@ summary: CSS Reset
 
 1. 清除默认样式
 2. 定义全局样式
+
+## 延伸
+
+* [关于CSS Reset 那些事（一）之 历史演变与Normalize.css - [alsiso]](https://segmentfault.com/a/1190000003021766)
+* [normalize.css - [necolas]](https://github.com/necolas/normalize.css/)
+* [Normalize.css 中文文档与源码解读 - [alsiso]](https://github.com/Alsiso/normalize-zh)
