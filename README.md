@@ -13,5 +13,6 @@ For more details, please head VuePress's [documentation](https://v1.vuepress.vue
 
 ## TODO
 
-[ ] vuepress-plugin-code-copy 无效
+- [ ] vuepress-plugin-code-copy 无效
+- [ ] 网易云课堂 高级前端开发工程师 前端基础预习课 页面架构 CSS Reset
 
