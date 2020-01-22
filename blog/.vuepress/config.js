@@ -72,6 +72,25 @@ module.exports = {
         background: 'rgba(33, 37, 48, .9)',
       }
     }],
+    /** {@link https://vuepress.github.io/zh/plugins/container} */
+    ['vuepress-plugin-container', {
+      type: 'tip',
+      defaultTitle: {
+        '/': '提示',
+      }
+    }],
+    ['vuepress-plugin-container', {
+      type: 'warning',
+      defaultTitle: {
+        '/': '注意',
+      }
+    }],
+    ['vuepress-plugin-container', {
+      type: 'danger',
+      defaultTitle: {
+        '/': '警告',
+      }
+    }],
     /** {@link https://github.com/znicholasbrown/vuepress-plugin-code-copy} */
     'vuepress-plugin-code-copy',
     /** {@link https://github.com/tolking/vuepress-plugin-img-lazy} */
