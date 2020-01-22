@@ -1,0 +1,111 @@
+/*
+ * 博客样式
+ */
+
+// 网易云课堂 高级前端开发工程师
+// ================================================================================================
+
+// 前端基础预习课 居中布局
+// ------------------------------------------------------------------------------------------------
+.163_senior-fe_introductory_center-align
+  // 水平居中
+  .horizontal_demo
+    &.parent
+      margin 20px 40px
+      height 4rem
+      background #ddd
+    .child
+      padding 0 1rem
+      line-height 4rem
+      font-size 2rem
+      color #fff
+      background #000
+    &.inline-block_text-align // inline-block + text-align
+      &.parent
+        text-align center
+      .child
+        display inline-block
+    &.table_margin // table + margin
+      .child
+        display table
+        margin 0 auto
+    &.absolute_transform // absolute + transform
+      &.parent
+        position relative
+      .child
+        position absolute
+        left 50%
+        transform translateX(-50%)
+    &.flex_justify-content // flex + justify-content
+      &.parent
+        display flex
+        justify-content center
+    &.flex_margin // flex + margin
+      &.parent
+        display flex
+      .child
+        margin 0 auto
+  // 垂直居中
+  .vertical_demo
+    display table
+    margin 0 auto
+    .parent
+      width 6rem
+      height 8rem
+      background #ddd
+    .child
+      padding 0 1rem
+      line-height 4rem
+      font-size 2rem
+      color #fff
+      background #000
+    .table-cell_vertical-align // table-cell + vertical-align
+      &.parent
+        display table-cell
+        vertical-align middle
+    .absolute_transform // absolute + transform
+      &.parent
+        position relative
+      .child
+        position absolute
+        top 50%
+        transform translateY(-50%)
+    .flex_align-items // flex + align-items
+      &.parent
+        display flex
+        align-items center
+  // 居中
+  .center_demo
+    &.parent
+      margin 20px 40px
+      width calc(100% - 80px)
+      height 8rem
+      background #ddd
+    .child
+      padding 0 1rem
+      line-height 4rem
+      font-size 2rem
+      color #fff
+      background #000
+    &.inline-block_text-align_table-cell_vertical-align // inline-block + text-align + table-cell + vertical-align
+      &.parent
+        display table-cell
+        text-align center
+        vertical-align middle
+        width 1% // (ﾉ゜д゜)ﾉ 问题 父元素 width % 不生效 且值越小越宽 且与子元素宽度成正比
+      .child
+        display inline-block
+    &.absolute_transform // absolute + transform
+      &.parent
+        position relative
+      .child
+        position absolute
+        top 50%
+        left 50%
+        transform translate(-50%, -50%)
+    &.flex_justify-content_align-items
+      &.parent
+        display flex
+        justify-content center
+        align-items center
+      
