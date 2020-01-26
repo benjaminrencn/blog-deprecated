@@ -6,7 +6,7 @@ tag:
   - 前端基础预习课
 author: BR
 location: 温州
-summary: 模块与组件。模块化、组件化、如何制定 CSS 规范。
+summary: 模块化、组件化、如何制定 CSS 规范。
 ---
 
 # 模块与组件

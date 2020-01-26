@@ -7,7 +7,7 @@ tag:
   - CSS
 author: BR
 location: 宁波
-summary: CSS Reset。背景，目的，延伸历史演变、解决方案。
+summary: 背景，目的，延伸历史演变、解决方案。
 ---
 
 # CSS Reset
