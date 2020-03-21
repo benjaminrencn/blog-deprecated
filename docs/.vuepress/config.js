@@ -21,7 +21,7 @@ module.exports = {
     docsDir: 'docs',
     docsBranch: 'master',
     editLinks: true,
-    editLinkText: '帮助我们改善此页面！',
+    editLinkText: '帮忙完善',
     lastUpdated: '最后更新',
     smoothScroll: true,
     nav: require('./config/nav'),
@@ -32,6 +32,10 @@ module.exports = {
     ],
   },
   plugins: [
+    /** {@link https://github.com/ntnyq/vuepress-plugin-svg-icons} */
+    ['@goy/svg-icons', {
+      svgsDir: '.vuepress/public/svg',
+    }],
     /** {@link https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-back-to-top} */
     ['@vuepress/plugin-back-to-top', true],
     /** {@link https://github.com/QiShaoXuan/vuepress-plugin-cat} */
