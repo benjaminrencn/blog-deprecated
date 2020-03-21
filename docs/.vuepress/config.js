@@ -32,6 +32,10 @@ module.exports = {
     ],
   },
   plugins: [
+    /** {@link https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-back-to-top} */
+    ['@vuepress/plugin-back-to-top', true],
+    /** {@link https://github.com/QiShaoXuan/vuepress-plugin-cat} */
+    ['vuepress-plugin-cat', true],
     /** {@link https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-medium-zoom} */
     ['@vuepress/plugin-medium-zoom', true],
     /** {@link https://vuepress.github.io/zh/plugins/container} */
@@ -52,8 +56,6 @@ module.exports = {
       defaultTitle: {
         '/': '警告',
       },
-    }],
-    /** {@link https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-back-to-top} */
-    ['@vuepress/plugin-back-to-top', true],
-  ],
+    }],    
+  ],  
 }
