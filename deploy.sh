@@ -7,7 +7,7 @@ set -e
 yarn build
 
 # 进入生成的文件夹
-cd blog/.vuepress/dist
+cd docs/.vuepress/dist
 
 git init
 git add -A
