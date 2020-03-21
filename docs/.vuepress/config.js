@@ -36,8 +36,11 @@ module.exports = {
     ['@vuepress/plugin-back-to-top', true],
     /** {@link https://github.com/QiShaoXuan/vuepress-plugin-cat} */
     ['vuepress-plugin-cat', true],
-    /** {@link https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-medium-zoom} */
-    ['@vuepress/plugin-medium-zoom', true],
+    /** {@link https://github.com/znicholasbrown/vuepress-plugin-code-copy} */
+    ['vuepress-plugin-code-copy', {
+      color: '#3eaf7c',
+      successText: '已复制',
+    }],
     /** {@link https://vuepress.github.io/zh/plugins/container} */
     ['vuepress-plugin-container', {
       type: 'tip',
@@ -56,6 +59,8 @@ module.exports = {
       defaultTitle: {
         '/': '警告',
       },
-    }],    
+    }],
+    /** {@link https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-medium-zoom} */
+    ['@vuepress/plugin-medium-zoom', true],  
   ],  
 }
