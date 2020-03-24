@@ -22,6 +22,13 @@ module.exports = {
             ['./netease-study-senior-fe/preparation/specification', '规范范例'],
             ['./netease-study-senior-fe/preparation/lint', '代码检查工具'],
           ],
+        }, {
+          title: '版本管理',
+          children: [
+            ['./netease-study-senior-fe/preparation/version-control', '版本管理概述'],
+            ['./netease-study-senior-fe/preparation/branch', '分支模型'],
+            ['./netease-study-senior-fe/preparation/git', 'Git'],
+          ],
         }],
       }],
     }],

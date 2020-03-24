@@ -26,9 +26,9 @@ meta:
   <tr><td rowspan="3">工程规范</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/engineering">工程化规范概述</a></td></tr>
   <tr><td>2.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/specification">规范范例</a></td></tr>
   <tr><td>2.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/lint">管理工具</a></td></tr>
-  <tr><td rowspan="3">版本管理</td><td>3.1</td><td>版本管理概述</td></tr>
-  <tr><td>3.2</td><td>分支模型</td></tr>
-  <tr><td>3.3</td><td>Git</td></tr>
+  <tr><td rowspan="3">版本管理</td><td>3.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/version-control">版本管理概述</a></td></tr>
+  <tr><td>3.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/branch">分支模型</a></td></tr>
+  <tr><td>3.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/git">Git</a></td></tr>
   <tr><td rowspan="3">单元测试</td><td>4.1</td><td>单元测试概述</td></tr>
   <tr><td>4.2</td><td>测试框架</td></tr>
   <tr><td>4.3</td><td>测试实战</td></tr>
