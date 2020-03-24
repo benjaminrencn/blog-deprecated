@@ -10,7 +10,10 @@ module.exports = {
         children: [{
           title: '页面架构',
           children: [
-            ['netease-study-senior-fe/preparation/i18n', '国际化'],
+            ['./netease-study-senior-fe/preparation/css-reset', 'CSS Reset'],
+            ['./netease-study-senior-fe/preparation/center-align', '居中布局'],
+            ['./netease-study-senior-fe/preparation/layout', '多列布局'],
+            ['./netease-study-senior-fe/preparation/module-component', '模块与组件'],
           ],
         }],
       }],

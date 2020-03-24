@@ -34,7 +34,7 @@ module.exports = {
   plugins: [
     /** {@link https://github.com/ntnyq/vuepress-plugin-svg-icons} */
     ['@goy/svg-icons', {
-      svgsDir: '.vuepress/public/svg',
+      svgsDir: './.vuepress/public/svg',
     }],
     /** {@link https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-back-to-top} */
     ['@vuepress/plugin-back-to-top', true],

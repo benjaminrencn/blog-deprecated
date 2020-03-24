@@ -68,7 +68,7 @@
     display table
     margin 0 auto
     .parent
-      width 6rem
+      // width 6rem
       height 8rem
     .child
       padding 0 1rem
@@ -83,10 +83,14 @@
     .absolute_transform
       &.parent
         position relative
+        width 8rem
       .child
         position absolute
         top 50%
         transform translateY(-50%)
+        text-align center
+        width 6rem
+
     // flex + align-items
     .flex_align-items
       &.parent

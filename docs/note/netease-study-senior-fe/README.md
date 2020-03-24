@@ -1,3 +1,11 @@
+---
+lang: zh-CN
+description: 网易云课堂 高级前端开发工程师 课程。
+meta:
+  - name: keywords
+    content: 网易云课堂,高级前端开发工程师
+---
+
 # 网易云课堂 高级前端开发工程师
 
 [网易云课堂](https://study.163.com/)/
@@ -11,10 +19,10 @@
   <tr><th>课程模块</th><th>课程章节</th><th>序号</th><th>课程标题</th></tr>
 </thead>
 <tbody>
-  <tr><td rowspan="16">前端基础预习课</td><td rowspan="4">页面架构</td><td>1.1</td><td>CSS Reset</td></tr>
-  <tr><td>1.2</td><td>居中布局</td></tr>
-  <tr><td>1.3</td><td>多列布局</td></tr>
-  <tr><td>1.4</td><td>模块与组件</td></tr>
+  <tr><td rowspan="16">前端基础预习课</td><td rowspan="4">页面架构</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/css-reset">CSS Reset</a></td></tr>
+  <tr><td>1.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/center-align">居中布局</a></td></tr>
+  <tr><td>1.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/layout">多列布局</a></td></tr>
+  <tr><td>1.4<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/module-component">模块与组件</a></td></tr>
   <tr><td rowspan="3">工程规范</td><td>2.1</td><td>工程化规范概述</td></tr>
   <tr><td>2.2</td><td>规范范例</td></tr>
   <tr><td>2.3</td><td>管理工具</td></tr>
