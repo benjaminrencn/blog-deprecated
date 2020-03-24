@@ -23,9 +23,9 @@ meta:
   <tr><td>1.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/center-align">居中布局</a></td></tr>
   <tr><td>1.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/layout">多列布局</a></td></tr>
   <tr><td>1.4<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/module-component">模块与组件</a></td></tr>
-  <tr><td rowspan="3">工程规范</td><td>2.1</td><td>工程化规范概述</td></tr>
-  <tr><td>2.2</td><td>规范范例</td></tr>
-  <tr><td>2.3</td><td>管理工具</td></tr>
+  <tr><td rowspan="3">工程规范</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/engineering">工程化规范概述</a></td></tr>
+  <tr><td>2.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/specification">规范范例</a></td></tr>
+  <tr><td>2.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/lint">管理工具</a></td></tr>
   <tr><td rowspan="3">版本管理</td><td>3.1</td><td>版本管理概述</td></tr>
   <tr><td>3.2</td><td>分支模型</td></tr>
   <tr><td>3.3</td><td>Git</td></tr>
