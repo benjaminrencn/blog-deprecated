@@ -29,6 +29,11 @@ module.exports = {
             ['./netease-study-senior-fe/preparation/branch', '分支模型'],
             ['./netease-study-senior-fe/preparation/git', 'Git'],
           ],
+        }, {
+          title: '单元测试',
+          children: [
+            ['./netease-study-senior-fe/preparation/unit-testing', '单元测试概述'],
+          ],
         }],
       }],
     }],

@@ -29,7 +29,7 @@ meta:
   <tr><td rowspan="3">版本管理</td><td>3.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/version-control">版本管理概述</a></td></tr>
   <tr><td>3.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/branch">分支模型</a></td></tr>
   <tr><td>3.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/git">Git</a></td></tr>
-  <tr><td rowspan="3">单元测试</td><td>4.1</td><td>单元测试概述</td></tr>
+  <tr><td rowspan="3">单元测试</td><td>4.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/unit-testing">单元测试概述</a></td></tr>
   <tr><td>4.2</td><td>测试框架</td></tr>
   <tr><td>4.3</td><td>测试实战</td></tr>
   <tr><td rowspan="3">构建发布</td><td>5.1</td><td>构建发布概述</td></tr>
