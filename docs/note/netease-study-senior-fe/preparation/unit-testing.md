@@ -72,22 +72,23 @@ meta:
   * 测试框架  
     被测试方法 -> 数据（mock）、外部依赖（stub） -> 执行方法 -> 检查结果（断言）
     * [Qunit](https://qunitjs.com/)
-    * [jasmine](https://jasmine.单元测试概述hub.io/)
+    * [jasmine](https://jasmine.github.io/)
     * [mocha](https://mochajs.org/)
     * [intern](https://theintern.io/)
+    * [jest](https://jestjs.io/)
   * 断言库
     * [chai](https://www.chaijs.com/)
-    * [should](http://shouldjs.单元测试概述hub.io/)
+    * [should](http://shouldjs.github.io/)
     * [expect](http://www.ezdev.org/view/expect-js/391)
     * [assert](https://nodejs.org/api/assert.html)
   * mock 库
     * [sinon](https://sinonjs.org/)
   * test runner  
     提供测试环境、管理执行流程
-    * [karma](http://karma-runner.单元测试概述hub.io/4.0/index.html)
-    * [buster.js](https://单元测试概述hub.com/busterjs)
+    * [karma](http://karma-runner.github.io/4.0/index.html)
+    * [buster.js](https://github.com/busterjs)
   * 覆盖率工具
-    * [Istanbul](https://单元测试概述hub.com/istanbuljs/istanbuljs)
+    * [Istanbul](https://github.com/istanbuljs/istanbuljs)
   * 测试用例（）  
     一组输入、执行条件、预期结果，以测试是否满足某个需求
 

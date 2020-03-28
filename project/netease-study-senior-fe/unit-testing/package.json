@@ -1,0 +1,27 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "单元测试练习（mocha + chai + sinon）",
+  "main": "index.js",
+  "author": "Benjamin Ren",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --port 8000 --open",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^4.0.2",
+    "jquery": "^3.4.1",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.1",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {}
+}

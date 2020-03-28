@@ -33,6 +33,7 @@ module.exports = {
           title: '单元测试',
           children: [
             ['./netease-study-senior-fe/preparation/unit-testing', '单元测试概述'],
+            ['./netease-study-senior-fe/preparation/unit-testing-framework', '测试框架'],
           ],
         }],
       }],

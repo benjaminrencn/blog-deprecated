@@ -26,6 +26,7 @@ module.exports = {
     smoothScroll: true,
     nav: require('./config/nav'),
     sidebar: require('./config/sidebar'),
+    sidebarDepth: 3,
     extraWatchFiles: [
       '.vuepress/config/nav.js',
       '.vuepress/config/sidebar.js',

@@ -30,7 +30,7 @@ meta:
   <tr><td>3.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/branch">分支模型</a></td></tr>
   <tr><td>3.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/git">Git</a></td></tr>
   <tr><td rowspan="3">单元测试</td><td>4.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/unit-testing">单元测试概述</a></td></tr>
-  <tr><td>4.2</td><td>测试框架</td></tr>
+  <tr><td>4.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/unit-testing-framework">测试框架</a></td></tr>
   <tr><td>4.3</td><td>测试实战</td></tr>
   <tr><td rowspan="3">构建发布</td><td>5.1</td><td>构建发布概述</td></tr>
   <tr><td>5.2</td><td>构建工具</td></tr>
@@ -282,3 +282,14 @@ meta:
   <tr><td colspan="3">《有道云笔记项目实战》专题考核</td></tr>
 </tbody>
 </table>
+
+## 问题
+
+* CSS
+  * 前端基础预习课 居中布局 2020-1-20-center-align.md inline-block + text-align + table-cell + vertical-align 父元素 width % 不生效 且值越小越宽 且与子元素宽度成正比
+  * BFC
+  * 前端基础预习课 多列布局 等宽布局找出 table 方法无需  `.parent-fix` 的解决方案
+* Git
+  * 前端基础预习课 Git rebase 练习失败
+* Webpack
+  * 前端基础预习课 单元测试 测试框架 异步代码测试 webpack mock 功能失败
