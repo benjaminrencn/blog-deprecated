@@ -1,4 +1,5 @@
 const path = require('path');
+const apiMocker = require('webpack-api-mocker');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -9,6 +10,9 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
+    before(app) {
+      apiMocker(app, path.resolve('./src/mock.js'));
+    },
     contentBase: './dist',
   },
   plugins: [

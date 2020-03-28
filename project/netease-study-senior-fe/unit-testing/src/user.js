@@ -6,7 +6,7 @@ import jQuery from 'jquery';
  */
 function getUser(callback) {
   jQuery.ajax({
-    url: 'http://locahost:8002/user/get',
+    url: '/user/get',
     success: callback,
   });
 }
@@ -16,7 +16,7 @@ function getUser(callback) {
  */
 function getUserAsync() {
   return jQuery.ajax({
-    url: 'http://locahost:8002/user/get',
+    url: '/user/get',
     success: data => {
       return data;
     },
@@ -28,7 +28,7 @@ function getUserAsync() {
  * @param {Function} callback 回调函数
  */
 function getUserByPost(callback) {
-  jQuery.post('http://locahost:8002/user/get', callback);
+  jQuery.post('/user/get', callback);
 }
 
 export default { getUser, getUserAsync, getUserByPost };
