@@ -34,6 +34,7 @@ module.exports = {
           children: [
             ['./netease-study-senior-fe/preparation/unit-testing', '单元测试概述'],
             ['./netease-study-senior-fe/preparation/unit-testing-framework', '测试框架'],
+            ['./netease-study-senior-fe/preparation/unit-testing-demo', '测试实战'],
           ],
         }],
       }],

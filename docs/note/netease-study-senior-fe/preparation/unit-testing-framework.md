@@ -240,8 +240,6 @@ yarn add -D sinon
 
 ## 案例
 
-:exclamation: 异步代码测试 webpack mock 功能失败
-
 ```bash
 # /project/netease-study-senior-fe/unit-testing
 npm run dev

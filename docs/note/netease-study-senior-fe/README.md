@@ -31,7 +31,7 @@ meta:
   <tr><td>3.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/git">Git</a></td></tr>
   <tr><td rowspan="3">单元测试</td><td>4.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/unit-testing">单元测试概述</a></td></tr>
   <tr><td>4.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/unit-testing-framework">测试框架</a></td></tr>
-  <tr><td>4.3</td><td>测试实战</td></tr>
+  <tr><td>4.3</td><td><a href="./preparation/unit-testing-demo">测试实战</a></td></tr>
   <tr><td rowspan="3">构建发布</td><td>5.1</td><td>构建发布概述</td></tr>
   <tr><td>5.2</td><td>构建工具</td></tr>
   <tr><td>5.3</td><td>发布工具</td></tr>
@@ -291,5 +291,5 @@ meta:
   * 前端基础预习课 多列布局 等宽布局找出 table 方法无需  `.parent-fix` 的解决方案
 * Git
   * 前端基础预习课 Git rebase 练习失败
-* Webpack
-  * 前端基础预习课 单元测试 测试框架 异步代码测试 webpack mock 功能失败
+* 单元测试
+  * 前端基础预习课 测试实战 karma 练习失败 babel 6 babel 7 都尝试过都在 `karma start` 时报错
