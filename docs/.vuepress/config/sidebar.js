@@ -36,6 +36,13 @@ module.exports = {
             ['./netease-study-senior-fe/preparation/unit-testing-framework', '测试框架'],
             ['./netease-study-senior-fe/preparation/unit-testing-demo', '测试实战'],
           ],
+        }, {
+          title: '构建发布',
+          children: [
+            ['./netease-study-senior-fe/preparation/build-publish', '构建发布概述'],
+            ['./netease-study-senior-fe/preparation/build', '构建工具'],
+            ['./netease-study-senior-fe/preparation/publish', '发布工具'],
+          ],
         }],
       }],
     }],

@@ -31,10 +31,10 @@ meta:
   <tr><td>3.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/git">Git</a></td></tr>
   <tr><td rowspan="3">单元测试</td><td>4.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/unit-testing">单元测试概述</a></td></tr>
   <tr><td>4.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/unit-testing-framework">测试框架</a></td></tr>
-  <tr><td>4.3</td><td><a href="./preparation/unit-testing-demo">测试实战</a></td></tr>
-  <tr><td rowspan="3">构建发布</td><td>5.1</td><td>构建发布概述</td></tr>
-  <tr><td>5.2</td><td>构建工具</td></tr>
-  <tr><td>5.3</td><td>发布工具</td></tr>
+  <tr><td>4.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/unit-testing-demo">测试实战</a></td></tr>
+  <tr><td rowspan="3">构建发布</td><td>5.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/build-publish">构建发布概述</a></td></tr>
+  <tr><td>5.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/build">构建工具</a></td></tr>
+  <tr><td>5.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/publish">发布工具</a></td></tr>
   <tr><td rowspan="24">Javascript进阶</td><td>课程导学</td><td>1.1</td><td>JavaScript进阶专题导学</td></tr>
   <tr><td rowspan="8">函数</td><td>2.1</td><td>javascript中内存管理</td></tr>
   <tr><td>2.2</td><td>如何保证你的代码质量</td></tr>
