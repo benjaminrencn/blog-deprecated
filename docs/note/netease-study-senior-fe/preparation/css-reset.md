@@ -3,7 +3,7 @@ lang: zh-CN
 description: 背景，目的，延伸历史演变、解决方案。
 meta:
   - name: keywords
-    content: 网易云课堂,高级前端开发工程师,前端基础预习课,CSS,CSS Reset
+    content: 网易云课堂,高级前端开发工程师,前端基础预习课,页面架构,CSS Reset,CSS
 ---
 
 # CSS Reset
@@ -11,8 +11,9 @@ meta:
 \#网易云课堂#
 \#高级前端开发工程师#
 \#前端基础预习课#
-\#CSS#
+\#页面架构#
 \#CSS Reset#
+\#CSS#
 
 背景，目的，延伸历史演变、解决方案。
 

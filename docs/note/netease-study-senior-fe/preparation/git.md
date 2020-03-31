@@ -3,7 +3,7 @@ lang: zh-CN
 description: Git 概念、安装、命令。
 meta:
   - name: keywords
-    content: 网易云课堂,高级前端开发工程师,前端基础预习课,Git
+    content: 网易云课堂,高级前端开发工程师,前端基础预习课,版本管理,Git
 ---
 
 # Git
@@ -11,6 +11,7 @@ meta:
 \#网易云课堂#
 \#高级前端开发工程师#
 \#前端基础预习课#
+\#版本管理#
 \#Git#
 
 Git 概念、安装、命令。

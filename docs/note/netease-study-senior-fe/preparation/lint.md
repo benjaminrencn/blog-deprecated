@@ -3,7 +3,7 @@ lang: zh-CN
 description: 代码检查工具：htmllint、stylelint、ESLint。
 meta:
   - name: keywords
-    content: 网易云课堂,高级前端开发工程师,前端基础预习课,代码检查工具
+    content: 网易云课堂,高级前端开发工程师,前端基础预习课,工程规范,代码检查工具
 ---
 
 # 代码检查工具
@@ -11,6 +11,7 @@ meta:
 \#网易云课堂#
 \#高级前端开发工程师#
 \#前端基础预习课#
+\#工程规范#
 \#代码检查工具#
 
 代码检查工具：htmllint、stylelint、ESLint。
