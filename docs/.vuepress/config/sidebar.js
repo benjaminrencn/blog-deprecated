@@ -44,6 +44,14 @@ module.exports = {
             ['./netease-study-senior-fe/preparation/publish', '发布工具'],
           ],
         }],
+      }, {
+        title: 'Javascript进阶',
+        children: [{
+          title: '课程导学',
+          children: [
+            ['./netease-study-senior-fe/javascript/guide', 'JavaScript进阶专题导学'],
+          ],
+        }],
       }],
     }],
   }],

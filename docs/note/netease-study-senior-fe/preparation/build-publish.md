@@ -21,23 +21,23 @@ meta:
 * 加快 Browser Server 间交互
   * 减少传输内容  
     压缩 + 静态资源替换 + 合并精灵图  
-    安全（保密）编译（wasm） => 混淆
+    安全（保密）编译（wasm） -> 混淆
 
 ## 内容
 
-预编译 => 合并（减少请求） => 混淆（安全性、减少体积）
+预编译 -> 合并（减少请求） -> 混淆（安全性、减少体积）
 
 ### 预编译
 
-* [Less](http://lesscss.org/)、[Sass](https://sass-lang.com/)、[Stylus](https://www.stylus.com/) => CSS
-* [TypeScript](https://www.typescriptlang.org/)、ES6 => JavaScript
+* [Less](http://lesscss.org/)、[Sass](https://sass-lang.com/)、[Stylus](https://www.stylus.com/) -> CSS
+* [TypeScript](https://www.typescriptlang.org/)、ES6 -> JavaScript
 
 ### 合并
 
-* 首页、类目页、详情页 => 全部
-* 首页、类目页、详情页 => 三方库、页面
-* 首页、类目页、详情页 => 公共、页面独有
+* 首页、类目页、详情页 -> 全部
+* 首页、类目页、详情页 -> 三方库、页面
+* 首页、类目页、详情页 -> 公共、页面独有
 
 ### 混淆
 
-* common.js = uglify => common.min.js + common.js.map
+* common.js = uglify -> common.min.js + common.js.map

@@ -204,6 +204,6 @@ meta:
 
 ## 延伸
 
-* 《代码大全（第2版）》 - [电子工业出版社]
+* 《代码大全（第2版）》 - [[美] 史蒂夫·迈克康奈尔]
 * [CSS-BEM 命名规范](https://bemcss.com/)
 * [史上最全的CSS hack方式一览 - [TANG-csdn]](https://blog.csdn.net/qq_42354773/article/details/80926040)

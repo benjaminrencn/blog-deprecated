@@ -35,11 +35,11 @@ meta:
   <tr><td rowspan="3">构建发布</td><td>5.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/build-publish">构建发布概述</a></td></tr>
   <tr><td>5.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/build">构建工具</a></td></tr>
   <tr><td>5.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/publish">发布工具</a></td></tr>
-  <tr><td rowspan="24">Javascript进阶</td><td>课程导学</td><td>1.1</td><td>JavaScript进阶专题导学</td></tr>
-  <tr><td rowspan="8">函数</td><td>2.1</td><td>javascript中内存管理</td></tr>
+  <tr><td rowspan="24">Javascript 进阶</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/guide">JavaScript 进阶专题导学</a></td></tr>
+  <tr><td rowspan="8">函数</td><td>2.1</td><td>javascript 中内存管理</td></tr>
   <tr><td>2.2</td><td>如何保证你的代码质量</td></tr>
   <tr><td>2.3</td><td>提高代码可靠性</td></tr>
-  <tr><td>2.4</td><td>compose函数和pipe函数</td></tr>
+  <tr><td>2.4</td><td>compose 函数和 pipe 函数</td></tr>
   <tr><td>2.5</td><td>高阶函数</td></tr>
   <tr><td>2.6</td><td>常用函数</td></tr>
   <tr><td>2.7</td><td>防抖和节流</td></tr>
