@@ -18,7 +18,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Karam',
+      title: 'Karma',
       template: './src/template.html',
     }),
   ],

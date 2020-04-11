@@ -52,7 +52,7 @@ JavaScript 进阶学习重点、学习技巧。
     宏任务队列、微任务队列执行顺序
   * 异步操作演变历史
   * Promise、Async、Await 原理
-  * Mirco Task -> Vue.$nextTick()
+  * Micro Task -> Vue.$nextTick()
   * 单线程 -> Vue 依赖跟踪
 * JavaScript 设计模式
   * 观察者模式

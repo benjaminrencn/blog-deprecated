@@ -188,7 +188,7 @@ obj.b = obj;
 * 新生代（Scavenge 的 Cheney 算法）
   * 存储存活时间较短的对象
   * 将堆内存分成2个 semispace 空间，处于使用状态的 from 空间存储不需要被回收的对象，处于闲置状态的 to 空间存储需要被回收的对象
-    ![cheney](./image/v8-chenney.png)
+    ![cheney](./image/v8-cheney.png)
 * 老生代（Mark-Sweep（标记清除）、Mark-Compact（标记合并））
   * 存储存活时间常或常驻内存对象
   * 内存空间是一个连续的结构
