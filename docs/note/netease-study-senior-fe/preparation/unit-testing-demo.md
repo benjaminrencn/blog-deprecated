@@ -71,7 +71,7 @@ meta:
   :x: 练习失败 Babel 问题
   * Karma + Mocha + Cha + Istanbul
 
-  ```
+  ```bash
   # /project/netease-study-senior-fe/karma
   ```
 

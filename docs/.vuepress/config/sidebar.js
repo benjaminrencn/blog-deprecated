@@ -55,6 +55,7 @@ module.exports = {
           title: '函数',
           children: [
             ['./netease-study-senior-fe/javascript/memory', 'JavaScript 中内存管理'],
+            ['./netease-study-senior-fe/javascript/quality', '如何保证你的代码质量'],
           ],
         }],
       }],
