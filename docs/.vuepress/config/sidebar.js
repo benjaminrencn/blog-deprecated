@@ -45,11 +45,16 @@ module.exports = {
           ],
         }],
       }, {
-        title: 'Javascript进阶',
+        title: 'Javascript 进阶',
         children: [{
           title: '课程导学',
           children: [
-            ['./netease-study-senior-fe/javascript/guide', 'JavaScript进阶专题导学'],
+            ['./netease-study-senior-fe/javascript/guide', 'JavaScript 进阶专题导学'],
+          ],
+        }, {
+          title: '函数',
+          children: [
+            ['./netease-study-senior-fe/javascript/memory', 'JavaScript 中内存管理'],
           ],
         }],
       }],

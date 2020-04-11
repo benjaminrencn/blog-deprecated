@@ -6,7 +6,7 @@ meta:
     content: 网易云课堂,高级前端开发工程师,Javascript 进阶,课程导学,JavaScript 进阶专题导学,JavaScript,js
 ---
 
-# JavaScript进阶专题导学
+# JavaScript 进阶专题导学
 
 \#网易云课堂#
 \#高级前端开发工程师#
