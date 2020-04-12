@@ -3,7 +3,7 @@ lang: zh-CN
 description: 单元测试概念、编写、使用 Jest。
 meta:
   - name: keywords
-    content: 网易云课堂,高级前端开发工程师,Javascript 进阶,函数,如何保证你的代码质量
+    content: 网易云课堂,高级前端开发工程师,Javascript 进阶,函数,如何保证你的代码质量,JavaScript,js,Jest
 ---
 
 # 如何保证你的代码质量
@@ -13,6 +13,9 @@ meta:
 \#Javascript 进阶#
 \#函数#
 \#如何保证你的代码质量#
+\#JavaScript#
+\#js#
+\#Jest#
 
 单元测试概念、编写、使用 Jest。
 
