@@ -57,6 +57,7 @@ module.exports = {
             ['./netease-study-senior-fe/javascript/memory', 'JavaScript 中内存管理'],
             ['./netease-study-senior-fe/javascript/quality', '如何保证你的代码质量'],
             ['./netease-study-senior-fe/javascript/reliability', '提高代码可靠性'],
+            ['./netease-study-senior-fe/javascript/compose-pipe', 'compose 函数和 pipe 函数'],
           ],
         }],
       }],
