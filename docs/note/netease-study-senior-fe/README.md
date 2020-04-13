@@ -40,7 +40,7 @@ meta:
   <tr><td>2.2<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/quality">如何保证你的代码质量</a></td></tr>
   <tr><td>2.3<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/reliability">提高代码可靠性</a></td></tr>
   <tr><td>2.4<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/compose-pipe">compose 函数和 pipe 函数</a></td></tr>
-  <tr><td>2.5</td><td>高阶函数</td></tr>
+  <tr><td>2.5<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/higher-order-function">高阶函数</a></td></tr>
   <tr><td>2.6</td><td>常用函数</td></tr>
   <tr><td>2.7</td><td>防抖和节流</td></tr>
   <tr><td>2.8</td><td>深拷贝和浅拷贝</td></tr>
