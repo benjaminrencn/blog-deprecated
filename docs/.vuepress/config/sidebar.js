@@ -60,6 +60,7 @@ module.exports = {
             ['./netease-study-senior-fe/javascript/compose-pipe', 'compose 函数和 pipe 函数'],
             ['./netease-study-senior-fe/javascript/higher-order-function', '高阶函数'],
             ['./netease-study-senior-fe/javascript/common-function', '常用函数'],
+            ['./netease-study-senior-fe/javascript/debounce-throttle', '防抖和节流'],
           ],
         }],
       }],
