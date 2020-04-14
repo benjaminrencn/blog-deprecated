@@ -1,0 +1,12 @@
+{
+  "name": "common-function",
+  "version": "1.0.0",
+  "description": "常用函数练习",
+  "main": "index.js",
+  "author": "Benjamin Ren",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

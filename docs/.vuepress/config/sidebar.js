@@ -59,6 +59,7 @@ module.exports = {
             ['./netease-study-senior-fe/javascript/reliability', '提高代码可靠性'],
             ['./netease-study-senior-fe/javascript/compose-pipe', 'compose 函数和 pipe 函数'],
             ['./netease-study-senior-fe/javascript/higher-order-function', '高阶函数'],
+            ['./netease-study-senior-fe/javascript/common-function', '常用函数'],
           ],
         }],
       }],

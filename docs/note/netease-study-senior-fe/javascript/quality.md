@@ -125,6 +125,8 @@ npm ls jest
 
 ```shell
 # /project/netease-study-senior-fe/jest
+npm install
+# yarn install
 npm run test
 # yarn test
 ```

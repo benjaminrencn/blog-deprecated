@@ -243,6 +243,8 @@ yarn add -D sinon
 
 ```bash
 # /project/netease-study-senior-fe/unit-testing
+npm install
+# yarn install
 npm run dev
 # yarn dev
 ```
