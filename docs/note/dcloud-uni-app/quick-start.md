@@ -69,3 +69,10 @@ uni-app 背景、特点。
 
 7. 发行 -> 原生 App-云打包 -> 下载 -> 安装 -> 运行
 8. 发行 -> 配置 AppId -> 微信开发者工具 上传 -> 微信公众平台小程序 -> 开发管理 -> 提交审核
+
+案例
+
+```shell
+# HBuilderX
+# /project/dcloud-uni-app/uni-app-default
+```
