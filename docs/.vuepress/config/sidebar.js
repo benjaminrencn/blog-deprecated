@@ -4,7 +4,7 @@ module.exports = {
     title: '前端',
     children: [{
       title: '网易云课堂 高级开发工程师',
-      path: '/note/netease-study-senior-fe/',
+      path: '/note/netease-study-senior-fe',
       children: [{
         title: '前端基础预习课',
         children: [{
@@ -61,8 +61,21 @@ module.exports = {
             ['./netease-study-senior-fe/javascript/higher-order-function', '高阶函数'],
             ['./netease-study-senior-fe/javascript/common-function', '常用函数'],
             ['./netease-study-senior-fe/javascript/debounce-throttle', '防抖和节流'],
+            ['./netease-study-senior-fe/javascript/deep-shadow-copy', '深拷贝和浅拷贝'],
           ],
         }],
+      }],
+    }],
+  }, {
+    title: 'uni-app',
+    children: [{
+      title: 'uni-app DCloud 官方教程',
+      path: '/note/dcloud-uni-app',
+      children: [{
+        title: '产品介绍',
+        children: [
+          ['./dcloud-uni-app/feature', '熟悉产品主要特征'],
+        ],
       }],
     }],
   }],
