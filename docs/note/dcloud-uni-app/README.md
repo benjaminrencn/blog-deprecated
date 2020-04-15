@@ -8,6 +8,9 @@ meta:
 
 # [uni-app 官方教程](https://ke.qq.com/course/343370)
 
+* [社区](https://ask.dcloud.net.cn/explore/category-12)
+* [Issue](https://github.com/dcloudio/uni-app/issues)
+
 ## 课程内容
 
 <table class="course-table">
@@ -16,7 +19,7 @@ meta:
 </thead>
 <tbody>
   <tr><td>产品介绍</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./feature">熟悉产品的主要特征</a></td></tr>
-  <tr><td>开发规范</td><td>2.1</td><td>快速入门</td></tr>
+  <tr><td>开发规范</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./quick-start">快速入门</a></td></tr>
   <tr><td>快速实战</td><td>3.1</td><td>简单项目实战</td></tr>
 </tbody>
 </table>

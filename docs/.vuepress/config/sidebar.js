@@ -76,7 +76,12 @@ module.exports = {
         children: [
           ['./dcloud-uni-app/feature', '熟悉产品主要特征'],
         ],
-      }],
+      }, {
+        title: '开发规范',
+        children: [
+          ['./dcloud-uni-app/quick-start', '快速入门'],
+        ],
+      }, ],
     }],
   }],
 };
