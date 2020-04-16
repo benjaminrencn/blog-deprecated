@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: uni-app 背景、特点。
+description: uni-app 搭建环境、创建项目。
 meta:
   - name: keywords
     content: 腾讯课堂,uni-app,uni-app官方教程,开发规范,快速入门
@@ -14,7 +14,7 @@ meta:
 \#开发规范#
 \#快速入门#
 
-uni-app 背景、特点。
+uni-app 搭建环境、创建项目。
 
 ## 搭建环境
 

@@ -81,7 +81,12 @@ module.exports = {
         children: [
           ['./dcloud-uni-app/quick-start', '快速入门'],
         ],
-      }, ],
+      }, {
+        title: '快速实战',
+        children: [
+          ['./dcloud-uni-app/practice', '简单项目实战'],
+        ],
+      }],
     }],
   }],
 };
