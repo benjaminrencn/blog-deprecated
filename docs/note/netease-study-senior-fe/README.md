@@ -10,7 +10,7 @@ meta:
 
 [网易云课堂](https://study.163.com/)/
 [微专业](https://study.163.com/smartSpec/intro.htm)/
-[高级前端开发工程师](https://study.163.com/smartSpec/intro.htm)
+[高级前端开发工程师](https://mooc.study.163.com/smartSpec/detail/1202851605.htm)
 
 ## 课程内容
 
@@ -43,7 +43,7 @@ meta:
   <tr><td>2.5<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/higher-order-function">高阶函数</a></td></tr>
   <tr><td>2.6<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/common-function">常用函数</a></td></tr>
   <tr><td>2.7<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/debounce-throttle">防抖和节流</a></td></tr>
-  <tr><td>2.8</td><td>深拷贝和浅拷贝</td></tr>
+  <tr><td>2.8</td><td><a href="./javascript/deep-shadow-copy">深拷贝和浅拷贝</a></td></tr>
   <tr><td rowspan="8">异步编程</td><td>3.1</td><td>理解异步</td></tr>
   <tr><td>3.2</td><td>Event Loop机制</td></tr>
   <tr><td>3.3</td><td>异步编程方法 - 发布/订阅</td></tr>
