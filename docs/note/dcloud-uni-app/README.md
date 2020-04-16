@@ -20,6 +20,6 @@ meta:
 <tbody>
   <tr><td>产品介绍</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./feature">熟悉产品的主要特征</a></td></tr>
   <tr><td>开发规范</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./quick-start">快速入门</a></td></tr>
-  <tr><td>快速实战</td><td>3.1</td><td><a href="./practice">简单项目实战</a></td></tr>
+  <tr><td>快速实战</td><td>3.1<vp-icon name="checkbox-selected" /></td><td><a href="./practice">简单项目实战</a></td></tr>
 </tbody>
 </table>

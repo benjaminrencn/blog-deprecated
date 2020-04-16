@@ -32,3 +32,10 @@ uni-app 网络请求、模板语法、打开页面、页面传参。
   * [html-parser](https://github.com/dcloudio/hello-uniapp/blob/master/common/html-parser.js)
 * 加载 [uni.showLoading](https://uniapp.dcloud.io/api/ui/prompt?id=showloading) [uni.hideLoading](https://uniapp.dcloud.io/api/ui/prompt?id=hideloading)
 * 启动模式配置 [condition](https://uniapp.dcloud.io/collocation/pages?id=condition)
+
+案例
+
+```shell
+#HBuilderX
+# /project/dcloud-uni-app/news
+```
