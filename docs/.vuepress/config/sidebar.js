@@ -87,6 +87,9 @@ module.exports = {
           ['./dcloud-uni-app/practice', '简单项目实战'],
         ],
       }],
+    }, {
+      title: '白话 uni-app - heavensoft',
+      path: '/note/uni-app-heavensoft',
     }],
   }],
 };
