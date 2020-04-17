@@ -67,6 +67,15 @@ module.exports = {
       }],
     }],
   }, {
+    title: 'Vue.js',
+    children: [{
+      title: 'Vue.js 教程 - DCloud',
+      path: '/note/vue-dcloud',
+      children: [
+        ['./vue-dcloud/introduction', 'Vue.js 介绍'],
+      ],
+    }],
+  }, {
     title: 'uni-app',
     children: [{
       title: 'uni-app DCloud 官方教程',
