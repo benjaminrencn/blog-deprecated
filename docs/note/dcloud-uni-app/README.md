@@ -8,6 +8,12 @@ meta:
 
 # [uni-app 官方教程](https://ke.qq.com/course/343370)
 
+\#腾讯课堂#
+\#uni-app#
+\#uni-app官方教程#
+
+uni-app 官方教程。
+
 * [社区](https://ask.dcloud.net.cn/explore/category-12)
 * [Issue](https://github.com/dcloudio/uni-app/issues)
 
