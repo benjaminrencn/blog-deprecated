@@ -75,6 +75,7 @@ module.exports = {
         ['./vue-dcloud/introduction', 'Vue.js 介绍'],
         ['./vue-dcloud/install-deploy', '安装与部署'],
         ['./vue-dcloud/vue-application', '创建第一个 vue 应用'],
+        ['./vue-dcloud/data-method', '数据与方法'],
       ],
     }],
   }, {
