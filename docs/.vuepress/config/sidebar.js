@@ -77,6 +77,7 @@ module.exports = {
         ['./vue-dcloud/vue-application', '创建第一个 vue 应用'],
         ['./vue-dcloud/data-method', '数据与方法'],
         ['./vue-dcloud/lifecycle', '生命周期'],
+        ['./vue-dcloud/interpolation', '模板语法 - 插值'],
       ],
     }],
   }, {

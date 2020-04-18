@@ -25,8 +25,8 @@ meta:
   <tr><td>2<vp-icon name="checkbox-selected" /></td><td><a href="./vue-application">创建第一个 vue 应用</a></td></tr>
   <tr><td>3<vp-icon name="checkbox-selected" /></td><td><a href="./data-method">数据与方法</a></td></tr>
   <tr><td>4<vp-icon name="checkbox-selected" /></td><td><a href="./lifecycle">生命周期</a></td></tr>
-  <tr><td>5</td><td><a href="./">模板语法-插值</a></td></tr>
-  <tr><td>6</td><td><a href="./">模板语法-指令</a></td></tr>
+  <tr><td>5<vp-icon name="checkbox-selected" /></td><td><a href="./interpolation">模板语法 - 插值</a></td></tr>
+  <tr><td>6</td><td><a href="./">模板语法 - 指令</a></td></tr>
   <tr><td>7</td><td><a href="./">class 与 style 绑定</a></td></tr>
   <tr><td>8</td><td><a href="./">条件渲染</a></td></tr>
   <tr><td>9</td><td><a href="./">列表渲染</a></td></tr>

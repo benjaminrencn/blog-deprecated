@@ -104,5 +104,39 @@
       vm4.a = 2;
     }, 2000);
   </script>
+  
+  <!-- 5. 模板语法-插值 -->
+  <div id="app5">
+    <p>{{ a }}</p>
+    <p v-once>{{ a }}</p>
+    <p>{{rawHTML}}</p>
+    <p v-html="rawHTML"></p>
+    <div v-bind:class=""></div>
+    <p v-bind:class="red">red</p>
+    <p>{{ number + 1 }}</p>
+    <p>{{ ok ? 'YES' : 'NO' }}</p>
+    <p>{{ message.split('').reverse().join('') }}</p>
+  </div>
+  <script>
+    let vm5 = new Vue({
+      el: '#app5',
+      data: {
+        a: 'hello vue',
+        rawHTML: '<span style="color: red">red</span>',
+        red: 'red',
+        number: 1,
+        ok: false,
+        message: 'hello world',
+      },
+    });
+    setTimeout(function () {
+      vm5.$data.a = 'change';
+    }, 2000);
+  </script>
+  <style>
+    .red {
+      color: red;
+    }
+  </style>
 </body>
 </html>
