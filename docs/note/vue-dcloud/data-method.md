@@ -35,51 +35,51 @@ var vm = new Vue({
 
 ```html
 <div id="app3">
-    {{ a }} 
-    | {{ b }} <!-- [Vue warn] -->
-    | {{ c }} 
-    | {{ d }}
-  </div>
+  {{ a }}
+  | {{ b }} <!-- [Vue warn] -->
+  | {{ c }}
+  | {{ d }}
+</div>
 ```
 
 ```js
-let data = { 
+let data = {
   a: 1,
   c: 1,
   d: 1,
 };
 // Object.freeze(data); // TypeError
-let vm = new Vue({
+let vm3 = new Vue({
   el: '#app3',
   data: data,
 });
-console.log(data.a === vm.a); // true
+console.log(data.a === vm3.a); // true
 // 设置实例属性、数据源属性会影响到原始数据
-vm.a = 2;
+vm3.a = 2;
 console.log(data.a); // 2
 data.a = 3;
-console.log(vm.a); // 3
+console.log(vm3.a); // 3
 
 // 只有当实例创建时 data 中的属性才是响应式的
-vm.b = 'vm.b'; // [Vue warn] vm.b
+vm3.b = 'vm3.b'; // [Vue warn] vm3.b
 data.b = 'data.b'; // [Vue warn]
-console.log(vm.b); // vm.b
+console.log(vm3.b); // vm3.b
 console.log(data.b); // data.b
 
 // Object.freeze() 阻止对象属性变化
 // Object.freeze(data);
-vm.c = 2;
+vm3.c = 2;
 
 // 实例属性、方法 前缀 $
 // 数据
-console.log(vm.$data === data); // true
+console.log(vm3.$data === data); // true
 // 元素
-console.log(vm.$el === document.getElementById('app3')); // true
+console.log(vm3.$el === document.getElementById('app3')); // true
 // 观察
-vm.$watch('d', (newVal, oldVal) => {
+vm3.$watch('d', function (newVal, oldVal) {
   console.log(`$watch d, newVal: ${newVal}, oldVal: ${oldVal}`); // $watch d, newVal: 2, oldVal: 1
 });
-vm.$data.d = 2;
+vm3.$data.d = 2;
 ```
 
 ```shell
