@@ -6,7 +6,7 @@ meta:
     content: Vue.js 教程,DCloud,Vue.js 介绍
 ---
 
-# [Vue.js 介绍](https://ke.qq.com/course/343370)
+# Vue.js 介绍
 
 \#Vue.js 教程#
 \#DCloud#

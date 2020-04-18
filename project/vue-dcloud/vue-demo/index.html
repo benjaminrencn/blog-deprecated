@@ -6,6 +6,18 @@
   <script src="vue.js"></script>
 </head>
 <body>
-  
+  <!-- 1. 安装与部署 -->
+
+  <!-- 2. 创建第一个 vue 应用 -->
+  <div id="app2">{{ message }} {{ name }}</div>
+  <script>
+    let app2 = new Vue({
+      el: '#app2',
+      data: {
+        message: 'Hello world',
+        name: 'Vue',
+      },
+    });
+  </script>
 </body>
 </html>

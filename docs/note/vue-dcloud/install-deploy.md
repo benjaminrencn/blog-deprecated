@@ -1,18 +1,18 @@
 ---
 lang: zh-CN
-description: 。
+description: Vue.js 安装。
 meta:
   - name: keywords
     content: Vue.js 教程,DCloud,安装与部署
 ---
 
-# [安装与部署](https://ke.qq.com/course/343370)
+# 安装与部署
 
 \#Vue.js 教程#
 \#DCloud#
 \#安装与部署#
 
-。
+Vue.js 安装。
 
 ## 安装
 
@@ -57,3 +57,10 @@ npm install vue
 ```
 
 ### 命令行工具（[Vue CLI](https://github.com/vuejs/vue-cli)）
+
+## 案例
+
+```shell
+# /project/vue-dcloud/vue-demo
+# index.html
+```

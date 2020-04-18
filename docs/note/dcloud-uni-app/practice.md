@@ -36,6 +36,6 @@ uni-app 网络请求、模板语法、打开页面、页面传参。
 案例
 
 ```shell
-#HBuilderX
+# HBuilderX
 # /project/dcloud-uni-app/news
 ```
