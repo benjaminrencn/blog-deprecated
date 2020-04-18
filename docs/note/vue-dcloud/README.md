@@ -21,7 +21,7 @@ meta:
 </thead>
 <tbody>
   <tr><td>0<vp-icon name="checkbox-selected" /></td><td><a href="./introduction">Vue.js 介绍</a></td></tr>
-  <tr><td>1</td><td><a href="./">安装与部署</a></td></tr>
+  <tr><td>1<vp-icon name="checkbox-selected" /></td><td><a href="./install-deploy">安装与部署</a></td></tr>
   <tr><td>2</td><td><a href="./">创建第一个 vue 应用</a></td></tr>
   <tr><td>3</td><td><a href="./">数据与方法</a></td></tr>
   <tr><td>4</td><td><a href="./">生命周期</a></td></tr>

@@ -73,6 +73,7 @@ module.exports = {
       path: '/note/vue-dcloud',
       children: [
         ['./vue-dcloud/introduction', 'Vue.js 介绍'],
+        ['./vue-dcloud/install-deploy', '安装与部署'],
       ],
     }],
   }, {
