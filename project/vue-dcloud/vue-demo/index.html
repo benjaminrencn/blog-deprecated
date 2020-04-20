@@ -203,5 +203,22 @@
       },
     });
   </script>
+  <!-- 8. 条件渲染 -->
+  <div id="app8">
+    <div v-if="type === 'A'">A</div>
+    <div v-else-if="type === 'B'">B</div>
+    <div v-else-if="type === 'C'">C</div>
+    <div v-else>Not A/B/C</div><!-- Not A/B/C -->
+    <div v-show="isShow">show</div><!-- display: none; -->
+  </div>
+  <script>
+    let vm8 = new Vue({
+      el: '#app8',
+      data: {
+        type: '',
+        isShow: false,
+      },
+    });
+  </script>
 </body>
 </html>

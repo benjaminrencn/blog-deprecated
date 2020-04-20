@@ -28,7 +28,7 @@ meta:
   <tr><td>5<vp-icon name="checkbox-selected" /></td><td><a href="./interpolation">模板语法 - 插值</a></td></tr>
   <tr><td>6<vp-icon name="checkbox-selected" /></td><td><a href="./directive">模板语法 - 指令</a></td></tr>
   <tr><td>7<vp-icon name="checkbox-selected" /></td><td><a href="./class-style">class 与 style 绑定</a></td></tr>
-  <tr><td>8</td><td><a href="./">条件渲染</a></td></tr>
+  <tr><td>8<vp-icon name="checkbox-selected" /></td><td><a href="./condition">条件渲染</a></td></tr>
   <tr><td>9</td><td><a href="./">列表渲染</a></td></tr>
   <tr><td>10</td><td><a href="./">事件绑定</a></td></tr>
   <tr><td>11</td><td><a href="./">表单输入绑定</a></td></tr>

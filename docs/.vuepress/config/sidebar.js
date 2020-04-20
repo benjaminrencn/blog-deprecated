@@ -80,6 +80,7 @@ module.exports = {
         ['./vue-dcloud/interpolation', '模板语法 - 插值'],
         ['./vue-dcloud/directive', '模板语法 - 指令'],
         ['./vue-dcloud/class-style', 'class 与 style 绑定'],
+        ['./vue-dcloud/condition', '条件渲染'],
       ],
     }],
   }, {

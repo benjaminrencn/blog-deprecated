@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: Vue.js 。
+description: Vue.js 绑定 class（对象语法、数组语法）、绑定 style（对象语法、数组语法、自动添加浏览器前缀、多重值）。
 meta:
   - name: keywords
     content: Vue.js 教程,DCloud,class 与 style 绑定
@@ -12,7 +12,7 @@ meta:
 \#DCloud#
 \#class 与 style 绑定#
 
-Vue.js 。
+Vue.js 绑定 class（对象语法、数组语法）、绑定 style（对象语法、数组语法、自动添加浏览器前缀、多重值）。
 
 ## 绑定 class
 
@@ -65,6 +65,7 @@ data: {
 ```
 
 ```js
+// Vue options
 data: {
   color: '#ff0000',
   fontSize: '20px',
@@ -82,6 +83,7 @@ data: {
 ```
 
 ```js
+// Vue options
 data: {
   styleObj: {
     color: '#ff0000',
