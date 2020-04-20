@@ -248,5 +248,23 @@
       },
     });
   </script>
+  <!-- 10. 事件绑定 -->
+  <div id="app10">
+    <button @click="count ++">计数 {{count}}</button>
+    <button @click="greet($event)">greet</button>
+  </div>
+  <script>
+    let vm10 = new Vue({
+      el: '#app10',
+      data: {
+        count: 0,
+      },
+      methods: {
+        greet: function (event) {
+          console.log(`greet, count: ${this.count}, event:`, event);
+        },
+      },
+    });
+  </script>
 </body>
 </html>
