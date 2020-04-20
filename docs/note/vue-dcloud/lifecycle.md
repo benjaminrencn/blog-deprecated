@@ -70,6 +70,11 @@ Vue.js 生命周期。
 
 ## 案例
 
+```shell
+# /project/vue-dcloud/vue-demo
+# index.html
+```
+
 ```html
 <div id="app4">{{ a }}</div>
 ```
@@ -108,9 +113,4 @@ let vm4 = new Vue({
 setTimeout(function () {
   vm4.a = 2;
 }, 2000);
-```
-
-```shell
-# /project/vue-dcloud/vue-demo
-# index.html
 ```

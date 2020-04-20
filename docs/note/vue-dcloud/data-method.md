@@ -33,6 +33,11 @@ var vm = new Vue({
 
 ## 案例
 
+```shell
+# /project/vue-dcloud/vue-demo
+# index.html
+```
+
 ```html
 <div id="app3">
   {{ a }}
@@ -80,9 +85,4 @@ vm3.$watch('d', function (newVal, oldVal) {
   console.log(`$watch d, newVal: ${newVal}, oldVal: ${oldVal}`); // $watch d, newVal: 2, oldVal: 1
 });
 vm3.$data.d = 2;
-```
-
-```shell
-# /project/vue-dcloud/vue-demo
-# index.html
 ```

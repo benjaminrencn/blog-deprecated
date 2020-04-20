@@ -138,5 +138,35 @@
       color: red;
     }
   </style>
+
+  <!-- 6. 模板语法 - 指令 -->
+  <div id="app6">
+    <p v-if="show">show</p>
+    <p v-if="hide">hide</p>
+    <p><a v-bind:href="url" target="_blank" rel="noopener noreferrer">Vue</a></p>
+    <a><a v-bind:[attributename]="url" target="_blank" rel="noopener noreferrer">Vue</a></p>
+    <div v-on:click="click1"><p v-on:click.stop="click2">click</p></div>
+    <p><a :href="url" target="_blank" rel="noopener noreferrer">Vue</a></p>
+    <div @click="click1"><p @click="click2">click</p></div>
+  </div>
+  <script>
+    let vm6 = new Vue({
+      el: '#app6',
+      data: {
+        show: true,
+        hide: false,
+        url: 'https://cn.vuejs.org/',
+        attributename: 'href',
+      },
+      methods: {
+        click1: function () {
+          console.log('click1');
+        },
+        click2: function () {
+          console.log('click2');
+        },
+      },
+    });
+  </script>
 </body>
 </html>

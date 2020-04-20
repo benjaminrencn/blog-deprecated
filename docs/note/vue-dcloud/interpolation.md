@@ -32,7 +32,7 @@ Vue.js 模板语法 插值。
 * 指令 [`v-once`](https://cn.vuejs.org/v2/api/#v-once)  
   只渲染元素、组件一次
 
-  ``html
+  ```html
   <span v-once>Msg: {{ msg }}</span>
   ```
 
@@ -67,6 +67,11 @@ Vue.js 模板语法 插值。
   ```
 
 ## 案例
+
+```shell
+# /project/vue-dcloud/vue-demo
+# index.html
+```
 
 ```html
 <div id="app5">
@@ -103,9 +108,4 @@ setTimeout(function () {
 .red {
   color: red;
 }
-```
-
-```shell
-# /project/vue-dcloud/vue-demo
-# index.html
 ```

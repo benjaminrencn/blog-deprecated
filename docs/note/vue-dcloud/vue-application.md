@@ -18,6 +18,11 @@ meta:
 
 Vue.js 的核心是一个允许采用简洁的模板语法声明式的数据渲染到页面的系统
 
+```shell
+# /project/vue-dcloud/vue-demo
+# index.html
+```
+
 ```html
 <div id="app2">{{ message }} {{ name }}</div>
 ```
@@ -30,9 +35,4 @@ let app2 = new Vue({
     name: 'Vue',
   },
 });
-```
-
-```shell
-# /project/vue-dcloud/vue-demo
-# index.html
 ```

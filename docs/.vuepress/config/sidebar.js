@@ -78,6 +78,7 @@ module.exports = {
         ['./vue-dcloud/data-method', '数据与方法'],
         ['./vue-dcloud/lifecycle', '生命周期'],
         ['./vue-dcloud/interpolation', '模板语法 - 插值'],
+        ['./vue-dcloud/directive', '模板语法 - 指令'],
       ],
     }],
   }, {
