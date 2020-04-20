@@ -220,5 +220,33 @@
       },
     });
   </script>
+  <!-- 9. 列表渲染 -->
+  <div id="app9">
+    <ul>
+      <li v-for="msg in msgs">{{msg.msg}}</li><!-- React, React, React -->
+      <li v-for="(msg, index) of msgs" :key="index">{{index}}-{{msg.msg}}</li><!-- 0-React, 1-React, 2-ßReact -->
+    </ul>
+    <ul>
+      <li v-for="value in object">{{value}}</li><!-- How to do lists in Vue, Jane Doe, 2016-04-10 -->
+      <li v-for="(value, name, index) in object" :key="name">{{index}}-{{name}}-{{value}}</li><!-- 0-title-How to do lists in Vue, 1-author-Jane Doe, 2-publishedAt-2016-04-10 -->
+    </ul>
+  </div>
+  <script>
+    let vm9 = new Vue({
+      el: '#app9',
+      data: {
+        msgs: [
+          { msg: 'React' },
+          { msg: 'React' },
+          { msg: 'React' },
+        ],
+        object: {
+          title: 'How to do lists in Vue',
+          author: 'Jane Doe',
+          publishedAt: '2016-04-10'
+        },
+      },
+    });
+  </script>
 </body>
 </html>

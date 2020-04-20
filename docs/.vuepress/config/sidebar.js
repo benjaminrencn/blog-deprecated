@@ -81,6 +81,7 @@ module.exports = {
         ['./vue-dcloud/directive', '模板语法 - 指令'],
         ['./vue-dcloud/class-style', 'class 与 style 绑定'],
         ['./vue-dcloud/condition', '条件渲染'],
+        ['./vue-dcloud/list', '列表渲染'],
       ],
     }],
   }, {
