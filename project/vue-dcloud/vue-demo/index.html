@@ -168,5 +168,40 @@
       },
     });
   </script>
+  
+  <!-- 7. class 与 style 绑定 -->
+  <div id="app7">
+    <p :class="{ active: isActive }">class 绑定 对象语法1</p><!-- class="active" -->
+    <p :class="classObj">class 绑定 对象语法1</p><!-- class="active text-danger" -->
+    <p :class="[ activeClass, errorClass ]">class 绑定 数组语法1</p><!-- class="active text-danger" -->
+    <p :class="[ { active: isActive }, errorClass ]">class 绑定 数组语法2</p><!-- class="active text-danger" -->
+    <p :style="{ color: color, 'font-size': fontSize }">style 绑定 对象语法1</p><!--  color: rgb(255, 0, 0); font-size: 20px; -->
+    <p :style="styleObj">style 绑定 对象语法2</p><!-- color: rgb(255, 0, 0); font-size: 20px; -->
+    <p :style="[ styleObj, baseStyle ]">style 绑定 数组语法</p><!-- color: rgb(255, 0, 0); font-size: 20px; font-style: italic; -->
+    <div :style="{ display: ['-webkit-box', '-ms-flexbox', 'flex'] }">多重值</div><!-- display: flex; -->
+  </div>
+  <script>
+    let vm7 = new Vue({
+      el: '#app7',
+      data: {
+        isActive: true,
+        classObj: {
+          active: true,
+          'text-danger': true,
+        },
+        activeClass: 'active',
+        errorClass: 'text-danger',
+        color: '#ff0000',
+        fontSize: '20px',
+        styleObj: {
+          color: '#ff0000',
+          'font-size': '20px',  
+        },
+        baseStyle: {
+          fontStyle: 'italic',
+        },
+      },
+    });
+  </script>
 </body>
 </html>

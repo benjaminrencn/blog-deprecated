@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: Vue.js 模板语法 指令。
+description: Vue.js 模板语法 指令（参数、动态参数、修饰符、缩写）。
 meta:
   - name: keywords
     content: Vue.js 教程,DCloud,模板语法 - 指令
@@ -12,7 +12,7 @@ meta:
 \#DCloud#
 \#模板语法 - 指令#
 
-Vue.js 模板语法 指令。
+Vue.js 模板语法 指令（参数、动态参数、修饰符、缩写）。
 
 ## 指令
 
@@ -32,7 +32,7 @@ Vue.js 模板语法 指令。
   <p><a v-bind:href="url" target="_blank" rel="noopener noreferrer">Vue</a></p>
   ```
 
-* 动态参数  
+* 动态参数 <Badge text="2.6.0+"/>  
   `:[attributeName]`
   * 约束  
     字符串、`null`  
