@@ -35,6 +35,6 @@ meta:
   <tr><td>12<vp-icon name="checkbox-selected" /></td><td><a href="./component">组件基础</a></td></tr>
   <tr><td>13<vp-icon name="checkbox-selected" /></td><td><a href="./registration">组件注册</a></td></tr>
   <tr><td>14<vp-icon name="checkbox-selected" /></td><td><a href="./sfc">单文件组件</a></td></tr>
-  <tr><td>15</td><td><a href="./">免终端开发 vue 应用</a></td></tr>
+  <tr><td>15<vp-icon name="checkbox-selected" /></td><td><a href="./development">免终端开发 vue 应用</a></td></tr>
 </tbody>
 </table>

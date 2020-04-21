@@ -87,7 +87,7 @@ module.exports = {
         ['./vue-dcloud/component', '组件基础'],
         ['./vue-dcloud/registration', '组件注册'],
         ['./vue-dcloud/sfc', '单文件组件'],
-        ['./vue-dcloud/sfc', '单文件组件'],
+        ['./vue-dcloud/development', '免终端开发 vue 应用'],
       ],
     }],
   }, {
