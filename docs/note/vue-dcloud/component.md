@@ -1,7 +1,6 @@
-
 ---
 lang: zh-CN
-description: Vue.js 组组件、监听子组件事件、插槽。
+description: Vue.js 组件、监听子组件事件、插槽。
 meta:
   - name: keywords
     content: Vue.js 教程,DCloud,组件基础
@@ -19,7 +18,7 @@ Vue.js 组件、监听子组件事件、插槽。
 
 * 组件是可复用的 Vue 实例
 * 使用 `Vue.component( id, [definition] )` 创建组件  
-  * `id` 组件名称  
+  * `id` 组件名  
   * `definition` 定义，与 `new Vue(options)` 选项相同
     * [`props`](https://cn.vuejs.org/v2/api/#props)  
       接收父组件传的数据

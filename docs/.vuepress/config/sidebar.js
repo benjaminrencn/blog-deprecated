@@ -85,7 +85,8 @@ module.exports = {
         ['./vue-dcloud/event', '事件绑定'],
         ['./vue-dcloud/form', '表单输入绑定'],
         ['./vue-dcloud/component', '组件基础'],
-        ['./vue-dcloud/component', '组件基础'],
+        ['./vue-dcloud/registration', '组件注册'],
+        ['./vue-dcloud/registration', '组件注册'],
       ],
     }],
   }, {

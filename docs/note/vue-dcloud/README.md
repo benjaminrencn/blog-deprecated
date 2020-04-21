@@ -33,8 +33,8 @@ meta:
   <tr><td>10<vp-icon name="checkbox-selected" /></td><td><a href="./event">事件绑定</a></td></tr>
   <tr><td>11<vp-icon name="checkbox-selected" /></td><td><a href="./form">表单输入绑定</a></td></tr>
   <tr><td>12<vp-icon name="checkbox-selected" /></td><td><a href="./component">组件基础</a></td></tr>
-  <tr><td>13</td><td><a href="./">组件注册</a></td></tr>
-  <tr><td>14</td><td><a href="./">单文件组件</a></td></tr>
+  <tr><td>13<vp-icon name="checkbox-selected" /></td><td><a href="./registration">组件注册</a></td></tr>
+  <tr><td>14</td><td><a href="./sfc">单文件组件</a></td></tr>
   <tr><td>15</td><td><a href="./">免终端开发 vue 应用</a></td></tr>
 </tbody>
 </table>
