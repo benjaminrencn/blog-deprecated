@@ -31,7 +31,7 @@ meta:
   <tr><td>8<vp-icon name="checkbox-selected" /></td><td><a href="./condition">条件渲染</a></td></tr>
   <tr><td>9<vp-icon name="checkbox-selected" /></td><td><a href="./list">列表渲染</a></td></tr>
   <tr><td>10<vp-icon name="checkbox-selected" /></td><td><a href="./event">事件绑定</a></td></tr>
-  <tr><td>11</td><td><a href="./">表单输入绑定</a></td></tr>
+  <tr><td>11<vp-icon name="checkbox-selected" /></td><td><a href="./form">表单输入绑定</a></td></tr>
   <tr><td>12</td><td><a href="./">组件基础</a></td></tr>
   <tr><td>13</td><td><a href="./">组件注册</a></td></tr>
   <tr><td>14</td><td><a href="./">单文件组件</a></td></tr>

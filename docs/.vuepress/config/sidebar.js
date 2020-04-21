@@ -83,6 +83,8 @@ module.exports = {
         ['./vue-dcloud/condition', '条件渲染'],
         ['./vue-dcloud/list', '列表渲染'],
         ['./vue-dcloud/event', '事件绑定'],
+        ['./vue-dcloud/form', '表单输入绑定'],
+        ['./vue-dcloud/form', '表单输入绑定'],
       ],
     }],
   }, {

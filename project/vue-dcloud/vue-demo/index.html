@@ -203,6 +203,7 @@
       },
     });
   </script>
+  
   <!-- 8. 条件渲染 -->
   <div id="app8">
     <div v-if="type === 'A'">A</div>
@@ -220,6 +221,7 @@
       },
     });
   </script>
+  
   <!-- 9. 列表渲染 -->
   <div id="app9">
     <ul>
@@ -248,6 +250,7 @@
       },
     });
   </script>
+  
   <!-- 10. 事件绑定 -->
   <div id="app10">
     <button @click="count ++">计数 {{count}}</button>
@@ -262,6 +265,67 @@
       methods: {
         greet: function (event) {
           console.log(`greet, count: ${this.count}, event:`, event);
+        },
+      },
+    });
+  </script>
+  
+  <!-- 11. 表单输入绑定 -->
+  <div id="app11">
+    <div>
+      <input placeholder="text" v-model="text" />
+      <p>text: {{text}}</p>
+    </div>
+    <div>
+      <textarea placeholder="multiline text" v-model="multilineText"></textarea>
+      <p>multiline text: {{multilineText}}</p>
+    </div>
+    <div>
+      <label for="jack">
+        Jack
+        <input type="checkbox" id="jack" value="jack" v-model="names" />
+      </label>
+      <label for="john">
+        John
+        <input type="checkbox" id="john" value="john" v-model="names" />
+      </label>
+      <label for="mike">
+        Mike
+        <input type="checkbox" id="mike" value="mike" v-model="names" />
+      </label>
+      <p>names: {{names}}</p>
+    </div>
+    <div>
+      <label for="one">
+        One
+        <input type="radio" id="one" value="one" v-model="radio" />
+      </label>
+      <br />
+      <label for="two">
+        Two
+        <input type="radio" id="two" value="two" v-model="radio" />
+      </label>
+      <p>radio: {{radio}}</p>
+    </div>
+    <button type="button" @click="submit()">submit</button>
+  </div>
+  <script>
+    let vm11 = new Vue({
+      el: '#app11',
+      data: {
+        text: '',
+        multilineText: '',
+        names: [],
+        radio: '',
+      },
+      methods: {
+        submit: function () {
+          console.log({
+            text: this.text,
+            multilineText: this.multilineText,
+            names: this.names,
+            radio: this.radio,
+          });
         },
       },
     });
