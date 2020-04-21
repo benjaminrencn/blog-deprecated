@@ -86,7 +86,8 @@ module.exports = {
         ['./vue-dcloud/form', '表单输入绑定'],
         ['./vue-dcloud/component', '组件基础'],
         ['./vue-dcloud/registration', '组件注册'],
-        ['./vue-dcloud/registration', '组件注册'],
+        ['./vue-dcloud/sfc', '单文件组件'],
+        ['./vue-dcloud/sfc', '单文件组件'],
       ],
     }],
   }, {
