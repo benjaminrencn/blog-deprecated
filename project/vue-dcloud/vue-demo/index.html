@@ -330,5 +330,43 @@
       },
     });
   </script>
+  
+  <!-- 12. 组件基础 -->
+  <div id="app12">
+    <button-counter name="counter1" @count="doClick"></button-counter>
+    <button-counter name="counter2" @count="doClick"></button-counter>
+  </div>
+  <script>
+    Vue.component('button-counter', {
+      template: 
+        `<div>,
+          <button @click="doClick">{{name}} clicked {{count}} times</button>
+          <h2>slot h2</h2>
+        </div>`,
+      props: ['name'],
+      data: function () {
+        return {
+          count: 0,
+        };
+      },
+      methods: {
+        doClick: function () {
+          this.count ++;
+          this.$emit('count', this.count);
+        },
+      },
+    });
+    let vm12 = new Vue({
+      el: '#app12',
+      data: {
+        
+      },
+      methods: {
+        doClick: function (count) {
+          console.log(`sub component count: ${count}`);
+        },
+      },
+    });
+  </script>
 </body>
 </html>
