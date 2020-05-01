@@ -155,7 +155,7 @@ memoization 函数、curry 函数、偏函数。
   // bind 实现
   let add = (a, b) => a + b;
   let _add = add.bind(null, 1);
-  console.log(_add(2)); // 3ß
+  console.log(_add(2)); // 3
   ```
 
 ## 练习

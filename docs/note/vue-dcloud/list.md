@@ -25,7 +25,7 @@ Vue.js 数组、对象形式、维护状态。
 ```html
 <ul>
   <li v-for="msg in msgs">{{msg.msg}}</li><!-- React, React, React -->
-  <li v-for="(msg, index) of msgs">{{index}}-{{msg.msg}}</li><!-- 0-React, 1-React, 2-ßReact -->
+  <li v-for="(msg, index) of msgs">{{index}}-{{msg.msg}}</li><!-- 0-React, 1-React, 2-React -->
 </ul>
 ```
 
@@ -82,7 +82,7 @@ data: {
 <div id="app9">
   <ul>
     <li v-for="msg in msgs">{{msg.msg}}</li><!-- React, React, React -->
-    <li v-for="(msg, index) of msgs" :key="index">{{index}}-{{msg.msg}}</li><!-- 0-React, 1-React, 2-ßReact -->
+    <li v-for="(msg, index) of msgs" :key="index">{{index}}-{{msg.msg}}</li><!-- 0-React, 1-React, 2-React -->
   </ul>
   <ul>
     <li v-for="value in object">{{value}}</li><!-- How to do lists in Vue, Jane Doe, 2016-04-10 -->

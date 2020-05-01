@@ -138,7 +138,16 @@ console.log(newHero) // { name: 'hulk', friend: { name: 'black widow' } }
 * 递归
 
   ```js
-  let deepCopy = (obj) => {
+  let deepCopy = (obj, cache) => {
+    // 非对象
+    if (!obj || typeof obj !== 'object') { return obj }
+    // 存储以解决循环引用
+    cache = cache || []
+    if (cache.includes(obj)) {
+      return obj
+    } else {
+      cache.push(obj)
+    }
     // 数组或对象
     let res = Array.isArray(obj) ? [] : {}
     if (obj && typeof obj === 'object') {
@@ -147,7 +156,7 @@ console.log(newHero) // { name: 'hulk', friend: { name: 'black widow' } }
         if (obj.hasOwnProperty(key)) {
           // 值为对象
           if (obj[key] && typeof obj[key] === 'object') {
-            res[key] = deepCopy(obj[key])
+            res[key] = deepCopy(obj[key], cache)
           } else { // 值非对象
             res[key] = obj[key]
           }
@@ -163,12 +172,13 @@ console.log(newHero) // { name: 'hulk', friend: { name: 'black widow' } }
     },
     attack: function () { return 'focus shot' },
   }
+  hero.self = hero
   let newHero = deepCopy(hero)
   newHero.name = 'hawk eye'
   newHero.friend.name = 'black widow'
-  console.log(hero) // { name: 'iron man', friend: { name: 'captain america' }, attack: [Function: attack] }
+  console.log(hero) // { name: 'iron man', friend: { name: 'captain america' }, attack: [Function: attack], self: [Circular] }
   console.log(hero.attack()) // focus shot
-  console.log(newHero) // { name: 'hawk eye', friend: { name: 'black widow' }, attack: [Function: attack] }
+  console.log(newHero) // { name: 'hawk eye', friend: { name: 'black widow' }, attack: [Function: attack], self: { name: 'iron man', friend: { name: 'captain america' }, attack: [Function: attack], self: [Circular] } }
   console.log(newHero.attack()) // focus shot
   ```
 
@@ -179,3 +189,47 @@ console.log(newHero) // { name: 'hulk', friend: { name: 'black widow' } }
 * [Vue.mixin](https://cn.vuejs.org/v2/api/#Vue-mixin)
 * [lodash.pick](https://www.lodashjs.com/docs/lodash.pick)
 
+## 练习
+
+```js
+/**
+ * 深拷贝
+ *
+ * 缺陷: 比如拷贝Symbol、拷贝函数、循环引用
+ */
+export const deepCopyJson = source => {
+  return JSON.parse(JSON.stringify(source))
+}
+
+/**
+ * 请试着实现一个可以解决 deepCopyJson 中不能拷贝的Symbol、循环引用问题的拷贝函数，
+ * 并且保证copy.test.js中的单元测试顺利通过。
+ */
+export const deepCopy = (source, cache) => {
+  // 非对象
+  if (!source || typeof source !== 'object') { return source }
+  // 存储以解决循环引用
+  cache = cache || []
+  if (cache.includes(source)) {
+    return source
+  } else {
+    cache.push(source)
+  }
+  // 数组或对象
+  let res = Array.isArray(source) ? [] : {}
+  if (source && typeof source === 'object') {
+    for (let key in source) {
+      // 自身属性
+      if (source.hasOwnProperty(key)) {
+        // 值为对象
+        if (source[key] && typeof source[key] === 'object') {
+          res[key] = deepCopy(source[key], cache)
+        } else { // 值非对象
+          res[key] = source[key]
+        }
+      }
+    }
+  }
+  return res
+}
+```
