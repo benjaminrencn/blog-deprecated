@@ -193,8 +193,6 @@ function getSidebar() {
       }, {
         title: '白话 uni-app - heavensoft',
         path: '/note/uni-app-heavensoft',
-      }, {
-        title: 'uni-app',
       }],
     }],
   };
