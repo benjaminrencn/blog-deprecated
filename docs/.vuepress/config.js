@@ -143,6 +143,11 @@ function getSidebar() {
               ['./netease-study-senior-fe/javascript/deep-shadow-copy', '深拷贝和浅拷贝'],
             ],
           }, {
+            title: '异步编程',
+            children: [
+              ['./netease-study-senior-fe/javascript/asynchronous', '理解异步'],
+            ],
+          }, {
             title: 'Underscore.js 源码',
             children: [
               ['./netease-study-senior-fe/javascript/underscorejs', 'Underscore.js 源码'],
