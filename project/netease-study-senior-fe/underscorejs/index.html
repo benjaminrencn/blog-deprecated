@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>underscore demo</title>
+  <script src="./underscore.js"></script>
+</head>
+<body>
+  <script>
+    console.log(_.unique([1, 2, 3, 3, 4, 5, 5]))
+    console.log(_.unique([1, 2, 3, 3, 4, 5, 5, 'a', 'A'], (item) => typeof item === 'string' ? item.toLowerCase() : item))
+    console.log(_([1, 2, 3, 3, 4, 5, 5, 'a', 'A']).unique((item) => typeof item === 'string' ? item.toLowerCase() : item))
+    console.log(_.chain([1, 2, 3, 3, 4, 5, 5, 'a', 'A']).value())
+  </script>
+</body>
+</html>

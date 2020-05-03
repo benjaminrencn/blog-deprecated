@@ -60,7 +60,7 @@ meta:
   <tr><td>4.3</td><td>提高复用</td></tr>
   <tr><td>4.4</td><td>提高可扩展性</td></tr>
   <tr><td>4.5</td><td>提高代码质量</td></tr>
-  <tr><td rowspan="1">Underscore.js</td><td>5.1</td><td>Underscore.js</td></tr>
+  <tr><td rowspan="1">Underscore.js 源码</td><td>5.1<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/underscorejs">Underscore.js 源码</a></td></tr>
   <tr><td>章节复习课</td><td>6.1</td><td>JavaScript进阶复习课</td></tr>
   <tr><td colspan="3">《JavaScript进阶》专题考核</td></tr>
   <tr><td rowspan="18">计算机网络</td><td>课程导学</td><td>1.1</td><td>网络编程专题导学</td></tr>
@@ -297,4 +297,6 @@ meta:
   * 前端基础预习课 Git rebase 练习失败
 * 单元测试
   * 前端基础预习课 测试实战 karma 练习失败 babel 6 babel 7 都尝试过都在 `karma start` 时报错
-* underscore Javascript 进阶 2.8 深拷贝和浅拷贝 1:29:50 开始
+* JavaScript
+  * 闭包
+  * 立即调用函数

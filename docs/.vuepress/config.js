@@ -142,6 +142,11 @@ function getSidebar() {
               ['./netease-study-senior-fe/javascript/debounce-throttle', '防抖和节流'],
               ['./netease-study-senior-fe/javascript/deep-shadow-copy', '深拷贝和浅拷贝'],
             ],
+          }, {
+            title: 'Underscore.js 源码',
+            children: [
+              ['./netease-study-senior-fe/javascript/underscorejs', 'Underscore.js 源码'],
+            ],
           }],
         }],
       }],
