@@ -50,7 +50,7 @@ meta:
   <tr><td rowspan="8">异步编程</td><td>3.1<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/asynchronous">理解异步</a></td></tr>
   <tr><td>3.2<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/event-loop">Event Loop 机制</a></td></tr>
   <tr><td>3.3<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/publish-subscribe">异步编程方法 - 发布/订阅</a></td></tr>
-  <tr><td>3.4</td><td><a href="./javascript/">异步编程方法 - 深入理解 promise</a></td></tr>
+  <tr><td>3.4<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/promise">异步编程方法 - 深入理解 promise</a></td></tr>
   <tr><td>3.5</td><td><a href="./javascript/">异步编程方法 - generator 函数及其异步应用 </a></td></tr>
   <tr><td>3.6</td><td><a href="./javascript/">异步编程方法 - 深入理解 async/await</a></td></tr>
   <tr><td>3.7</td><td><a href="./javascript/">处理异步的框架 - RxJS</a></td></tr>
