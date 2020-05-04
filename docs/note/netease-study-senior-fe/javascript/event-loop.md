@@ -211,6 +211,7 @@ someAsyncOperation(() => {
 
 ```js
 // /project/netease-study-senior-fe/event-loop/immediate.js
+// node immediate.js
 const fs = require('fs')
 
 fs.readFile(__filename, _ => {
@@ -225,6 +226,8 @@ fs.readFile(__filename, _ => {
 ```
 
 ```js
+// /project/netease-study-senior-fe/event-loop/nextTick.js
+// node nextTick.js
 const fs = require('fs')
 
 fs.readFile(__filename, _ => {
@@ -250,3 +253,4 @@ fs.readFile(__filename, _ => {
 * [Node.js 事件循环，定时器和 process.nextTick() - Node.js](https://nodejs.org/zh-cn/docs/guides/event-loop-timers-and-nexttick/#what-is-the-event-loop)
 * [调用栈 - MDN](https://developer.mozilla.org/zh-CN/docs/Glossary/Call_stack)
 * [「前端进阶」JS中的栈内存堆内存 - 云中桥](https://juejin.im/post/5d116a9df265da1bb47d717b)
+* [带你彻底弄懂Event Loop - liuxuan](https://segmentfault.com/a/1190000016278115)

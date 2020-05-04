@@ -147,6 +147,7 @@ function getSidebar() {
             children: [
               ['./netease-study-senior-fe/javascript/asynchronous', '理解异步'],
               ['./netease-study-senior-fe/javascript/event-loop', 'Event Loop 机制'],
+              ['./netease-study-senior-fe/javascript/publish-subscribe', '异步编程方法 - 发布/订阅'],
             ],
           }, {
             title: 'Underscore.js 源码',

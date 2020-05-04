@@ -49,10 +49,10 @@ meta:
   <tr><td>2.8<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/deep-shadow-copy">深拷贝和浅拷贝</a></td></tr>
   <tr><td rowspan="8">异步编程</td><td>3.1<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/asynchronous">理解异步</a></td></tr>
   <tr><td>3.2<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/event-loop">Event Loop 机制</a></td></tr>
-  <tr><td>3.3</td><td><a href="./javascript/">异步编程方法 - 发布/订阅</a></td></tr>
-  <tr><td>3.4</td><td><a href="./javascript/">异步编程方法 - 深入理解promise</a></td></tr>
-  <tr><td>3.5</td><td><a href="./javascript/">异步编程方法 - generator函数及其异步应用 </a></td></tr>
-  <tr><td>3.6</td><td><a href="./javascript/">异步编程方法 - 深入理解async / await</a></td></tr>
+  <tr><td>3.3<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/publish-subscribe">异步编程方法 - 发布/订阅</a></td></tr>
+  <tr><td>3.4</td><td><a href="./javascript/">异步编程方法 - 深入理解 promise</a></td></tr>
+  <tr><td>3.5</td><td><a href="./javascript/">异步编程方法 - generator 函数及其异步应用 </a></td></tr>
+  <tr><td>3.6</td><td><a href="./javascript/">异步编程方法 - 深入理解 async/await</a></td></tr>
   <tr><td>3.7</td><td><a href="./javascript/">处理异步的框架 - RxJS</a></td></tr>
   <tr><td>3.8</td><td><a href="./javascript/">webWorker的多线程机制</a></td></tr>
   <tr><td rowspan="5">设计模式</td><td>4.1</td><td>设计模式概论</td></tr>
