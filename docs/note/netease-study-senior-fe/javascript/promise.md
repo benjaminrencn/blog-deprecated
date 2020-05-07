@@ -3,16 +3,16 @@ lang: zh-CN
 description: Promise 规范、ES6 Promise API、Promise 实践。
 meta:
   - name: keywords
-    content: 网易云课堂,高级前端开发工程师,Javascript 进阶,异步编程,异步编程方法 - 深入理解 promise,JavaScript,js
+    content: 网易云课堂,高级前端开发工程师,Javascript 进阶,异步编程,深入理解 promise,JavaScript,js
 ---
 
-# 异步编程方法 - 深入理解 promise
+# 深入理解 promise
 
 \#网易云课堂#
 \#高级前端开发工程师#
 \#Javascript 进阶#
 \#异步编程#
-\#异步编程方法 - 深入理解 promise#
+\#深入理解 promise#
 \#JavaScript#
 \#js#
 
@@ -172,3 +172,4 @@ setLight([
 * [Promise - MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 * [Promise/A+ 规范 - promises-aplus](https://github.com/promises-aplus/promises-spec)
 * [Promise/A+ 规范测试工具 - promises-aplus](https://github.com/promises-aplus/promises-tests)
+* [ECMAScript 6 入门 - 阮一峰](https://es6.ruanyifeng.com/#docs/promise)

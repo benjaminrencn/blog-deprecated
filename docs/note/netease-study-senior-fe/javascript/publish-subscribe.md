@@ -3,16 +3,16 @@ lang: zh-CN
 description: 发布/订阅、实现发布/订阅、Node.js 发布/订阅。
 meta:
   - name: keywords
-    content: 网易云课堂,高级前端开发工程师,Javascript 进阶,异步编程,异步编程方法 - 发布/订阅,JavaScript,js
+    content: 网易云课堂,高级前端开发工程师,Javascript 进阶,异步编程,发布/订阅,JavaScript,js
 ---
 
-# 异步编程方法 - 发布/订阅
+# 发布/订阅
 
 \#网易云课堂#
 \#高级前端开发工程师#
 \#Javascript 进阶#
 \#异步编程#
-\#异步编程方法 - 发布/订阅#
+\#发布/订阅#
 \#JavaScript#
 \#js#
 
