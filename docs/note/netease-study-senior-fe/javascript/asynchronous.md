@@ -158,6 +158,10 @@ for (let i = 1; i <= 10; i++) {
 // 每 1s 1 递增
 ```
 
+### 知识点
+
+![异步编程知识点思维导图](./image/asynchronous-map.png)
+
 ## 延伸
 
 * [浏览器进程？线程？傻傻分不清楚！ - coverguo](https://imweb.io/topic/58e3bfa845e5c13468f567d5)

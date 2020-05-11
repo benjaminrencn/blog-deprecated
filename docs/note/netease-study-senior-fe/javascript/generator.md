@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: 。
+description: Generate 函数、Thunk 函数。
 meta:
   - name: keywords
     content: 网易云课堂,高级前端开发工程师,Javascript 进阶,异步编程,generator 函数及其异步应用,JavaScript,js
@@ -16,7 +16,7 @@ meta:
 \#JavaScript#
 \#js#
 
-。
+Generate 函数、Thunk 函数。
 
 ## Generator 函数
 
@@ -182,7 +182,7 @@ f.next()
   const thunk = function (fn) {
     return function (...args) {
       return function (cb) {
-        return fn.call(this, ...args, callback)
+        return fn.call(this, ...args, cb)
       }
     }
   }

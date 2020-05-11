@@ -150,6 +150,7 @@ function getSidebar() {
               ['./netease-study-senior-fe/javascript/publish-subscribe', '发布/订阅'],
               ['./netease-study-senior-fe/javascript/promise', '深入理解 promise'],
               ['./netease-study-senior-fe/javascript/generator', 'generator 函数及其异步应用'],
+              ['./netease-study-senior-fe/javascript/async-await', '深入理解 async/await'],
             ],
           }, {
             title: 'Underscore.js 源码',

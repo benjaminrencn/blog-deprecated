@@ -51,8 +51,8 @@ meta:
   <tr><td>3.2<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/event-loop">Event Loop 机制</a></td></tr>
   <tr><td>3.3<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/publish-subscribe">发布/订阅</a></td></tr>
   <tr><td>3.4<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/promise">深入理解 promise</a></td></tr>
-  <tr><td>3.5</td><td><a href="./javascript/generator">generator 函数及其异步应用</a></td></tr>
-  <tr><td>3.6</td><td><a href="./javascript/">深入理解 async/await</a></td></tr>
+  <tr><td>3.5<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/generator">generator 函数及其异步应用</a></td></tr>
+  <tr><td>3.6<vp-icon name="checkbox-selected"/></td><td><a href="./javascript/async-await">深入理解 async/await</a></td></tr>
   <tr><td>3.7</td><td><a href="./javascript/">处理异步的框架 - RxJS</a></td></tr>
   <tr><td>3.8</td><td><a href="./javascript/">webWorker的多线程机制</a></td></tr>
   <tr><td rowspan="5">设计模式</td><td>4.1</td><td>设计模式概论</td></tr>
