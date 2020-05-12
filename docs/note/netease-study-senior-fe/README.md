@@ -83,7 +83,7 @@ meta:
   <tr><td colspan="3">《计算机网络》专题考核</td></tr>
   <tr><td rowspan="29">Vue</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/guide">Vue 专题导学</a></td></tr>
   <tr><td rowspan="3">初识 vue</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/hello">Hello Vue</a></td></tr>
-  <tr><td>2.2</td><td><a href="./vue/">模块语法 & 事件绑定</a></td></tr>
+  <tr><td>2.2<vp-icon name="checkbox-selected" /></td><td><a href="./vue/template-event">模块语法 & 事件绑定</a></td></tr>
   <tr><td>2.3</td><td><a href="./vue/">计算属性 & watch</a></td></tr>
   <tr><td rowspan="5">探索 vue 的组件世界</td><td>3.1</td><td><a href="./vue/">生命周期 & 函数式组件</a></td></tr>
   <tr><td>3.2</td><td><a href="./vue/">自定义指令</a></td></tr>

@@ -52,6 +52,41 @@ cd eight-queens
 yarn serve
 ```
 
+清理 /src/assets、/src/components 内文件
+清理 /src/App.vue 文件
+
+```html
+<!-- /src/App.vue -->
+<template>
+  <div id="app">
+    
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App',
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
+```
+
+```shell
+# /project//netease-study-senior-fe/eight-queens
+npm install
+npm run serve
+```
+
 ## .vue 单文件组件
 
 * 提供更好封装性

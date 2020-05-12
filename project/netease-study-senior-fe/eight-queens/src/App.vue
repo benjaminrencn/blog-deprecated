@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <eight-queens />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import EightQueens from '@/components/EightQueens'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    EightQueens,
+  },
 }
 </script>
 
