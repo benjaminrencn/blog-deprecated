@@ -3,16 +3,16 @@ lang: zh-CN
 description: Vue.js 基础语法、高阶用法、响应式源码分析、生态及源码分析。
 meta:
   - name: keywords
-    content: 网易云课堂,高级前端开发工程师,Vue,课程导学,Vue 专题导学,JavaScript,js,vue.js
+    content: 网易云课堂,高级前端开发工程师,Vue,课程导学,vue 专题导学,JavaScript,js,vue.js
 ---
 
-# Vue 专题导学
+# vue 专题导学
 
 \#网易云课堂#
 \#高级前端开发工程师#
 \#Vue#
 \#课程导学#
-\#Vue 专题导学#
+\#vue 专题导学#
 \#JavaScript#
 \#js#
 \#vue.js#

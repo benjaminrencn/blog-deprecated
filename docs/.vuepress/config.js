@@ -163,7 +163,12 @@ function getSidebar() {
           children: [{
             title: '课程导学',
             children: [
-              ['./netease-study-senior-fe/vue/guide', 'Vue 专题导学'],
+              ['./netease-study-senior-fe/vue/guide', 'vue 专题导学'],
+            ],
+          }, {
+            title: '初识 vue',
+            children: [
+              ['./netease-study-senior-fe/vue/hello', 'Hello Vue'],
             ],
           }],
         }],
