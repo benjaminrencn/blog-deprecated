@@ -158,6 +158,14 @@ function getSidebar() {
               ['./netease-study-senior-fe/javascript/underscorejs', 'Underscore.js 源码'],
             ],
           }],
+        }, {
+          title: 'Vue',
+          children: [{
+            title: '课程导学',
+            children: [
+              ['./netease-study-senior-fe/vue/guide', 'Vue 专题导学'],
+            ],
+          }],
         }],
       }],
     }, {

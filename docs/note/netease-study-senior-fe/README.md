@@ -81,34 +81,34 @@ meta:
   <tr><td>路由</td><td>6.1</td><td>路由</td></tr>
   <tr><td>章节复习课</td><td>7.1</td><td>计算机网络复习课</td></tr>
   <tr><td colspan="3">《计算机网络》专题考核</td></tr>
-  <tr><td rowspan="29">Vue</td><td>课程导学</td><td>1.1</td><td>Vue专题导学</td></tr>
-  <tr><td rowspan="3">初识 vue</td><td>2.1</td><td>Hello VUE</td></tr>
-  <tr><td>2.2</td><td>模块语法 & 事件绑定</td></tr>
-  <tr><td>2.3</td><td>计算属性 & watch</td></tr>
-  <tr><td rowspan="5">探索 vue 的组件世界</td><td>3.1</td><td>生命周期 & 函数式组件</td></tr>
-  <tr><td>3.2</td><td>自定义指令</td></tr>
-  <tr><td>3.3</td><td>双向绑定与单向数据流</td></tr>
-  <tr><td>3.4</td><td>插槽</td></tr>
-  <tr><td>3.5</td><td>组件化</td></tr>
-  <tr><td rowspan="4">深入vue源码设计</td><td>4.1</td><td>响应式</td></tr>
-  <tr><td>4.2</td><td>插件</td></tr>
-  <tr><td>4.3</td><td>渲染函数 1</td></tr>
-  <tr><td>4.4</td><td>渲染函数 2</td></tr>
-  <tr><td rowspan="5">Vue生态</td><td>5.1</td><td>状态管理 vuex</td></tr>
-  <tr><td>5.2</td><td>路由 vue-router</td></tr>
-  <tr><td>5.3</td><td>服务端渲染 Nuxt.js</td></tr>
-  <tr><td>5.4</td><td>Vue  DevTools</td></tr>
-  <tr><td>5.5</td><td>Composition API RFC</td></tr>
-  <tr><td rowspan="3">vue实践</td><td>6.1</td><td>对话框</td></tr>
-  <tr><td>6.2</td><td>表单</td></tr>
-  <tr><td>6.3</td><td>动画切换效果实现</td></tr>
-  <tr><td rowspan="5">企业级组件系统架构</td><td>7.1</td><td>可复用组件设计</td></tr>
-  <tr><td>7.2</td><td>权限控制</td></tr>
-  <tr><td>7.3</td><td>自定义皮肤设置</td></tr>
-  <tr><td>7.4</td><td>国际化设置</td></tr>
-  <tr><td>7.5</td><td>自动化页面埋点</td></tr>
-  <tr><td>vue3.0</td><td>8.1</td><td>新特性 & 展望</td></tr>
-  <tr><td>章节复习课</td><td>9.1</td><td>Vue复习课</td></tr>
+  <tr><td rowspan="29">Vue</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected"/></td><td><a href="./vue/guide">Vue 专题导学</a></td></tr>
+  <tr><td rowspan="3">初识 vue</td><td>2.1</td><td><a href="./vue/">Hello VUE</a></td></tr>
+  <tr><td>2.2</td><td><a href="./vue/">模块语法 & 事件绑定</a></td></tr>
+  <tr><td>2.3</td><td><a href="./vue/">计算属性 & watch</a></td></tr>
+  <tr><td rowspan="5">探索 vue 的组件世界</td><td>3.1</td><td><a href="./vue/">生命周期 & 函数式组件</a></td></tr>
+  <tr><td>3.2</td><td><a href="./vue/">自定义指令</a></td></tr>
+  <tr><td>3.3</td><td><a href="./vue/">双向绑定与单向数据流</a></td></tr>
+  <tr><td>3.4</td><td><a href="./vue/">插槽</a></td></tr>
+  <tr><td>3.5</td><td><a href="./vue/">组件化</a></td></tr>
+  <tr><td rowspan="4">深入vue源码设计</td><td>4.1</td><td><a href="./vue/">响应式</a></td></tr>
+  <tr><td>4.2</td><td><a href="./vue/">插件</a></td></tr>
+  <tr><td>4.3</td><td><a href="./vue/">渲染函数 1</a></td></tr>
+  <tr><td>4.4</td><td><a href="./vue/">渲染函数 2</a></td></tr>
+  <tr><td rowspan="5">Vue生态</td><td>5.1</td><td><a href="./vue/">状态管理 vuex</a></td></tr>
+  <tr><td>5.2</td><td><a href="./vue/">路由 vue-router</a></td></tr>
+  <tr><td>5.3</td><td><a href="./vue/">服务端渲染 Nuxt.js</a></td></tr>
+  <tr><td>5.4</td><td><a href="./vue/">Vue  DevTools</a></td></tr>
+  <tr><td>5.5</td><td><a href="./vue/">Composition API RFC</a></td></tr>
+  <tr><td rowspan="3">vue实践</td><td>6.1</td><td><a href="./vue/">对话框</a></td></tr>
+  <tr><td>6.2</td><td><a href="./vue/">表单</a></td></tr>
+  <tr><td>6.3</td><td><a href="./vue/">动画切换效果实现</a></td></tr>
+  <tr><td rowspan="5">企业级组件系统架构</td><td>7.1</td><td><a href="./vue/">可复用组件设计</a></td></tr>
+  <tr><td>7.2</td><td><a href="./vue/">权限控制</a></td></tr>
+  <tr><td>7.3</td><td><a href="./vue/">自定义皮肤设置</a></td></tr>
+  <tr><td>7.4</td><td><a href="./vue/">国际化设置</a></td></tr>
+  <tr><td>7.5</td><td><a href="./vue/">自动化页面埋点</a></td></tr>
+  <tr><td>vue3.0</td><td>8.1</td><td><a href="./vue/">新特性 & 展望</a></td></tr>
+  <tr><td>章节复习课</td><td>9.1</td><td><a href="./vue/">Vue复习课</a></td></tr>
   <tr><td colspan="3">《Vue》专题考核</td></tr>
   <tr><td rowspan="35">React</td><td>课程导学</td><td>1.1</td><td>React专题导学</td></tr>
   <tr><td rowspan="6">初识React</td><td>2.1</td><td>react基本介绍</td></tr>
@@ -302,3 +302,8 @@ meta:
   * 立即调用函数
   * Javascript 进阶 异步编程 理解异步 浏览器多进程架构优势、劣势
   * Javascript 进阶 异步编程 理解异步 requestAnimationFrame 实现动画比较定时器优势
+  * Javascript 进阶 异步编程 Promise、Generator、async
+  * Vue 课程导学 Vue 专题导学 LRU 算法
+    * [LRU - 百度百科](https://baike.baidu.com/item/LRU)
+    * [146.LRU 缓存机制 - LeetCode](https://leetcode-cn.com/problems/lru-cache/solution/lru-huan-cun-ji-zhi-by-leetcode/)
+    * [LRU 实现](https://github.com/isaacs/node-lru-cache)
