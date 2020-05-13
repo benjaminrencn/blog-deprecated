@@ -169,7 +169,8 @@ function getSidebar() {
             title: '初识 vue',
             children: [
               ['./netease-study-senior-fe/vue/hello', 'Hello Vue'],
-              ['./netease-study-senior-fe/vue/template-event', '模块语法 & 事件绑定'],
+              ['./netease-study-senior-fe/vue/template', '模块'],
+              ['./netease-study-senior-fe/vue/data', '数据'],
             ],
           }],
         }],

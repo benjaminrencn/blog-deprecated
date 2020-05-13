@@ -3,16 +3,16 @@ lang: zh-CN
 description: Vue.js 模板语法（插值、指令、条件渲染、列表渲染、ref）、JSX、实现八皇后棋盘。
 meta:
   - name: keywords
-    content: 网易云课堂,高级前端开发工程师,Vue,课程导学,模块语法 & 事件绑定,JavaScript,js,vue.js
+    content: 网易云课堂,高级前端开发工程师,Vue,初识 vue,模板,JavaScript,js,vue.js
 ---
 
-# 模块语法 & 事件绑定
+# 模板
 
 \#网易云课堂#
 \#高级前端开发工程师#
 \#Vue#
-\#课程导学#
-\#模块语法 & 事件绑定#
+\#初识 vue#
+\#模板#
 \#JavaScript#
 \#js#
 \#vue.js#

@@ -3,7 +3,7 @@ lang: zh-CN
 description: Vue CLI、.vue 单文件组件、命名规则。
 meta:
   - name: keywords
-    content: 网易云课堂,高级前端开发工程师,Vue,课程导学,Hello Vue,JavaScript,js,vue.js
+    content: 网易云课堂,高级前端开发工程师,Vue,初识 vue,Hello Vue,JavaScript,js,vue.js
 ---
 
 # Hello Vue
@@ -11,7 +11,7 @@ meta:
 \#网易云课堂#
 \#高级前端开发工程师#
 \#Vue#
-\#课程导学#
+\#初识 vue#
 \#Hello Vue#
 \#JavaScript#
 \#js#
@@ -87,14 +87,14 @@ npm install
 npm run serve
 ```
 
-## .vue 单文件组件
+## [.vue 单文件组件](https://cn.vuejs.org/v2/guide/single-file-components.html)
 
 * 提供更好封装性
 * 优雅的模板支持
 * scoped css 支持
 * 通过 vue-loader 可以配合预处理器进行构建
 
-## 命名规则
+## [命名规则](https://cn.vuejs.org/v2/style-guide/)
 
 * **camelCase**: myComponent
   * 函数、变量、Prop
