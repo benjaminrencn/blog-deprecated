@@ -244,3 +244,5 @@ export default {
 npm install
 npm run serve
 ```
+
+![八皇后模板](./image/eight-queens-template.png)

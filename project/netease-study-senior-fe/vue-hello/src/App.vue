@@ -24,6 +24,13 @@
 
     <p><a name="data-array" href="#data-array">array</a></p>
     <array></array>
+
+    <p><a name="event-style" href="#event-style">2.4 事件 & 样式</a></p>
+    <p><a name="event-style-event" href="#event-style-event">事件</a></p>
+    <event></event>
+
+    <p><a name="event-style-emit" href="#event-style-emit">$emit</a></p>
+    <emit-parent></emit-parent>
   </div>
 </template>
 
@@ -32,6 +39,8 @@ import PropParent from '@/components/PropParent'
 import Computed from '@/components/Computed'
 import Watch from '@/components/Watch'
 import Array from '@/components/Array'
+import Event from '@/components/Event'
+import EmitParent from '@/components/EmitParent'
 
 export default {
   name: 'App',
@@ -40,6 +49,8 @@ export default {
     Computed,
     Watch,
     Array,
+    Event,
+    EmitParent,
   }
 }
 </script>

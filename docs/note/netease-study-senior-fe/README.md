@@ -85,7 +85,7 @@ meta:
   <tr><td rowspan="5">初识 vue</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/hello">Hello Vue</a></td></tr>
   <tr><td>2.2<vp-icon name="checkbox-selected" /></td><td><a href="./vue/template">模板</a></td></tr>
   <tr><td>2.3<vp-icon name="checkbox-selected" /></td><td><a href="./vue/data">数据</a></td></tr>
-  <tr><td>2.4</td><td><a href="./vue/">事件 & 样式</a></td></tr>
+  <tr><td>2.4<vp-icon name="checkbox-selected" /></td><td><a href="./vue/event-style">事件 & 样式</a></td></tr>
   <tr><td>2.5</td><td><a href="./vue/">组件</a></td></tr>
   <tr><td rowspan="5">探索 vue 的组件世界</td><td>3.1</td><td><a href="./vue/">生命周期 & 函数式组件</a></td></tr>
   <tr><td>3.2</td><td><a href="./vue/">自定义指令</a></td></tr>

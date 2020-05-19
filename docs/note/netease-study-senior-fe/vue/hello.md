@@ -82,7 +82,7 @@ export default {
 ```
 
 ```shell
-# /project//netease-study-senior-fe/eight-queens
+# /project/netease-study-senior-fe/eight-queens
 npm install
 npm run serve
 ```
