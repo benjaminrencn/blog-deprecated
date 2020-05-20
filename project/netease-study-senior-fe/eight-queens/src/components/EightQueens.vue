@@ -3,8 +3,18 @@
     <div class="title">八皇后问题</div>
 
     <div class="grid">
-      <div class="row" v-for="(row, rIndex) in grids" :key="rIndex">
-        <div class="col" v-for="(col, cIndex) in row" :key="col.key" @click="select(rIndex, cIndex)">
+      <div
+        class="row"
+        v-for="(row, rIndex) in grids"
+        :key="rIndex"
+      >
+        <div
+          class="col"
+          :class="{ 'col--disabled': !col.selected && col.disabled }"
+          v-for="(col, cIndex) in row"
+          :key="col.key"
+          @click="select(rIndex, cIndex)"
+        >
           <div v-show="col.selected">Q</div>
         </div>
       </div>
@@ -17,7 +27,8 @@ const grids = new Array(8).fill(0).map((v, r) => {
   return new Array(8).fill(0).map((v, c) => {
     return {
       key: `key-${r * 8 + c}`,
-      selected: false,
+      selected: false, // 选中
+      disabled: 0, // 失效计数
     }
   })
 })
@@ -35,37 +46,43 @@ export default {
      * @param {number} col 列索引
      */
     select(row, col) {
-      if (!this.validate(row, col)) { return alert('当前位置不能摆放皇后') }
+      // 未选择且失效
+      if (!this.grids[row][col].selected && this.grids[row][col].disabled) {
+        return alert('当前位置不能摆放皇后')
+      }
       this.grids[row][col].selected = !this.grids[row][col].selected
+      this.getRelatedGrid(row, col, (grid) => {
+        this.grids[row][col].selected ? grid.disabled++ : grid.disabled--
+      })
     },
     /**
-     * 验证
+     * 获取相关网格 调用回调函数
      * @param {number} row 行索引
      * @param {number} col 列索引
-     * @return {boolean} 是否验证通过
+     * @param {Function} cb 回调函数 cb(grid, row, col)
      */
-    validate(row, col) {
+    getRelatedGrid(row, col, cb) {
       // →
       for (let i = 0; i < this.grids[row].length; i++) {
-        if (grids[row][i].selected) { return false }
+        cb(grids[row][i], row, i)
       }
       // ↓
       for (let i = 0; i < this.grids.length; i++) {
-        if (grids[i][col].selected) { return false }
+        cb(grids[i][col], i, col)
       }
       // ↘
       for (let y = 0; y < this.grids.length; y++) {
         // y - x === row - col
         let x = y - row + col
-        if (x >= 0 && x < this.grids[y].length && grids[y][x].selected) { return false }
+        if (x >= 0 && x < this.grids[y].length) { cb(grids[y][x], y, x) }
+        
       }
       // ↗
       for (let y = 0; y < this.grids.length; y++) {
         // y + x === row + col
         let x = row + col - y
-        if (x >= 0 && x < this.grids[y].length && grids[y][x].selected) { return false }
+        if (x >= 0 && x < this.grids[y].length) { cb(grids[y][x], y, x) }
       }
-      return true
     },
   },
 }
@@ -96,4 +113,9 @@ export default {
   background: #999
   &:nth-child(2n)
     background: #efefef
+  &--disabled:after
+    content: 'x'
+    display block
+    position display
+    color: #f00
 </style>
