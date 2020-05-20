@@ -31,6 +31,22 @@
 
     <p><a name="event-style-emit" href="#event-style-emit">$emit</a></p>
     <emit-parent></emit-parent>
+
+    <p><a name="component" href="#component">2.5 组件</a></p>
+    <p><a name="component-life-cycle" href="#component-life-cycle">生命周期</a></p>
+    <button @click="lifeCycle = !lifeCycle">切换声明周期</button>
+    <life-cycle v-if="lifeCycle"></life-cycle>
+
+    <p><a name="component-dynamic" href="#component-dynamic">动态组件</a></p>
+    <button @click="dynamic = !dynamic">切换动态组件</button>
+    <p>&lt;component&gt;</p>
+    <component :is="component"></component>
+
+    <button @click="keepAlive = !keepAlive">切换动态组件</button>
+    <p>&lt;keep-alive&gt;</p>
+    <keep-alive>
+      <component :is="componentKeepAlive"></component>
+    </keep-alive>
   </div>
 </template>
 
@@ -41,6 +57,8 @@ import Watch from '@/components/Watch'
 import Array from '@/components/Array'
 import Event from '@/components/Event'
 import EmitParent from '@/components/EmitParent'
+import LifeCycle from '@/components/LifeCycle'
+import Dynamic from '@/components/Dynamic'
 
 export default {
   name: 'App',
@@ -51,7 +69,24 @@ export default {
     Array,
     Event,
     EmitParent,
-  }
+    LifeCycle,
+    Dynamic,
+  },
+  data() {
+    return {
+      lifeCycle: false, // 生命周期
+      dynamic: true, // 动态组件
+      keepAlive: true, // keep-alive 动态组件
+    }
+  },
+  computed: {
+    component() {
+      return this.dynamic ? LifeCycle : Dynamic
+    },
+    componentKeepAlive() {
+      return this.keepAlive ? LifeCycle : Dynamic
+    },
+  },
 }
 </script>
 

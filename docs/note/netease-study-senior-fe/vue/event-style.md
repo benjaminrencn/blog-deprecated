@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: Vue.js 事件（`v-on:`、`@`、修饰符、自定义事件）、样式。
+description: Vue.js 事件（v-on:、@、修饰符、自定义事件）、样式。
 meta:
   - name: keywords
     content: 网易云课堂,高级前端开发工程师,Vue,初识 vue,事件 & 样式,JavaScript,js,vue.js

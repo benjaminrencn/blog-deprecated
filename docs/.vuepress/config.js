@@ -172,6 +172,7 @@ function getSidebar() {
               ['./netease-study-senior-fe/vue/template', '模块'],
               ['./netease-study-senior-fe/vue/data', '数据'],
               ['./netease-study-senior-fe/vue/event-style', '事件 & 样式'],
+              ['./netease-study-senior-fe/vue/component', '组件'],
             ],
           }],
         }],

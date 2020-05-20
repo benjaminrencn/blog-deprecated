@@ -35,7 +35,37 @@ export default {
      * @param {number} col 列索引
      */
     select(row, col) {
-      grids[row][col].selected = !grids[row][col].selected
+      if (!this.validate(row, col)) { return alert('当前位置不能摆放皇后') }
+      this.grids[row][col].selected = !this.grids[row][col].selected
+    },
+    /**
+     * 验证
+     * @param {number} row 行索引
+     * @param {number} col 列索引
+     * @return {boolean} 是否验证通过
+     */
+    validate(row, col) {
+      // →
+      for (let i = 0; i < this.grids[row].length; i++) {
+        if (grids[row][i].selected) { return false }
+      }
+      // ↓
+      for (let i = 0; i < this.grids.length; i++) {
+        if (grids[i][col].selected) { return false }
+      }
+      // ↘
+      for (let y = 0; y < this.grids.length; y++) {
+        // y - x === row - col
+        let x = y - row + col
+        if (x >= 0 && x < this.grids[y].length && grids[y][x].selected) { return false }
+      }
+      // ↗
+      for (let y = 0; y < this.grids.length; y++) {
+        // y + x === row + col
+        let x = row + col - y
+        if (x >= 0 && x < this.grids[y].length && grids[y][x].selected) { return false }
+      }
+      return true
     },
   },
 }
@@ -59,6 +89,7 @@ export default {
 .col
   flex: 1 1 50px
   text-align: center
+  box-sizing: border-box
   width: 50px
   height: 50px
   line-height: 50px

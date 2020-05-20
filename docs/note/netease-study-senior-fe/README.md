@@ -81,12 +81,12 @@ meta:
   <tr><td>路由</td><td>6.1</td><td>路由</td></tr>
   <tr><td>章节复习课</td><td>7.1</td><td>计算机网络复习课</td></tr>
   <tr><td colspan="3">《计算机网络》专题考核</td></tr>
-  <tr><td rowspan="29">Vue</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/guide">Vue 专题导学</a></td></tr>
+  <tr><td rowspan="31">Vue</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/guide">Vue 专题导学</a></td></tr>
   <tr><td rowspan="5">初识 vue</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/hello">Hello Vue</a></td></tr>
   <tr><td>2.2<vp-icon name="checkbox-selected" /></td><td><a href="./vue/template">模板</a></td></tr>
   <tr><td>2.3<vp-icon name="checkbox-selected" /></td><td><a href="./vue/data">数据</a></td></tr>
   <tr><td>2.4<vp-icon name="checkbox-selected" /></td><td><a href="./vue/event-style">事件 & 样式</a></td></tr>
-  <tr><td>2.5</td><td><a href="./vue/">组件</a></td></tr>
+  <tr><td>2.5<vp-icon name="checkbox-selected" /></td><td><a href="./vue/component">组件</a></td></tr>
   <tr><td rowspan="5">探索 vue 的组件世界</td><td>3.1</td><td><a href="./vue/">生命周期 & 函数式组件</a></td></tr>
   <tr><td>3.2</td><td><a href="./vue/">自定义指令</a></td></tr>
   <tr><td>3.3</td><td><a href="./vue/">双向绑定与单向数据流</a></td></tr>
