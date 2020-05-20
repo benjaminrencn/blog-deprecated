@@ -47,6 +47,10 @@
     <keep-alive>
       <component :is="componentKeepAlive"></component>
     </keep-alive>
+
+    <h3>探索 vue 的组件世界</h3>
+    <p><a name="direcitve" href="#directive">3.1 自定义指令</a></p>
+    <directive></directive>
   </div>
 </template>
 
@@ -59,6 +63,7 @@ import Event from '@/components/Event'
 import EmitParent from '@/components/EmitParent'
 import LifeCycle from '@/components/LifeCycle'
 import Dynamic from '@/components/Dynamic'
+import Directive from '@/components/Directive'
 
 export default {
   name: 'App',
@@ -71,6 +76,7 @@ export default {
     EmitParent,
     LifeCycle,
     Dynamic,
+    Directive,
   },
   data() {
     return {

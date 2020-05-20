@@ -174,6 +174,11 @@ function getSidebar() {
               ['./netease-study-senior-fe/vue/event-style', '事件 & 样式'],
               ['./netease-study-senior-fe/vue/component', '组件'],
             ],
+          }, {
+            title: '探索 vue 的组件世界',
+            children: [
+              ['./netease-study-senior-fe/vue/directive', '自定义指令'],
+            ],
           }],
         }],
       }],
