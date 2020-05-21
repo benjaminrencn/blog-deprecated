@@ -181,6 +181,7 @@ function getSidebar() {
               ['./netease-study-senior-fe/vue/two-way-binding', '双向绑定'],
               ['./netease-study-senior-fe/vue/component-design', '组件设计'],
               ['./netease-study-senior-fe/vue/component-communication', '组件通信'],
+              ['./netease-study-senior-fe/vue/plugin', '插件'],
             ],
           }],
         }],

@@ -64,8 +64,13 @@
     <slot-demo></slot-demo>
 
     <p><a name="component-communication" href="#component-communication">3.4 组件通信</a></p>
-    <p><a name="component-communication-compose" href="#component-communication-compse">组件封装</a></p>
+    <p><a name="component-communication-compose" href="#component-communication-compose">组件封装</a></p>
     <compose></compose>
+
+    <p><a name="plugin" href="#plugin">3.5 插件</a></p>
+    <!-- 注释其他组件方便观察 console -->
+    <p><a name="plugin-mixin" href="#plugin-mixin">mixin</a></p>
+    <mixin></mixin>
   </div>
 </template>
 
@@ -83,6 +88,7 @@ import FormVModel from '@/components/FormVModel'
 import ComponentVModel from '@/components/ComponentVModel'
 import SlotDemo from '@/components/SlotDemo'
 import Compose from '@/components/Compose'
+import Mixin from '@/components/Mixin'
 
 export default {
   name: 'App',
@@ -100,6 +106,7 @@ export default {
     ComponentVModel,
     SlotDemo,
     Compose,
+    Mixin,
   },
   data() {
     return {
