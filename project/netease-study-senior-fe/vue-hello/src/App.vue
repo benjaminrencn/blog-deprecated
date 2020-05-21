@@ -51,6 +51,13 @@
     <h3>探索 vue 的组件世界</h3>
     <p><a name="direcitve" href="#directive">3.1 自定义指令</a></p>
     <directive></directive>
+
+    <p><a name="two-way-binding" href="#two-way-binding">3.2 双向绑定</a></p>
+    <p><a name="two-way-binding-form-vmodel" href="#two-way-binding-form-vmodel">表单元素 v-model</a></p>
+    <form-v-model></form-v-model>
+
+    <p><a name="two-way-binding-component-vmodel" href="#two-way-binding-component-vmodel">自定义组件 v-model</a></p>
+    <component-v-model></component-v-model>
   </div>
 </template>
 
@@ -64,6 +71,8 @@ import EmitParent from '@/components/EmitParent'
 import LifeCycle from '@/components/LifeCycle'
 import Dynamic from '@/components/Dynamic'
 import Directive from '@/components/Directive'
+import FormVModel from '@/components/FormVModel'
+import ComponentVModel from '@/components/ComponentVModel'
 
 export default {
   name: 'App',
@@ -77,6 +86,8 @@ export default {
     LifeCycle,
     Dynamic,
     Directive,
+    FormVModel,
+    ComponentVModel,
   },
   data() {
     return {

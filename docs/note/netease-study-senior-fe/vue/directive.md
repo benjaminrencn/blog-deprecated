@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: Vue.js 。
+description: Vue.js 自定义指令创建（钩子函数、钩子函数参数）、场景、实例。
 meta:
   - name: keywords
     content: 网易云课堂,高级前端开发工程师,Vue,探索 vue 的组件世界,自定义指令,JavaScript,js,vue.js
@@ -17,7 +17,7 @@ meta:
 \#js#
 \#vue.js#
 
-Vue.js 。
+Vue.js 自定义指令创建（钩子函数、钩子函数参数）、场景、实例。
 
 ## 创建
 

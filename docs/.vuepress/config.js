@@ -178,6 +178,7 @@ function getSidebar() {
             title: '探索 vue 的组件世界',
             children: [
               ['./netease-study-senior-fe/vue/directive', '自定义指令'],
+              ['./netease-study-senior-fe/vue/two-way-binding', '双向绑定'],
             ],
           }],
         }],
