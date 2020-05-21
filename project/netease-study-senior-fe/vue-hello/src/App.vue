@@ -62,6 +62,10 @@
     <p><a name="component-design" href="#component-design">3.3 组件设计</a></p>
     <p><a name="component-design-slot" href="#component-design-slot">插槽</a></p>
     <slot-demo></slot-demo>
+
+    <p><a name="component-communication" href="#component-communication">3.4 组件通信</a></p>
+    <p><a name="component-communication-compose" href="#component-communication-compse">组件封装</a></p>
+    <compose></compose>
   </div>
 </template>
 
@@ -78,6 +82,7 @@ import Directive from '@/components/Directive'
 import FormVModel from '@/components/FormVModel'
 import ComponentVModel from '@/components/ComponentVModel'
 import SlotDemo from '@/components/SlotDemo'
+import Compose from '@/components/Compose'
 
 export default {
   name: 'App',
@@ -94,6 +99,7 @@ export default {
     FormVModel,
     ComponentVModel,
     SlotDemo,
+    Compose,
   },
   data() {
     return {
