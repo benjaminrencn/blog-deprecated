@@ -58,6 +58,10 @@
 
     <p><a name="two-way-binding-component-vmodel" href="#two-way-binding-component-vmodel">自定义组件 v-model</a></p>
     <component-v-model></component-v-model>
+
+    <p><a name="component-design" href="#component-design">3.3 组件设计</a></p>
+    <p><a name="component-design-slot" href="#component-design-slot">插槽</a></p>
+    <slot-demo></slot-demo>
   </div>
 </template>
 
@@ -73,6 +77,7 @@ import Dynamic from '@/components/Dynamic'
 import Directive from '@/components/Directive'
 import FormVModel from '@/components/FormVModel'
 import ComponentVModel from '@/components/ComponentVModel'
+import SlotDemo from '@/components/SlotDemo'
 
 export default {
   name: 'App',
@@ -88,6 +93,7 @@ export default {
     Directive,
     FormVModel,
     ComponentVModel,
+    SlotDemo,
   },
   data() {
     return {

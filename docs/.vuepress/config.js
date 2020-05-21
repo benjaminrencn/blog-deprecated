@@ -179,6 +179,7 @@ function getSidebar() {
             children: [
               ['./netease-study-senior-fe/vue/directive', '自定义指令'],
               ['./netease-study-senior-fe/vue/two-way-binding', '双向绑定'],
+              ['./netease-study-senior-fe/vue/component-design', '组件设计'],
             ],
           }],
         }],

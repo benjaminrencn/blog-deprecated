@@ -89,7 +89,7 @@ meta:
   <tr><td>2.5<vp-icon name="checkbox-selected" /></td><td><a href="./vue/component">组件</a></td></tr>
   <tr><td rowspan="6">探索 vue 的组件世界</td><td>3.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/directive">自定义指令</a></td></tr>
   <tr><td>3.2<vp-icon name="checkbox-selected" /></td><td><a href="./vue/two-way-binding">双向绑定</a></td></tr>
-  <tr><td>3.3</td><td><a href="./vue/">组件设计</a></td></tr>
+  <tr><td>3.3<vp-icon name="checkbox-selected" /></td><td><a href="./vue/component-design">组件设计</a></td></tr>
   <tr><td>3.4</td><td><a href="./vue/">组件通信</a></td></tr>
   <tr><td>3.5</td><td><a href="./vue/">插件</a></td></tr>
   <tr><td>3.6</td><td><a href="./vue/">组件复用</a></td></tr>
