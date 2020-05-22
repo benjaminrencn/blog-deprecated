@@ -79,6 +79,13 @@ export default {
 </script>
 ```
 
+```shell
+# /project/netease-study-senior-fe/vue-hello
+npm install
+npm run serve
+# 3.5 插件 mixin
+```
+
 ## 插件
 
 * [`Vue.use`](https://cn.vuejs.org/v2/api/#Vue-use)

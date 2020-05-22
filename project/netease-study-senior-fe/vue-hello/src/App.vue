@@ -71,6 +71,10 @@
     <!-- 注释其他组件方便观察 console -->
     <p><a name="plugin-mixin" href="#plugin-mixin">mixin</a></p>
     <mixin></mixin>
+
+    <p><a name="component-reuse" href="#component-reuse">3.6 组件复用</a></p>
+    <p><a name="component-reuse-mixin" href="#component-reuse-mixin">Renderless 组件</a></p>
+    <slot-container></slot-container>
   </div>
 </template>
 
@@ -89,6 +93,7 @@ import ComponentVModel from '@/components/ComponentVModel'
 import SlotDemo from '@/components/SlotDemo'
 import Compose from '@/components/Compose'
 import Mixin from '@/components/Mixin'
+import SlotContainer from '@/components/SlotContainer'
 
 export default {
   name: 'App',
@@ -107,6 +112,7 @@ export default {
     SlotDemo,
     Compose,
     Mixin,
+    SlotContainer,
   },
   data() {
     return {

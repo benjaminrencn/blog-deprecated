@@ -182,6 +182,7 @@ function getSidebar() {
               ['./netease-study-senior-fe/vue/component-design', '组件设计'],
               ['./netease-study-senior-fe/vue/component-communication', '组件通信'],
               ['./netease-study-senior-fe/vue/plugin', '插件'],
+              ['./netease-study-senior-fe/vue/component-reuse', '组件复用'],
             ],
           }],
         }],
