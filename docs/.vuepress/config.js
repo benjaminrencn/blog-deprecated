@@ -191,6 +191,7 @@ function getSidebar() {
             children: [
               ['./netease-study-senior-fe/vue/responsive', '响应式'],
               ['./netease-study-senior-fe/vue/next-tick', '异步更新队列（nextTick）源码分析'],
+              ['./netease-study-senior-fe/vue/diff-patch', 'diff patch'],
             ],
           }],
         }],

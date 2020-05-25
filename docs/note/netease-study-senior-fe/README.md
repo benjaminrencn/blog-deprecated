@@ -95,7 +95,7 @@ meta:
   <tr><td>3.6<vp-icon name="checkbox-selected" /></td><td><a href="./vue/component-reuse">组件复用</a></td></tr>
   <tr><td rowspan="4">深入 vue 源码设计</td><td>4.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/responsive">响应式</a></td></tr>
   <tr><td>4.2<vp-icon name="checkbox-selected" /></td><td><a href="./vue/next-tick">异步更新队列（nextTick）源码分析</a></td></tr>
-  <tr><td>4.3</td><td><a href="./vue/">diff patch</a></td></tr>
+  <tr><td>4.3<vp-icon name="checkbox-selected" /></td><td><a href="./vue/diff-patch">diff patch</a></td></tr>
   <tr><td>4.4</td><td><a href="./vue/">Vue 3 composition api</a></td></tr>
   <tr><td rowspan="5">vue 生态</td><td>5.1</td><td><a href="./vue/">状态管理 vuex</a></td></tr>
   <tr><td>5.2</td><td><a href="./vue/">路由 vue-router</a></td></tr>

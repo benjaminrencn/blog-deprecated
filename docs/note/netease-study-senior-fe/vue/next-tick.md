@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: Vue.js 。
+description: Vue.js 异步更新原理、nextTick。
 meta:
   - name: keywords
     content: 网易云课堂,高级前端开发工程师,Vue,深入 vue 源码设计,异步更新队列（nextTick）源码分析,JavaScript,js,vue.js
@@ -17,7 +17,7 @@ meta:
 \#js#
 \#vue.js#
 
-Vue.js 。
+Vue.js 异步更新原理、nextTick。
 
 <img style="width: 600px;" src="./image/vue-next-tick.png" alt="异步更新队列（nextTick）">
 
