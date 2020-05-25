@@ -75,6 +75,9 @@
     <p><a name="component-reuse" href="#component-reuse">3.6 组件复用</a></p>
     <p><a name="component-reuse-mixin" href="#component-reuse-mixin">Renderless 组件</a></p>
     <slot-container></slot-container>
+
+    <p><a name="responsive" href="#responsive">4.1 响应式</a></p>
+    <responsive></responsive>
   </div>
 </template>
 
@@ -94,6 +97,7 @@ import SlotDemo from '@/components/SlotDemo'
 import Compose from '@/components/Compose'
 import Mixin from '@/components/Mixin'
 import SlotContainer from '@/components/SlotContainer'
+import Responsive from '@/components/Responsive'
 
 export default {
   name: 'App',
@@ -113,6 +117,7 @@ export default {
     Compose,
     Mixin,
     SlotContainer,
+    Responsive,
   },
   data() {
     return {

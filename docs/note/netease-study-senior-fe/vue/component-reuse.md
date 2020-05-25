@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: Vue.js 。
+description: Vue.js Mixin 模式、HOC、Renderless 组件。
 meta:
   - name: keywords
     content: 网易云课堂,高级前端开发工程师,Vue,探索 vue 的组件世界,组件复用,JavaScript,js,vue.js
@@ -24,7 +24,6 @@ Vue.js Mixin 模式、HOC、Renderless 组件。
 表单验证
 
 ## Mixin 模式
-
 
 * 通过原型继承，扩展对象，实现复用
 * 同名钩子函数合并为数组，混入对象钩子在组件自身钩子之前调用

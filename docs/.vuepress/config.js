@@ -184,6 +184,11 @@ function getSidebar() {
               ['./netease-study-senior-fe/vue/plugin', '插件'],
               ['./netease-study-senior-fe/vue/component-reuse', '组件复用'],
             ],
+          }, {
+            title: '深入 vue 源码设计',
+            children: [
+              ['./netease-study-senior-fe/vue/responsive', '响应式'],
+            ],
           }],
         }],
       }],
