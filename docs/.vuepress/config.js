@@ -37,6 +37,8 @@ module.exports = {
     ['@vuepress/plugin-back-to-top', true],
     /** {@link https://github.com/QiShaoXuan/vuepress-plugin-cat} */
     ['vuepress-plugin-cat', true],
+    /** {@link https://vuepress.github.io/zh/plugins/mathjax/} */
+    ['vuepress-plugin-mathjax', true],
     /** {@link https://github.com/znicholasbrown/vuepress-plugin-code-copy} */
     ['vuepress-plugin-code-copy', {
       color: '#3eaf7c',
