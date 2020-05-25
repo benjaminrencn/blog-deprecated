@@ -78,6 +78,13 @@
 
     <p><a name="responsive" href="#responsive">4.1 响应式</a></p>
     <responsive></responsive>
+
+    <p><a name="next-tick" href="#next-tick">4.2 异步更新队列（nextTick）源码分析</a></p>
+    <p><a name="next-tick-multi-responsive" href="#next-tick-multi-responsive">多组数据响应式</a></p>
+    <multi-responsive></multi-responsive>
+
+    <p><a name="next-tick-next-tick" href="#next-tick-next-tick">异步更新队列</a></p>
+    <next-tick></next-tick>
   </div>
 </template>
 
@@ -98,6 +105,8 @@ import Compose from '@/components/Compose'
 import Mixin from '@/components/Mixin'
 import SlotContainer from '@/components/SlotContainer'
 import Responsive from '@/components/Responsive'
+import MultiResponsive from '@/components/MultiResponsive'
+import NextTick from '@/components/NextTick'
 
 export default {
   name: 'App',
@@ -118,6 +127,8 @@ export default {
     Mixin,
     SlotContainer,
     Responsive,
+    MultiResponsive,
+    NextTick,
   },
   data() {
     return {

@@ -188,6 +188,7 @@ function getSidebar() {
             title: '深入 vue 源码设计',
             children: [
               ['./netease-study-senior-fe/vue/responsive', '响应式'],
+              ['./netease-study-senior-fe/vue/next-tick', '异步更新队列（nextTick）源码分析'],
             ],
           }],
         }],
