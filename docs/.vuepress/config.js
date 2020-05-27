@@ -193,6 +193,7 @@ function getSidebar() {
               ['./netease-study-senior-fe/vue/next-tick', '异步更新队列（nextTick）源码分析'],
               ['./netease-study-senior-fe/vue/diff-patch', 'diff patch'],
               ['./netease-study-senior-fe/vue/computed-watch-watch-effect-proxy', 'computed & watch & watchEffect & Proxy'],
+              ['./netease-study-senior-fe/vue/composition', 'vue 3 composition api'],
             ],
           }],
         }],
