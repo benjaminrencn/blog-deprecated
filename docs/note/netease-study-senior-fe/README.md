@@ -81,7 +81,7 @@ meta:
   <tr><td>路由</td><td>6.1</td><td>路由</td></tr>
   <tr><td>章节复习课</td><td>7.1</td><td>计算机网络复习课</td></tr>
   <tr><td colspan="3">《计算机网络》专题考核</td></tr>
-  <tr><td rowspan="32">Vue</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/guide">vue 专题导学</a></td></tr>
+  <tr><td rowspan="33">Vue</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/guide">vue 专题导学</a></td></tr>
   <tr><td rowspan="5">初识 vue</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/hello">Hello Vue</a></td></tr>
   <tr><td>2.2<vp-icon name="checkbox-selected" /></td><td><a href="./vue/template">模板</a></td></tr>
   <tr><td>2.3<vp-icon name="checkbox-selected" /></td><td><a href="./vue/data">数据</a></td></tr>
@@ -93,10 +93,11 @@ meta:
   <tr><td>3.4<vp-icon name="checkbox-selected" /></td><td><a href="./vue/component-communication">组件通信</a></td></tr>
   <tr><td>3.5<vp-icon name="checkbox-selected" /></td><td><a href="./vue/plugin">插件</a></td></tr>
   <tr><td>3.6<vp-icon name="checkbox-selected" /></td><td><a href="./vue/component-reuse">组件复用</a></td></tr>
-  <tr><td rowspan="4">深入 vue 源码设计</td><td>4.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/responsive">响应式</a></td></tr>
+  <tr><td rowspan="5">深入 vue 源码设计</td><td>4.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/responsive">响应式</a></td></tr>
   <tr><td>4.2<vp-icon name="checkbox-selected" /></td><td><a href="./vue/next-tick">异步更新队列（nextTick）源码分析</a></td></tr>
   <tr><td>4.3<vp-icon name="checkbox-selected" /></td><td><a href="./vue/diff-patch">diff patch</a></td></tr>
-  <tr><td>4.4</td><td><a href="./vue/">Vue 3 composition api</a></td></tr>
+  <tr><td>4.4<vp-icon name="checkbox-selected" /></td><td><a href="./vue/computed-watch-watch-effect-proxy">computed & watch & watchEffect & Proxy</a></td></tr>
+  <tr><td>4.5</td><td><a href="./vue/">Vue 3 composition api</a></td></tr>
   <tr><td rowspan="5">vue 生态</td><td>5.1</td><td><a href="./vue/">状态管理 vuex</a></td></tr>
   <tr><td>5.2</td><td><a href="./vue/">路由 vue-router</a></td></tr>
   <tr><td>5.3</td><td><a href="./vue/">服务端渲染 Nuxt.js</a></td></tr>

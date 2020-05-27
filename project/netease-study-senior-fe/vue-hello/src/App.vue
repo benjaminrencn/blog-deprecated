@@ -85,6 +85,20 @@
 
     <p><a name="next-tick-next-tick" href="#next-tick-next-tick">异步更新队列</a></p>
     <next-tick></next-tick>
+
+    <p><a name="diff-patch" href="#diff-patch">4.3 diff patch</a></p>
+
+    <p><a name="computed-watch-watch-effect-proxy" href="#computed-watch-watch-effect-proxy">4.4 computed & watch & watchEffect & Proxy</a></p>
+    <p><a name="computed-watch-watch-effect-proxy-watch-effect" href="#computed-watch-watch-effect-proxy-watch-effect">computed、watch、watchEffect 实现</a></p>
+    <computed-watch-watch-effect></computed-watch-watch-effect>
+
+    <p><a name="computed-watch-watch-effect-proxy-proxy" href="#computed-watch-watch-effect-proxy-proxy">Proxy</a></p>
+    <proxy></proxy>
+
+    <p><a name="computed-watch-watch-effect-proxy-responsive-array" href="#computed-watch-watch-effect-responsive-array">响应式数组操作</a></p>
+    <responsive-array></responsive-array>
+
+    <div style="height: 600px"></div>
   </div>
 </template>
 
@@ -107,6 +121,9 @@ import SlotContainer from '@/components/SlotContainer'
 import Responsive from '@/components/Responsive'
 import MultiResponsive from '@/components/MultiResponsive'
 import NextTick from '@/components/NextTick'
+import ComputedWatchWatchEffect from '@/components/ComputedWatchWatchEffect'
+import Proxy from '@/components/Proxy'
+import ResponsiveArray from '@/components/ResponsiveArray'
 
 export default {
   name: 'App',
@@ -129,6 +146,9 @@ export default {
     Responsive,
     MultiResponsive,
     NextTick,
+    ComputedWatchWatchEffect,
+    Proxy,
+    ResponsiveArray,
   },
   data() {
     return {
