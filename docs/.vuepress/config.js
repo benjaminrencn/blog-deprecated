@@ -195,6 +195,11 @@ function getSidebar() {
               ['./netease-study-senior-fe/vue/computed-watch-watch-effect-proxy', 'computed & watch & watchEffect & Proxy'],
               ['./netease-study-senior-fe/vue/composition', 'vue 3 composition api'],
             ],
+          }, {
+            title: 'vue 生态及实践',
+            children: [
+              ['./netease-study-senior-fe/vue/vuex1', 'vuex 上'],
+            ],
           }],
         }],
       }],

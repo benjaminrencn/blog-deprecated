@@ -49,6 +49,7 @@
     </keep-alive>
 
     <h3>探索 vue 的组件世界</h3>
+
     <p><a name="direcitve" href="#directive">3.1 自定义指令</a></p>
     <directive></directive>
 
@@ -98,6 +99,13 @@
     <p><a name="computed-watch-watch-effect-proxy-responsive-array" href="#computed-watch-watch-effect-responsive-array">响应式数组操作</a></p>
     <responsive-array></responsive-array>
 
+    <p><a name="computed-watch-watch-effect-proxy" href="#computed-watch-watch-effect-proxy">4.5 vue 3 composition api</a></p>
+
+    <h3>vue 生态及实践</h3>
+
+    <p><a name="direcitve" href="#directive">5.1 vuex 上</a></p>
+    <vuex-count></vuex-count>
+
     <div style="height: 600px"></div>
   </div>
 </template>
@@ -124,6 +132,7 @@ import NextTick from '@/components/NextTick'
 import ComputedWatchWatchEffect from '@/components/ComputedWatchWatchEffect'
 import Proxy from '@/components/Proxy'
 import ResponsiveArray from '@/components/ResponsiveArray'
+import VuexCount from '@/components/VuexCount'
 
 export default {
   name: 'App',
@@ -149,6 +158,7 @@ export default {
     ComputedWatchWatchEffect,
     Proxy,
     ResponsiveArray,
+    VuexCount,
   },
   data() {
     return {

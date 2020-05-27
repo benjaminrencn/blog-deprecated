@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button id="proxy-add" @click="add">add</button>
+    <button id="proxy-add">add</button>
     <p id="proxy"></p>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button id="responsive-array-add" @click="add">add</button>
+    <button id="responsive-array-add" >add</button>
     <p id="responsive-array"></p>
   </div>
 </template>

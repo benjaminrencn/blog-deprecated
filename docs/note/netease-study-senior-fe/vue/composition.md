@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: Vue.js 。
+description: Vue.js Vue 3.0（创建 Vue 3.0 项目、特性）、Composition API (设计动机、setup、reactive、ref、computed、watch、生命周期钩子函数)、代码结构优化。
 meta:
   - name: keywords
     content: 网易云课堂,高级前端开发工程师,Vue,深入 vue 源码设计,vue 3 composition api,JavaScript,js,vue.js
@@ -17,7 +17,7 @@ meta:
 \#js#
 \#vue.js#
 
-Vue.js 。
+Vue.js Vue 3.0（创建 Vue 3.0 项目、特性）、Composition API (设计动机、`setup`、`reactive`、`ref`、`computed`、`watch`、生命周期钩子函数)、代码结构优化。
 
 ## Vue 3.0
 

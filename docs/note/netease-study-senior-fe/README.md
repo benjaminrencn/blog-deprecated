@@ -81,7 +81,7 @@ meta:
   <tr><td>路由</td><td>6.1</td><td>路由</td></tr>
   <tr><td>章节复习课</td><td>7.1</td><td>计算机网络复习课</td></tr>
   <tr><td colspan="3">《计算机网络》专题考核</td></tr>
-  <tr><td rowspan="33">Vue</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/guide">vue 专题导学</a></td></tr>
+  <tr><td rowspan="30">Vue</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/guide">vue 专题导学</a></td></tr>
   <tr><td rowspan="5">初识 vue</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/hello">Hello Vue</a></td></tr>
   <tr><td>2.2<vp-icon name="checkbox-selected" /></td><td><a href="./vue/template">模板</a></td></tr>
   <tr><td>2.3<vp-icon name="checkbox-selected" /></td><td><a href="./vue/data">数据</a></td></tr>
@@ -98,21 +98,18 @@ meta:
   <tr><td>4.3<vp-icon name="checkbox-selected" /></td><td><a href="./vue/diff-patch">diff patch</a></td></tr>
   <tr><td>4.4<vp-icon name="checkbox-selected" /></td><td><a href="./vue/computed-watch-watch-effect-proxy">computed & watch & watchEffect & Proxy</a></td></tr>
   <tr><td>4.5<vp-icon name="checkbox-selected" /></td><td><a href="./vue/composition">vue 3 composition api</a></td></tr>
-  <tr><td rowspan="5">vue 生态</td><td>5.1</td><td><a href="./vue/">状态管理 vuex</a></td></tr>
-  <tr><td>5.2</td><td><a href="./vue/">路由 vue-router</a></td></tr>
-  <tr><td>5.3</td><td><a href="./vue/">服务端渲染 Nuxt.js</a></td></tr>
-  <tr><td>5.4</td><td><a href="./vue/">Vue  DevTools</a></td></tr>
-  <tr><td>5.5</td><td><a href="./vue/">Composition API RFC</a></td></tr>
-  <tr><td rowspan="3">vue 实践</td><td>6.1</td><td><a href="./vue/">对话框</a></td></tr>
-  <tr><td>6.2</td><td><a href="./vue/">表单</a></td></tr>
-  <tr><td>6.3</td><td><a href="./vue/">动画切换效果实现</a></td></tr>
-  <tr><td rowspan="5">企业级组件系统架构</td><td>7.1</td><td><a href="./vue/">可复用组件设计</a></td></tr>
-  <tr><td>7.2</td><td><a href="./vue/">权限控制</a></td></tr>
-  <tr><td>7.3</td><td><a href="./vue/">自定义皮肤设置</a></td></tr>
-  <tr><td>7.4</td><td><a href="./vue/">国际化设置</a></td></tr>
-  <tr><td>7.5</td><td><a href="./vue/">自动化页面埋点</a></td></tr>
-  <tr><td>vue3.0</td><td>8.1</td><td><a href="./vue/">新特性 & 展望</a></td></tr>
-  <tr><td>章节复习课</td><td>9.1</td><td><a href="./vue/">Vue复习课</a></td></tr>
+  <tr><td rowspan="10">vue 生态及实践</td><td>5.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/vuex1">vuex 上</a></td></tr>
+  <tr><td>5.2</td><td><a href="./vue/">vuex 下</a></td></tr>
+  <tr><td>5.3</td><td><a href="./vue/">vue router 上</a></td></tr>
+  <tr><td>5.4</td><td><a href="./vue/">vue router 下</a></td></tr>
+  <tr><td>5.5</td><td><a href="./vue/">掘金 Top 10 列表页实践</a></td></tr>
+  <tr><td>5.6</td><td><a href="./vue/">最佳实践</a></td></tr>
+  <tr><td>5.7</td><td><a href="./vue/">配置中心</a></td></tr>
+  <tr><td>5.8</td><td><a href="./vue/">ssr 上</a></td></tr>
+  <tr><td>5.9</td><td><a href="./vue/">ssr 下</a></td></tr>
+  <tr><td>5.10</td><td><a href="./vue/">nuxt</a></td></tr>
+  <tr><td>vue 求职面试</td><td>6.1</td><td><a href="./vue/">vue 面试解答</a></td></tr>
+  <tr><td>章节复习课</td><td>7.1</td><td><a href="./vue/">Vue复习课</a></td></tr>
   <tr><td colspan="3">《Vue》专题考核</td></tr>
   <tr><td rowspan="35">React</td><td>课程导学</td><td>1.1</td><td>React专题导学</td></tr>
   <tr><td rowspan="6">初识React</td><td>2.1</td><td>react基本介绍</td></tr>
