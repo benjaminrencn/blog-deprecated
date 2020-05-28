@@ -99,7 +99,7 @@ meta:
   <tr><td>4.4<vp-icon name="checkbox-selected" /></td><td><a href="./vue/computed-watch-watch-effect-proxy">computed & watch & watchEffect & Proxy</a></td></tr>
   <tr><td>4.5<vp-icon name="checkbox-selected" /></td><td><a href="./vue/composition">vue 3 composition api</a></td></tr>
   <tr><td rowspan="10">vue 生态及实践</td><td>5.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/vuex1">vuex 上</a></td></tr>
-  <tr><td>5.2</td><td><a href="./vue/">vuex 下</a></td></tr>
+  <tr><td>5.2<vp-icon name="checkbox-selected" /></td><td><a href="./vue/vuex2">vuex 下</a></td></tr>
   <tr><td>5.3</td><td><a href="./vue/">vue router 上</a></td></tr>
   <tr><td>5.4</td><td><a href="./vue/">vue router 下</a></td></tr>
   <tr><td>5.5</td><td><a href="./vue/">掘金 Top 10 列表页实践</a></td></tr>

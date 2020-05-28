@@ -103,8 +103,11 @@
 
     <h3>vue 生态及实践</h3>
 
-    <p><a name="direcitve" href="#directive">5.1 vuex 上</a></p>
+    <p><a name="vuex1" href="#vuex1">5.1 vuex 上</a></p>
     <vuex-count></vuex-count>
+
+    <p><a name="vuex2" href="#vuex2">5.2 vuex 下</a></p>
+    <my-vuex></my-vuex>
 
     <div style="height: 600px"></div>
   </div>
@@ -133,6 +136,7 @@ import ComputedWatchWatchEffect from '@/components/ComputedWatchWatchEffect'
 import Proxy from '@/components/Proxy'
 import ResponsiveArray from '@/components/ResponsiveArray'
 import VuexCount from '@/components/VuexCount'
+import MyVuex from '@/components/MyVuex'
 
 export default {
   name: 'App',
@@ -159,6 +163,7 @@ export default {
     Proxy,
     ResponsiveArray,
     VuexCount,
+    MyVuex,
   },
   data() {
     return {

@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: Vue.js 。
+description: Vuex 背景、概念、API。
 meta:
   - name: keywords
     content: 网易云课堂,高级前端开发工程师,Vue,vue 生态及实践,vuex 上,JavaScript,js,vue.js
@@ -17,7 +17,7 @@ meta:
 \#js#
 \#vue.js#
 
-Vue.js Vuex、响应式原理。
+Vuex 背景、概念、API。
 
 ## Vuex
 
@@ -76,6 +76,36 @@ Vue.js Vuex、响应式原理。
 
 ```shell
 vue add vuex
+```
+
+```js
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+Vue.use(Vuex)
+
+export default new Vuex.Store({
+  state: {
+    count: 0,
+  },
+  getters: {
+    doubleCount: (state) => state.count * 2
+  },
+  mutations: {
+    addCount(state, payload = 1) {
+      state.count += payload
+    }
+  },
+  actions: {
+    asyncAddCount({ commit }) {
+      setTimeout(() => {
+        commit('addCount')
+      }, 1000)
+    }
+  },
+  modules: {
+  }
+})
 ```
 
 ```html
