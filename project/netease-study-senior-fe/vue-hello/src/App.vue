@@ -122,6 +122,19 @@
     <!-- import Router from '@/utils/router' -->
     <my-router></my-router>
 
+    <p><a name="vue-router2" href="#vue-router2">5.4 vue router 下</a></p>
+    <p><a name="vue-router2-guard" href="#vue-router2-guard">导航守卫</a></p>
+    <p><a name="/bar" href="#/bar">#/bar 初始化</a></p>
+    <!-- 需要注释 <my-guard> -->
+    <!-- 使用 import Router from 'vue-router' -->
+    <!-- <guard></guard> -->
+
+    <p><a name="vue-router1-my-router" href="#vue-router1-my-router">实现导航守卫</a></p>
+    <p><a name="/bar" href="/bar">/bar 初始化</a></p>
+    <!-- 需要注释 <guard> -->
+    <!-- import Router from '@/utils/router' -->
+    <my-guard></my-guard>
+
     <div style="height: 600px"></div>
   </div>
 </template>
@@ -152,6 +165,8 @@ import VuexCount from '@/components/VuexCount'
 import MyVuex from '@/components/MyVuex'
 import Router from '@/components/Router'
 import MyRouter from '@/components/MyRouter'
+import Guard from '@/components/Guard'
+import MyGuard from '@/components/MyGuard'
 
 export default {
   name: 'App',
@@ -181,6 +196,8 @@ export default {
     MyVuex,
     Router,
     MyRouter,
+    Guard,
+    MyGuard,
   },
   data() {
     return {

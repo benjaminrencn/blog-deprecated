@@ -201,6 +201,7 @@ function getSidebar() {
               ['./netease-study-senior-fe/vue/vuex1', 'vuex 上'],
               ['./netease-study-senior-fe/vue/vuex2', 'vuex 下'],
               ['./netease-study-senior-fe/vue/vue-router1', 'vue router 上'],
+              ['./netease-study-senior-fe/vue/vue-router2', 'vue router 下'],
             ],
           }],
         }],

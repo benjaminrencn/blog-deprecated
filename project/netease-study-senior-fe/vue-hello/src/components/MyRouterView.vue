@@ -14,7 +14,14 @@ export default {
     if (this.name && route.components && route.components[this.name]) {
       component = route.components[this.name]
     }
-    return <component />
+    const hook = {
+      init(vnode) {
+        route.instance = vnode.componentInstance
+        console.log('[MyRouterView] vnode: ', vnode)
+        console.log('[MyRouterView] route.instance: ', route.instance)
+      }
+    }
+    return <component hook={hook} />
   },
 }
 </script>

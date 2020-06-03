@@ -30,7 +30,9 @@ export default class Router {
   constructor({ routes }) {
     this.routerTable = new RouterTable(routes)
     this.history = new Html5Mode(this)
-    this.afterEach = function () {}
+    this.beforeHooks = []
+    this.resolveHooks = []
+    this.afterHooks = []
   }
   init(app) {
     const { history } = this
@@ -41,6 +43,15 @@ export default class Router {
   }
   push(to) {
     this.history.push(to)
+  }
+  beforeEach(fn) {
+    return registerHook(this.beforeHooks, fn)
+  }
+  beforeResolve(fn) {
+    return registerHook(this.resolveHooks, fn)
+  }
+  afterEach(fn) {
+    return registerHook(this.afterHooks, fn)
   }
 }
 
@@ -57,4 +68,13 @@ Router.install = function () {
       }
     },
   })
+}
+
+function registerHook(list, fn) {
+  list.push(fn)
+  return () => {
+    if (list.includes(fn)) {
+      list.splice(list.indexOf(fn), 1)
+    }
+  }
 }

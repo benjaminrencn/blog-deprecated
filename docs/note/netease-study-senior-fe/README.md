@@ -101,7 +101,7 @@ meta:
   <tr><td rowspan="10">vue 生态及实践</td><td>5.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/vuex1">vuex 上</a></td></tr>
   <tr><td>5.2<vp-icon name="checkbox-selected" /></td><td><a href="./vue/vuex2">vuex 下</a></td></tr>
   <tr><td>5.3<vp-icon name="checkbox-selected" /></td><td><a href="./vue/vue-router1">vue router 上</a></td></tr>
-  <tr><td>5.4</td><td><a href="./vue/">vue router 下</a></td></tr>
+  <tr><td>5.4<vp-icon name="checkbox-selected" /></td><td><a href="./vue/vue-router2">vue router 下</a></td></tr>
   <tr><td>5.5</td><td><a href="./vue/">掘金 Top 10 列表页实践</a></td></tr>
   <tr><td>5.6</td><td><a href="./vue/">最佳实践</a></td></tr>
   <tr><td>5.7</td><td><a href="./vue/">配置中心</a></td></tr>
