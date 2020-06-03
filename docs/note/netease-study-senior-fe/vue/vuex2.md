@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: Vuex 响应式原理、模块化（`modules`、命名空间、跨模块访问）。
+description: Vuex 响应式原理、模块化（modules、命名空间、跨模块访问）。
 meta:
   - name: keywords
     content: 网易云课堂,高级前端开发工程师,Vue,vue 生态及实践,vuex 下,JavaScript,js,vue.js

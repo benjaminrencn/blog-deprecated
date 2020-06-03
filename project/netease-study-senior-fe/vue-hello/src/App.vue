@@ -109,6 +109,19 @@
     <p><a name="vuex2" href="#vuex2">5.2 vuex 下</a></p>
     <my-vuex></my-vuex>
 
+    <p><a name="vue-router1" href="#vue-router1">5.3 vue router 上</a></p>
+    <p><a name="vue-router1-router" href="#vue-router1-router">vue router</a></p>
+    <p><a name="/bar" href="#/bar">#/bar 初始化</a></p>
+    <!-- 需要注释 <my-router> -->
+    <!-- 使用 import Router from 'vue-router' -->
+    <!-- <router></router> -->
+
+    <p><a name="vue-router1-my-router" href="#vue-router1-my-router">实现 vue router</a></p>
+    <p><a name="/bar" href="/bar">/bar 初始化</a></p>
+    <!-- 需要注释 <router> -->
+    <!-- import Router from '@/utils/router' -->
+    <my-router></my-router>
+
     <div style="height: 600px"></div>
   </div>
 </template>
@@ -137,6 +150,8 @@ import Proxy from '@/components/Proxy'
 import ResponsiveArray from '@/components/ResponsiveArray'
 import VuexCount from '@/components/VuexCount'
 import MyVuex from '@/components/MyVuex'
+import Router from '@/components/Router'
+import MyRouter from '@/components/MyRouter'
 
 export default {
   name: 'App',
@@ -164,6 +179,8 @@ export default {
     ResponsiveArray,
     VuexCount,
     MyVuex,
+    Router,
+    MyRouter,
   },
   data() {
     return {
