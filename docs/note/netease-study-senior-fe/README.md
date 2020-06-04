@@ -103,8 +103,8 @@ meta:
   <tr><td>5.3<vp-icon name="checkbox-selected" /></td><td><a href="./vue/vue-router1">vue router 上</a></td></tr>
   <tr><td>5.4<vp-icon name="checkbox-selected" /></td><td><a href="./vue/vue-router2">vue router 下</a></td></tr>
   <tr><td>5.5<vp-icon name="checkbox-selected" /></td><td><a href="./vue/practice">掘金 Top 10 列表页实践</a></td></tr>
-  <tr><td>5.6</td><td><a href="./vue/">最佳实践</a></td></tr>
-  <tr><td>5.7</td><td><a href="./vue/">配置中心</a></td></tr>
+  <tr><td>5.6<vp-icon name="checkbox-selected" /></td><td><a href="./vue/config">配置中心</a></td></tr>
+  <tr><td>5.7</td><td><a href="./vue/">优化实践</a></td></tr><!-- optimization -->
   <tr><td>5.8</td><td><a href="./vue/">ssr 上</a></td></tr>
   <tr><td>5.9</td><td><a href="./vue/">ssr 下</a></td></tr>
   <tr><td>5.10</td><td><a href="./vue/">nuxt</a></td></tr>

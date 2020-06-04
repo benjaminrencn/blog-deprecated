@@ -2,9 +2,14 @@ import Vue from 'vue'
 import intersect from './directive/intersect'
 import store from './store'
 import router from './router'
+import { init as themeInit } from './config/theme'
+import { init as localeInit } from './config/locale'
 import App from './App.vue'
 
 Vue.directive('intersect', intersect)
+
+themeInit() 
+localeInit()
 
 const app = new Vue({
   store,

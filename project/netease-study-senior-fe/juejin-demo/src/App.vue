@@ -1,24 +1,53 @@
 <template>
   <div>
-    <div class="m-top">
-      <router-link class="m-link" v-for="nav in navs" :key="nav.path" :to="nav.path">{{ nav.name }}</router-link>
+    <div class="m-top" :style="{ background: theme.primary }">
+      <router-link class="m-link"
+        :style="{ background: $route.name === nav.path ? theme.highlight : theme.primary }"
+        v-for="nav in navs" :key="nav.path" :to="nav.path">
+        {{ module[nav.id] }}
+      </router-link>
     </div>
     <div class="m-content">
       <router-view></router-view>
+    </div>
+    <div class="m-side">
+      <div>
+        <span>主题切换：</span>
+        <button @click="themeType = 'blue'">蓝</button>
+        <button @click="themeType = 'red'">红 </button>
+      </div>
+      <div>
+        <span>语言：</span>
+        <button @click="language = 'zh'">中</button>
+        <button @click="language = 'en'">英 </button>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import { TYPES } from './module/topic/store'
+import config from './config/config'
 
 export default {
+  data() {
+    return {
+       themeType: 'blue',
+       language: 'zh',
+    }
+  },
   computed: {
+    theme() {
+      return config.get('theme')[this.themeType]
+    },
+    module() {
+      return config.get('locale')[this.language].module
+    },
     navs() {
       return [
-        { name: '热门', path: TYPES.HOT },
-        { name: '最新', path: TYPES.NEW },
-        { name: '热榜', path: TYPES.TOP },
+        { id: 'hot', path: TYPES.HOT },
+        { id: 'new', path: TYPES.NEW },
+        { id: 'top', path: TYPES.TOP },
       ]
     },
   },
@@ -62,5 +91,13 @@ a {
   background: #fff;
   margin: 20px auto;
   padding: 0 20px;
+}
+
+.m-side {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: 520px;
+  width: 200px;
 }
 </style>
