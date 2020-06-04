@@ -39,30 +39,6 @@ export default new Config()
 ```
 
 ```js
-// /project/netease-study-senior-fe/juejin-demo/src/config/locale.js
-import config from './config'
-
-export const init = () => {
-  config.register('locale', {
-    zh: {
-      module: {
-        hot: '热门',
-        new: '最新',
-        top: '热榜',
-      },
-    },
-    en: {
-      module: {
-        hot: 'hot',
-        new: 'new',
-        top: 'top',
-      },
-    },
-  })
-}
-```
-
-```js
 // /project/netease-study-senior-fe/juejin-demo/src/config/theme.js
 import config from './config'
 
@@ -80,28 +56,102 @@ export const init = () => {
 }
 ```
 
-```js {6,7,12,13}
+```js
+// /project/netease-study-senior-fe/juejin-demo/src/config/locale.js
+import config from './config'
+
+export const init = () => {
+  config.register('locale', {
+    zh: {
+      module: {
+        hot: '热门',
+        new: '最新',
+        top: '热榜',
+        about: '关于我',
+      },
+    },
+    en: {
+      module: {
+        hot: 'hot',
+        new: 'new',
+        top: 'top',
+        about: 'about',
+      },
+    },
+  })
+}
+```
+
+```js
+// /project/netease-study-senior-fe/juejin-demo/src/config/permission.js
+import config from './config'
+
+export const PERMISSIONS = {
+  ABOUT_PAGE: Symbol('ABOUT_PAGE'),
+}
+
+export const init = () => {
+  config.register('permission', {
+    CEO: {
+      [PERMISSIONS.ABOUT_PAGE]: true,
+    },
+    COO: {
+      [PERMISSIONS.ABOUT_PAGE]: false,
+    },
+  })
+}
+
+export const getPermissionByRole = (role) => config.get('permission')[role]
+```
+
+```js {4,5,6,11,12,13}
 // /project/netease-study-senior-fe/juejin-demo/src/app.js
-import Vue from 'vue'
-import intersect from './directive/intersect'
-import store from './store'
-import router from './router'
+...
+
 import { init as themeInit } from './config/theme'
 import { init as localeInit } from './config/locale'
+import { init as permissionInit } from './config/permission'
 import App from './App.vue'
 
 Vue.directive('intersect', intersect)
 
 themeInit() 
 localeInit()
+permissionInit()
 
-const app = new Vue({
-  store,
-  router,
-  render: (h) => h(App),
-})
+...
+```
 
-app.$mount('#app')
+```html
+<!-- /project/netease-study-senior-fe/juejin-demo/src/views/403.vue -->
+<template>
+  <div class="forbidden">
+    无权限访问
+  </div>
+</template>
+
+<style scoped>
+.forbidden {
+  text-align: center;
+  padding: 30px;
+}
+</style>
+```
+
+```html
+<!-- /project/netease-study-senior-fe/juejin-demo/src/views/UAbout.vue -->
+<template>
+  <div class="about">
+    about me !!!
+  </div>
+</template>
+
+<style scoped>
+.about {
+  text-align: center;
+  padding: 30px;
+}
+</style>
 ```
 
 ```html
@@ -156,11 +206,75 @@ export default {
         { id: 'hot', path: TYPES.HOT },
         { id: 'new', path: TYPES.NEW },
         { id: 'top', path: TYPES.TOP },
+        { id: 'about', path: '/about' },
       ]
     },
   },
 }
 </script>
 
+<style>
 ...
+
+.m-side {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: 520px;
+  width: 200px;
+}
+</style>
+```
+
+```js
+// /project/netease-study-senior-fe/juejin-demo/src/store.js
+import Vue from 'vue'
+import Vuex from 'vuex'
+import { store as topic } from './module/topic/store'
+
+Vue.use(Vuex)
+
+export default new Vuex.Store({
+  state: {
+    user: {
+      role: 'COO',
+    },
+  },
+  modules: {
+    topic,
+  }
+})
+```
+
+```js
+// /project/netease-study-senior-fe/juejin-demo/src/router.js
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import { routes as topic } from './module/topic/router'
+import store from './store'
+import { PERMISSIONS, getPermissionByRole } from './config/permission'
+
+Vue.use(VueRouter)
+
+const getPermission = (permission) => getPermissionByRole(store.state.user.role)[permission]
+
+export default new VueRouter({
+  routes: [
+    {
+      name: 'about',
+      path: '/about',
+      component: () => import('./views/UAbout.vue'),
+      beforeEnter(to, from, next) {
+        getPermission(PERMISSIONS.ABOUT_PAGE) ? next() : next('/403')
+      },
+    },
+    {
+      name: '403',
+      path: '/403',
+      component: () => import('./views/403.vue')
+    },
+    ...topic,
+    { path: '/', redirect: '/hot' }
+  ],
+})
 ```

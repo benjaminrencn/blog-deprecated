@@ -48,6 +48,7 @@ export default {
         { id: 'hot', path: TYPES.HOT },
         { id: 'new', path: TYPES.NEW },
         { id: 'top', path: TYPES.TOP },
+        { id: 'about', path: '/about' },
       ]
     },
   },

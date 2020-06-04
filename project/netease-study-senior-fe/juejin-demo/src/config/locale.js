@@ -7,6 +7,7 @@ export const init = () => {
         hot: '热门',
         new: '最新',
         top: '热榜',
+        about: '关于我',
       },
     },
     en: {
@@ -14,6 +15,7 @@ export const init = () => {
         hot: 'hot',
         new: 'new',
         top: 'top',
+        about: 'about',
       },
     },
   })

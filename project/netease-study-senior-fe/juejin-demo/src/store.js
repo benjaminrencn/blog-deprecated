@@ -5,6 +5,11 @@ import { store as topic } from './module/topic/store'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
+  state: {
+    user: {
+      role: 'COO',
+    },
+  },
   modules: {
     topic,
   }
