@@ -33,12 +33,12 @@ Vue.js cli、uni-app + HBuilderX。
 
     ```
     /
-    ├- pages          页面
-    ├- static         静态资源
-    ├- main.js        Vue 初始化入口文件
-    ├- App.vue        应用配置（全局生命周期监听、全局样式）
-    ├- manifest.json  配置应用信息（应用名称、appid、icon、版本）
-    └- pages.json     记录页面路由、导航条、选项卡等页面信息
+    ├─ pages          页面
+    ├─ static         静态资源
+    ├─ main.js        Vue 初始化入口文件
+    ├─ App.vue        应用配置（全局生命周期监听、全局样式）
+    ├─ manifest.json  配置应用信息（应用名称、appid、icon、版本）
+    └─ pages.json     记录页面路由、导航条、选项卡等页面信息
     ```
 
 * 运行 -> 运行到浏览器

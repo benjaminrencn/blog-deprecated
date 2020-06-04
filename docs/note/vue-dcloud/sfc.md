@@ -72,18 +72,18 @@ webpack -v
 
   ```
   /
-  ├- node_modules 依赖
-  ├- public       打包后要部署的目录
-  ├- src          开发目录
-  |  ├- assets      资源
-  |  ├- components  组件
-  |  ├- App.vue     入口文件
-  |  └- main.js
-  ├- .gitignore
-  ├- babel.config.js
-  ├- package-lock.json
-  ├- package.json
-  └- README.md
+  ├─ node_modules 依赖
+  ├─ public       打包后要部署的目录
+  ├─ src          开发目录
+  |  ├─ assets      资源
+  |  ├─ components  组件
+  |  ├─ App.vue     入口文件
+  |  └─ main.js
+  ├─ .gitignore
+  ├─ babel.config.js
+  ├─ package-lock.json
+  ├─ package.json
+  └─ README.md
   ```
 
 * 运行

@@ -30,13 +30,13 @@ uni-app 搭建环境、创建项目。
 
   ```
   /
-  ├- components 组件
-  ├- pages 页面
-  ├- static 静态资源
-  ├- App.vue 应用配置（全局生命周期监听、全局样式）
-  ├- main.js 入口文件
-  ├- manifest.json 配置应用信息
-  └- pages.json 记录页面路由、导航条、选项卡等页面信息
+  ├─ components 组件
+  ├─ pages 页面
+  ├─ static 静态资源
+  ├─ App.vue 应用配置（全局生命周期监听、全局样式）
+  ├─ main.js 入口文件
+  ├─ manifest.json 配置应用信息
+  └─ pages.json 记录页面路由、导航条、选项卡等页面信息
   ```
 
   * [uni-app 组件](https://uniapp.dcloud.io/component/README)
