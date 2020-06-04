@@ -15,7 +15,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.2",
     "html-webpack-plugin": "^4.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mocha": "^7.1.1",
     "sinon": "^9.0.1",
     "style-loader": "^1.1.3",
