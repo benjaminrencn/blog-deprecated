@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  // baseURL: "https://web-api.juejin.im",
+  baseURL: "https://web-api.juejin.im",
   timeout: 1000,
   headers: { "X-Agent": "Juejin/Web" },
 });

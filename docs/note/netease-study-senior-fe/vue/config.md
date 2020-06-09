@@ -19,6 +19,10 @@ meta:
 
 Vue 掘金 Top 10 列表页实践 配置中心、皮肤、国际化、权限控制。
 
+## 预览
+
+<img style="width: 500px;" src="./image/config-preview.png" alt="预览">
+
 ## 实例
 
 ```js
@@ -206,7 +210,7 @@ export default {
         { id: 'hot', path: TYPES.HOT },
         { id: 'new', path: TYPES.NEW },
         { id: 'top', path: TYPES.TOP },
-        { id: 'about', path: '/about' },
+        { id: 'about', path: 'about' },
       ]
     },
   },
@@ -277,4 +281,11 @@ export default new VueRouter({
     { path: '/', redirect: '/hot' }
   ],
 })
+```
+
+```shell
+# /project/netease-study-senior-fe/juejin-demo
+npm install
+npm run dev
+# http://localhost:3000/
 ```

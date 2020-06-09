@@ -65,39 +65,20 @@ npm run dev
 
 ## CORS 跨域问题
 
-```shell
-npm install http-proxy-middleware
-# yarn add -D http-proxy-middleware
-```
-
-```js {5,11,12,13,14}
+```js {6}
 // /project/netease-study-senior-fe/juejin-demo/server.js
-const fs = require("fs");
-const path = require("path");
-const express = require("express");
-const proxy = require("http-proxy-middleware")
-
-...
-
-app.use("/dist", serve("./dist", true));
-app.use("/public", serve("./public", true));
-app.use("/query", proxy.createProxyMiddleware({
-  target: 'https://web-api.juejin.im',
-  changeOrigin: true,
-}));
-```
-
-```js {5}
-// /project/netease-study-senior-fe/juejin-demo/src/module/topic/api/api.js
-import axios from "axios";
-
-const instance = axios.create({
-  // baseURL: "https://web-api.juejin.im",
-  timeout: 1000,
-  headers: { "X-Agent": "Juejin/Web" },
+app.get("*", (req, res) => {
+  serverReady.then((clientCompiler) => {
+    clientCompiler.outputFileSystem.readFile(HTML_FILE, (err, result) => {
+      if (err) {
+        return next(err);
+      }
+      res.set("content-type", "text/html");
+      res.send(result);
+      res.end();
+    });
+  });
 });
-
-...
 ```
 
 ## Vuex
@@ -141,7 +122,7 @@ export const store = {
   actions: {
     FETCH_ITEMS: ({ commit, state }, { type }) => {
       commit('SET_ACTIVE_TYPE', { type })
-      const after = state[type].pageInfo.endCursor || 0
+      const after = state[type].pageInfo.endCursor || ''
       return fetchItems({ type, after })
         .then(({ items, pageInfo }) => commit('SET_ITEMS', { items, pageInfo }))
     },

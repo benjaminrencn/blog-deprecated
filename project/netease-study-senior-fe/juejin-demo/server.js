@@ -1,7 +1,6 @@
 const fs = require("fs");
 const path = require("path");
 const express = require("express");
-const proxy = require("http-proxy-middleware")
 const setUpDevServer = require("./build/setup-dev-server");
 const isProd = process.env.NODE_ENV === "production";
 
@@ -17,17 +16,13 @@ const serve = (path, cache) =>
 
 app.use("/dist", serve("./dist", true));
 app.use("/public", serve("./public", true));
-app.use("/query", proxy.createProxyMiddleware({
-  target: 'https://web-api.juejin.im',
-  changeOrigin: true,
-}));
 const serverReady = setUpDevServer(app);
 
 app.get("*", (req, res) => {
   serverReady.then((clientCompiler) => {
     clientCompiler.outputFileSystem.readFile(HTML_FILE, (err, result) => {
       if (err) {
-        return res.send(err);
+        return next(err);
       }
       res.set("content-type", "text/html");
       res.send(result);

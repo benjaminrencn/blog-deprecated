@@ -1,6 +1,9 @@
 <template>
   <div>
-    <u-list :items="items"></u-list>
+    
+    <u-infinite-list :items="items" :item-height="80" #default="{ sliceItems }">
+      <u-list :items="sliceItems"></u-list>
+    </u-infinite-list>
     <div class="x-bottom" v-intersect="{ handler: fetchNext }"></div>
   </div>
 </template>
@@ -8,11 +11,13 @@
 <script>
 import { createNamespacedHelpers } from 'vuex'
 const { mapState, mapActions } = createNamespacedHelpers('topic')
+import UInfiniteList from './../../../components/UInfiniteList.vue'
 import UList from './../components/UList.vue'
 
 export default {
   name: 'u-top',
   components: {
+    UInfiniteList,
     UList, 
   },
   props: ['type'],

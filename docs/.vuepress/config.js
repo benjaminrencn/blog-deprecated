@@ -204,6 +204,7 @@ function getSidebar() {
               ['./netease-study-senior-fe/vue/vue-router2', 'vue router 下'],
               ['./netease-study-senior-fe/vue/practice', '掘金 Top 10 列表页实践'],
               ['./netease-study-senior-fe/vue/config', '配置中心'],
+              ['./netease-study-senior-fe/vue/optimization', '优化实践'],
             ],
           }],
         }],

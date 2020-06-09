@@ -35,7 +35,7 @@ export const store = {
   actions: {
     FETCH_ITEMS: ({ commit, state }, { type }) => {
       commit('SET_ACTIVE_TYPE', { type })
-      const after = state[type].pageInfo.endCursor || 0
+      const after = state[type].pageInfo.endCursor || ''
       return fetchItems({ type, after })
         .then(({ items, pageInfo }) => commit('SET_ITEMS', { items, pageInfo }))
     },

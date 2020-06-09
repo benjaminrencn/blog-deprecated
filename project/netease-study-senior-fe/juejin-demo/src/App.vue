@@ -8,7 +8,9 @@
       </router-link>
     </div>
     <div class="m-content">
-      <router-view></router-view>
+      <u-keep-alive max="2">
+         <router-view></router-view>
+      </u-keep-alive>
     </div>
     <div class="m-side">
       <div>
@@ -26,10 +28,14 @@
 </template>
 
 <script>
+import UKeepAlive from './components/UKeepAlive.vue'
 import { TYPES } from './module/topic/store'
 import config from './config/config'
 
 export default {
+  components: {
+    UKeepAlive,
+  },
   data() {
     return {
        themeType: 'blue',
@@ -48,7 +54,7 @@ export default {
         { id: 'hot', path: TYPES.HOT },
         { id: 'new', path: TYPES.NEW },
         { id: 'top', path: TYPES.TOP },
-        { id: 'about', path: '/about' },
+        { id: 'about', path: 'about' },
       ]
     },
   },
