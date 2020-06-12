@@ -143,6 +143,7 @@ function getSidebar() {
               ['./netease-study-senior-fe/javascript/common-function', '常用函数'],
               ['./netease-study-senior-fe/javascript/debounce-throttle', '防抖和节流'],
               ['./netease-study-senior-fe/javascript/deep-shadow-copy', '深拷贝和浅拷贝'],
+              ['./netease-study-senior-fe/javascript/exercise-sort', '习题 1 冒泡排序、插入排序'],
             ],
           }, {
             title: '异步编程',

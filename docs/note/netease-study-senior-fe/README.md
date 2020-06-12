@@ -38,8 +38,8 @@ meta:
   <tr><td rowspan="3">构建发布</td><td>5.1<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/build-publish">构建发布概述</a></td></tr>
   <tr><td>5.2<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/build">构建工具</a></td></tr>
   <tr><td>5.3<vp-icon name="checkbox-selected" /></td><td><a href="./preparation/publish">发布工具</a></td></tr>
-  <tr><td rowspan="25">Javascript 进阶</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/guide">JavaScript 进阶专题导学</a></td></tr>
-  <tr><td rowspan="8">函数</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/memory">JavaScript 中内存管理</a></td></tr>
+  <tr><td rowspan="30">Javascript 进阶</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/guide">JavaScript 进阶专题导学</a></td></tr>
+  <tr><td rowspan="13">函数</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/memory">JavaScript 中内存管理</a></td></tr>
   <tr><td>2.2<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/quality">如何保证你的代码质量</a></td></tr>
   <tr><td>2.3<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/reliability">提高代码可靠性</a></td></tr>
   <tr><td>2.4<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/compose-pipe">compose 函数和 pipe 函数</a></td></tr>
@@ -47,6 +47,11 @@ meta:
   <tr><td>2.6<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/common-function">常用函数</a></td></tr>
   <tr><td>2.7<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/debounce-throttle">防抖和节流</a></td></tr>
   <tr><td>2.8<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/deep-shadow-copy">深拷贝和浅拷贝</a></td></tr>
+  <tr><td>2.</td><td><a href="./javascript/exercise-sort">习题 1 冒泡排序、插入排序</a></td></tr>
+  <tr><td>2.</td><td><a href="./javascript/">习题 2</a></td></tr>
+  <tr><td>2.</td><td><a href="./javascript/">习题 3</a></td></tr>
+  <tr><td>2.</td><td><a href="./javascript/">习题 4</a></td></tr>
+  <tr><td>2.</td><td><a href="./javascript/">习题 5</a></td></tr>
   <tr><td rowspan="8">异步编程</td><td>3.1<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/asynchronous">理解异步</a></td></tr>
   <tr><td>3.2<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/event-loop">Event Loop 机制</a></td></tr>
   <tr><td>3.3<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/publish-subscribe">发布/订阅</a></td></tr>
@@ -61,26 +66,8 @@ meta:
   <tr><td>4.4</td><td>提高可扩展性</td></tr>
   <tr><td>4.5</td><td>提高代码质量</td></tr>
   <tr><td rowspan="1">Underscore.js 源码</td><td>5.1<vp-icon name="checkbox-selected" /></td><td><a href="./javascript/underscorejs">Underscore.js 源码</a></td></tr>
-  <tr><td>章节复习课</td><td>6.1</td><td>JavaScript进阶复习课</td></tr>
+  <tr><td>章节复习课</td><td>7.1</td><td>JavaScript进阶复习课</td></tr>
   <tr><td colspan="3">《JavaScript进阶》专题考核</td></tr>
-  <tr><td rowspan="18">计算机网络</td><td>课程导学</td><td>1.1</td><td>网络编程专题导学</td></tr>
-  <tr><td rowspan="4">网络协议</td><td>2.1</td><td>TCP/IP</td></tr>
-  <tr><td>2.2</td><td>HTTP</td></tr>
-  <tr><td>2.3</td><td>TLS</td></tr>
-  <tr><td>2.4</td><td>HTTP2 & HTTP3</td></tr>
-  <tr><td rowspan="6">网络请求</td><td>3.1</td><td>Request-Form提交</td></tr>
-  <tr><td>3.2</td><td>Request-Ajax 和 Fetch</td></tr>
-  <tr><td>3.3</td><td>Request-文件上传</td></tr>
-  <tr><td>3.4</td><td>Request-Axios</td></tr>
-  <tr><td>3.5</td><td>WebSocket</td></tr>
-  <tr><td>3.6</td><td>缓存</td></tr>
-  <tr><td rowspan="3">网络安全</td><td>4.1</td><td>同源策略</td></tr>
-  <tr><td>4.2</td><td>XSS攻击</td></tr>
-  <tr><td>4.3</td><td>CSRF攻击</td></tr>
-  <tr><td>模块加载</td><td>5.1</td><td>模块加载</td></tr>
-  <tr><td>路由</td><td>6.1</td><td>路由</td></tr>
-  <tr><td>章节复习课</td><td>7.1</td><td>计算机网络复习课</td></tr>
-  <tr><td colspan="3">《计算机网络》专题考核</td></tr>
   <tr><td rowspan="30">Vue</td><td>课程导学</td><td>1.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/guide">vue 专题导学</a></td></tr>
   <tr><td rowspan="5">初识 vue</td><td>2.1<vp-icon name="checkbox-selected" /></td><td><a href="./vue/hello">Hello Vue</a></td></tr>
   <tr><td>2.2<vp-icon name="checkbox-selected" /></td><td><a href="./vue/template">模板</a></td></tr>
@@ -146,6 +133,24 @@ meta:
   <tr><td>实战应用2</td><td>9.1</td><td>TypeScript/React/Redux实战练习</td></tr>
   <tr><td>章节复习课</td><td>10.1</td><td>React复习课</td></tr>
   <tr><td colspan="3">《React》专题考核</td></tr>
+  <tr><td rowspan="18">计算机网络</td><td>课程导学</td><td>1.1</td><td>网络编程专题导学</td></tr>
+  <tr><td rowspan="4">网络协议</td><td>2.1</td><td>TCP/IP</td></tr>
+  <tr><td>2.2</td><td>HTTP</td></tr>
+  <tr><td>2.3</td><td>TLS</td></tr>
+  <tr><td>2.4</td><td>HTTP2 & HTTP3</td></tr>
+  <tr><td rowspan="6">网络请求</td><td>3.1</td><td>Request-Form提交</td></tr>
+  <tr><td>3.2</td><td>Request-Ajax 和 Fetch</td></tr>
+  <tr><td>3.3</td><td>Request-文件上传</td></tr>
+  <tr><td>3.4</td><td>Request-Axios</td></tr>
+  <tr><td>3.5</td><td>WebSocket</td></tr>
+  <tr><td>3.6</td><td>缓存</td></tr>
+  <tr><td rowspan="3">网络安全</td><td>4.1</td><td>同源策略</td></tr>
+  <tr><td>4.2</td><td>XSS攻击</td></tr>
+  <tr><td>4.3</td><td>CSRF攻击</td></tr>
+  <tr><td>模块加载</td><td>5.1</td><td>模块加载</td></tr>
+  <tr><td>路由</td><td>6.1</td><td>路由</td></tr>
+  <tr><td>章节复习课</td><td>7.1</td><td>计算机网络复习课</td></tr>
+  <tr><td colspan="3">《计算机网络》专题考核</td></tr>
   <tr><td rowspan="18">Node.js进阶</td><td>课程导学</td><td>1.1</td><td>Nodejs进阶专题导学</td></tr>
   <tr><td rowspan="6">Nodejs基础</td><td>2.1</td><td>Nodejs发展简介</td></tr>
   <tr><td>2.2</td><td>Node提供的能力原生API</td></tr>
