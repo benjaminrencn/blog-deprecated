@@ -235,6 +235,18 @@ function getSidebar() {
         ],
       }],
     }, {
+      title: '微信小程序',
+      children: [{
+        title: '小程序开发指南 - 微信小程序团队',
+        path: '/note/mp-dev-guide',
+        children: [{
+          title: '小程序介绍与开发环境',
+          children: [
+            ['./mp-dev-guide/introduction/hello-world', 'Hello World']
+          ],
+        }]
+      }],
+    }, {
       title: 'uni-app',
       children: [{
         title: 'uni-app DCloud 官方教程',
