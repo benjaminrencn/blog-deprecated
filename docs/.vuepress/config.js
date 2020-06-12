@@ -244,6 +244,7 @@ function getSidebar() {
           children: [
             ['./mp-dev-guide/introduction/hello-world', 'Hello World'],
             ['./mp-dev-guide/introduction/introduction', '介绍'],
+            ['./mp-dev-guide/introduction/feature', '特色'],
           ],
         }]
       }],
