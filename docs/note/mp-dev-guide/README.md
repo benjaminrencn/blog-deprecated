@@ -22,10 +22,13 @@ meta:
   <tr><th>章节</th><th>课程标题</th><th></th></tr>
 </thead>
 <tbody>
-  <tr><td rowspan="5">介绍与开发环境</td><td><a href="./introduction/hello-world">Hello World</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-  <tr><td><a href="./introduction/introduction">介绍</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-  <tr><td><a href="./introduction/feature">特色</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-  <tr><td><a href="./introduction/preparation">开发准备</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-  <tr><td><a href="./introduction/">小结</a></td><td></td></tr>
+  <tr><td rowspan="4">介绍与开发环境</td><td><a href="./introduction/hello-world">Hello World</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./introduction/introduction">介绍</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./introduction/feature">特色</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./introduction/preparation">开发准备</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+  <tr><td rowspan="4">代码组成</td><td><a href="./composition/">JSON 配置</a></td><td></td></tr>
+    <tr><td><a href="./composition/">WXML 模板</a></td><td></td></tr>
+    <tr><td><a href="./composition/">WXSS 样式</a></td><td></td></tr>
+    <tr><td><a href="./composition/">JavaScript 脚本</a></td><td></td></tr>
 </tbody>
 </table>

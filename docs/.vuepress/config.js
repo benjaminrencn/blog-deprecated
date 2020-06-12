@@ -247,7 +247,12 @@ function getSidebar() {
             ['./mp-dev-guide/introduction/feature', '特色'],
             ['./mp-dev-guide/introduction/preparation', '开发准备'],
           ],
-        }]
+        }, {
+          title: '小程序代码组成',
+          children: [
+            ['./mp-dev-guide/composition/json', 'JSON 配置'],
+          ],
+        }],
       }],
     }, {
       title: 'uni-app',
