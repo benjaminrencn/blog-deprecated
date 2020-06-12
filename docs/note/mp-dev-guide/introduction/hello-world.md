@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: 微信小程序 Hello World。
+description: 微信小程序 Hello World 下载微信开发者工具、新建项目、开发。
 meta:
   - name: keywords
     content: 小程序开发指南,微信小程序团队,介绍与开发环境,Hello World,微信小程序
@@ -13,6 +13,8 @@ meta:
 \#介绍与开发环境#
 \#Hello World#
 \#微信小程序#
+
+微信小程序 Hello World 下载微信开发者工具、新建项目、开发。
 
 ## 下载[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
 

@@ -242,7 +242,8 @@ function getSidebar() {
         children: [{
           title: '小程序介绍与开发环境',
           children: [
-            ['./mp-dev-guide/introduction/hello-world', 'Hello World']
+            ['./mp-dev-guide/introduction/hello-world', 'Hello World'],
+            ['./mp-dev-guide/introduction/introduction', '介绍'],
           ],
         }]
       }],

@@ -23,7 +23,7 @@ meta:
 </thead>
 <tbody>
   <tr><td rowspan="5">介绍与开发环境</td><td><a href="./introduction/hello-world">Hello World</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-  <tr><td><a href="./introduction/">介绍</a></td><td></td></tr>
+  <tr><td><a href="./introduction/introduction">介绍</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
   <tr><td><a href="./introduction/">特色</a></td><td></td></tr>
   <tr><td><a href="./introduction/">开发准备</a></td><td></td></tr>
   <tr><td><a href="./introduction/">小结</a></td><td></td></tr>
