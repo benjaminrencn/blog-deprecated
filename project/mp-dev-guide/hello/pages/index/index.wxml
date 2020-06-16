@@ -2,3 +2,4 @@
 <text>Hello World</text>
 
 <button type="primary" data-url="/pages/wxml/index" bindtap="to">WXML 模板</button>
+<button type="primary" data-url="/pages/wxss/index" bindtap="to">WXSS 样式</button>

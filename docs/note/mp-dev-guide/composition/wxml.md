@@ -451,3 +451,9 @@ footer
 | `hidden`         | Boolean      | 是否显示   | 默认显示                     |
 | `data-*`         | Any          | 自定义属性 | 触发事件时，会发送给事件处理函数 |
 | `bind*`/`catch*` | EventHandler | 事件       |                            |
+
+## 实例
+
+```shell
+# /project/mp-dev-guide/hello WXML 模板
+```

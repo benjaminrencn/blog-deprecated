@@ -1,0 +1,4 @@
+<!--pages/wxss/index.wxml-->
+<view style="color: red; font-size: 48rpx;">red</view>
+
+<view style="color: {{eleColor}}; font-size: {{eleFontSize}};">red</view>

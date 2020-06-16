@@ -68,5 +68,5 @@ App({})
 Page({})
 ```
 
-* 案例  
+* 实例  
   `/project/mp-dev-guide/hello`
