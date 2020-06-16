@@ -1,5 +1,14 @@
 {
-  "pages": [
+  "pages":[
+    "pages/wxml/index",
     "pages/index/index"
-  ]
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Hello",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }

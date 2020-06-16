@@ -28,21 +28,35 @@ meta:
     空目录
   * AppID 使用测试号  
     或输入注册的 AppID，后端服务选择不使用云服务
-* 清除快速启动模板文件
+* 清除文件
+  * 删除 `/app.wxss`、`/utils/`、`/pages/logs/logs`
+  * 清除 `/pages/index/index.wxss` 内容
 
 ## 开发
+
+```js
+// /project/mp-dev-guide/hello/app.js
+App({})
+```
 
 ```json
 // /project/mp-dev-guide/hello/app.json
 {
-  "pages": [
+  "pages":[
     "pages/index/index"
-  ]
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Hello",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }
 ```
 
-微信开发者工具会自动创建页面的 `json`、`wxml`、`wxss`、`js`  
-可以删除 `json`、`wxss` 文件
+
 
 ```html
 <!-- /project/mp-dev-guide/hello/pages/index/index.wxml -->

@@ -26,8 +26,8 @@ meta:
     <tr><td><a href="./introduction/introduction">介绍</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./introduction/feature">特色</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./introduction/preparation">开发准备</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-  <tr><td rowspan="4">代码组成</td><td><a href="./composition/">JSON 配置</a></td><td></td></tr>
-    <tr><td><a href="./composition/">WXML 模板</a></td><td></td></tr>
+  <tr><td rowspan="4">代码组成</td><td><a href="./composition/">JSON 配置</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./composition/wxml">WXML 模板</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./composition/">WXSS 样式</a></td><td></td></tr>
     <tr><td><a href="./composition/">JavaScript 脚本</a></td><td></td></tr>
 </tbody>

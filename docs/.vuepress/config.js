@@ -251,6 +251,7 @@ function getSidebar() {
           title: '小程序代码组成',
           children: [
             ['./mp-dev-guide/composition/json', 'JSON 配置'],
+            ['./mp-dev-guide/composition/wxml', 'WXML 模板'],
           ],
         }],
       }],

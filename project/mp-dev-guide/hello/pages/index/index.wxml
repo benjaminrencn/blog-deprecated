@@ -1,2 +1,4 @@
-<!--pages/index/index.wxml-->
+<!-- index.wxml -->
 <text>Hello World</text>
+
+<button type="primary" data-url="/pages/wxml/index" bindtap="to">WXML 模板</button>

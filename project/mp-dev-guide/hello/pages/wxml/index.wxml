@@ -1,0 +1,66 @@
+<!--pages/wxml/index.wxml-->
+<view data-time="{{time}}">当前时间 {{time}}</view>
+
+<view>{{w}}</view>
+<view>{{W}}</view>
+
+<view>{{var1}}</view>
+<view>{{var2}}</view>
+<view>{{var3}}</view>
+<view>{{var4}}</view>
+
+<view>{{a === 10 ? '变量 a 等于10' : '变量 a 不等于10'}}</view>
+
+<view>{{a + b}}</view>
+
+<view>{{'Hello ' + name}}</view>
+
+<view>{{1}}</view>
+<view>{{'string'}}</view>
+<view>{{[1,2,3]}}</view>
+
+<view wx:if="{{condition > 3}}">3</view>
+<view wx:elif="{{condition > 2}}">2</view>
+<view wx:else="{{condition > 1}}">1</view>
+
+<view wx:for="{{list}}" wx:key="message">{{index}}: {{item.message}}</view>
+
+<view wx:for="{{list}}" wx:for-item="itemName" wx:for-index="idx" wx:key="message">{{idx}}: {{itemName.message}}</view>
+
+<view>
+  <switch wx:for="{{objectArray}}" wx:key="unique">{{item.id}}</switch>
+  <button bindtap="switch">Switch</button>
+  <button bindtap="addToFront">Add to the front</button>
+
+  <switch wx:for="{{numberArray}}" wx:key="*this">{{item}}</switch>
+  <button bindtap="addNumberToFront">Add number to the front</button>
+</view>
+
+<template name="msgItem">
+  <view>
+    <text>{{index}}: {{msg}}</text>
+    <text> Time: {{time}}</text>
+  </view>
+</template>
+<template is="msgItem" data="{{...msgItem}}"></template>
+
+<template name="odd">
+  <view>odd</view>
+</template>
+<template name="even">
+  <view>even</view>
+</template>
+<block wx:for="{{[1, 2, 3, 4, 5]}}" wx:key="*this">
+  <template is="{{item % 2 == 0 ? 'even' : 'odd'}}"></template>
+</block>
+
+<import src="item.wxml" />
+<template is="item" data="{{text: 'forbar'}}"></template>
+
+<import src="B.wxml" />
+<!-- <template is="A"></template> --><!-- 警告 Template `A` not found. -->
+<template is="B"></template>
+
+<include src="header.wxml" />
+<view>body</view>
+<include src="footer.wxml" />
