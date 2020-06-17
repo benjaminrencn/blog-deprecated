@@ -50,14 +50,14 @@ meta:
 * 字符串
 
 ```html
-<!-- /Users/br/Code/blog/project/mp-dev-guide/hello/pages/wxss/index.wxml -->
+<!-- /project/mp-dev-guide/hello/pages/wxss/index.wxml -->
 <view style="color: red; font-size: 48rpx;">red</view>
 ```
 
 * 动态内联样式
 
 ```js
-// /Users/br/Code/blog/project/mp-dev-guide/hello/pages/wxss/index.js
+// /project/mp-dev-guide/hello/pages/wxss/index.js
 Page({
   data: {
     eleColor: 'red',
@@ -67,7 +67,7 @@ Page({
 ```
 
 ```html
-<!-- /Users/br/Code/blog/project/mp-dev-guide/hello/pages/wxss/index.wxml -->
+<!-- /project/mp-dev-guide/hello/pages/wxss/index.wxml -->
 <view style="color: {{eleColor}}; font-size: {{eleFontSize}};">red</view>
 ```
 

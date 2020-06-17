@@ -253,6 +253,7 @@ function getSidebar() {
             ['./mp-dev-guide/composition/json', 'JSON 配置'],
             ['./mp-dev-guide/composition/wxml', 'WXML 模板'],
             ['./mp-dev-guide/composition/wxss', 'WXSS 样式'],
+            ['./mp-dev-guide/composition/js', 'JavaScript 脚本'],
           ],
         }],
       }],

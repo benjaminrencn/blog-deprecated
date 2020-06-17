@@ -2,7 +2,9 @@
   "pages":[
     "pages/index/index",
     "pages/wxml/index",
-    "pages/wxss/index"
+    "pages/wxss/index",
+    "pages/log/log",
+    "pages/result/result"
   ],
   "window":{
     "backgroundTextStyle":"light",

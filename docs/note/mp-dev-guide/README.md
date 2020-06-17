@@ -29,6 +29,10 @@ meta:
   <tr><td rowspan="4">代码组成</td><td><a href="./composition/">JSON 配置</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./composition/wxml">WXML 模板</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./composition/wxss">WXSS 样式</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-    <tr><td><a href="./composition/">JavaScript 脚本</a></td><td></td></tr>
+    <tr><td><a href="./composition/js">JavaScript 脚本</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
 </tbody>
 </table>
+
+## 问题
+
+* 代码组成 JavaScript 脚本 脚本执行顺序 练习失败

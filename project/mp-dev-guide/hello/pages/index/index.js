@@ -1,4 +1,5 @@
 // index.js
+console.log('pages/index/index')
 Page({
   /**
    * 跳转页面
