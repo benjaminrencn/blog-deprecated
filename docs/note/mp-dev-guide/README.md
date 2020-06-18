@@ -26,10 +26,17 @@ meta:
     <tr><td><a href="./introduction/introduction">介绍</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./introduction/feature">特色</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./introduction/preparation">开发准备</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-  <tr><td rowspan="4">代码组成</td><td><a href="./composition/">JSON 配置</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+  <tr><td rowspan="4">代码组成</td><td><a href="./composition/json">JSON 配置</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./composition/wxml">WXML 模板</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./composition/wxss">WXSS 样式</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./composition/js">JavaScript 脚本</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+  <tr><td rowspan="6">宿主环境</td><td><a href="./environment/render-logic">渲染层、逻辑层</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+   <tr><td><a href="./environment/">程序、页面</a></td><td></td></tr>
+   <tr><td><a href="./environment/">组件</a></td><td></td></tr>
+   <tr><td><a href="./environment/">API</a></td><td></td></tr>
+   <tr><td><a href="./environment/">事件</a></td><td></td></tr>
+   <tr><td><a href="./environment/">兼容</a></td><td></td></tr>
+  
 </tbody>
 </table>
 

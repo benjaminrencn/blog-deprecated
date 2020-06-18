@@ -255,6 +255,11 @@ function getSidebar() {
             ['./mp-dev-guide/composition/wxss', 'WXSS 样式'],
             ['./mp-dev-guide/composition/js', 'JavaScript 脚本'],
           ],
+        }, {
+          title: '理解小程序宿主环境',
+          children: [
+            ['./mp-dev-guide/environment/render-logic', '渲染层、逻辑层'],
+          ],
         }],
       }],
     }, {

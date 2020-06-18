@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: 微信小程序 JavaScript 脚本。
+description: 微信小程序 JavaScript 脚本（ECMAScript、小程序执行环境、模块化、脚本执行顺序）。
 meta:
   - name: keywords
     content: 小程序开发指南,微信小程序团队,代码组成,JavaScript 脚本,微信小程序
@@ -198,4 +198,10 @@ console.log(global.globalData.a)
 /* 输出
 2
 */
+```
+
+## 实例
+
+```shell
+# /project/mp-dev-guide/hello
 ```
