@@ -261,6 +261,7 @@ function getSidebar() {
             ['./mp-dev-guide/environment/render-logic', '渲染层、逻辑层'],
             ['./mp-dev-guide/environment/program-view', '程序、页面'],
             ['./mp-dev-guide/environment/component', '组件'],
+            ['./mp-dev-guide/environment/api', 'API'],
           ],
         }],
       }],
