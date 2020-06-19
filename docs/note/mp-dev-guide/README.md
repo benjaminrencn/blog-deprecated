@@ -31,7 +31,7 @@ meta:
     <tr><td><a href="./composition/wxss">WXSS 样式</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./composition/js">JavaScript 脚本</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
   <tr><td rowspan="6">宿主环境</td><td><a href="./environment/render-logic">渲染层、逻辑层</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./environment/">程序、页面</a></td><td></td></tr>
+   <tr><td><a href="./environment/program-view">程序、页面</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
    <tr><td><a href="./environment/">组件</a></td><td></td></tr>
    <tr><td><a href="./environment/">API</a></td><td></td></tr>
    <tr><td><a href="./environment/">事件</a></td><td></td></tr>

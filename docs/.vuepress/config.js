@@ -259,6 +259,7 @@ function getSidebar() {
           title: '理解小程序宿主环境',
           children: [
             ['./mp-dev-guide/environment/render-logic', '渲染层、逻辑层'],
+            ['./mp-dev-guide/environment/program-view', '程序、页面'],
           ],
         }],
       }],
