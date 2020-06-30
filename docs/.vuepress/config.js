@@ -263,6 +263,7 @@ function getSidebar() {
             ['./mp-dev-guide/environment/component', '组件'],
             ['./mp-dev-guide/environment/api', 'API'],
             ['./mp-dev-guide/environment/event', '事件'],
+            ['./mp-dev-guide/environment/compatibility', '兼容'],
           ],
         }],
       }],

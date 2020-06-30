@@ -35,7 +35,7 @@ meta:
    <tr><td><a href="./environment/component">组件</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
    <tr><td><a href="./environment/api">API</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
    <tr><td><a href="./environment/event">事件</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./environment/">兼容</a></td><td></td></tr>
+   <tr><td><a href="./environment/compatibility">兼容</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
   
 </tbody>
 </table>

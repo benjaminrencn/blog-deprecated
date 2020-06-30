@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: 微信小程序 事件。
+description: 微信小程序 事件、事件类型、事件对象、事件绑定、冒泡捕获。
 meta:
   - name: keywords
     content: 小程序开发指南,微信小程序团队,宿主环境,事件,微信小程序
