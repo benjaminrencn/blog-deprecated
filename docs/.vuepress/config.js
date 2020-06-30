@@ -265,6 +265,11 @@ function getSidebar() {
             ['./mp-dev-guide/environment/event', '事件'],
             ['./mp-dev-guide/environment/compatibility', '兼容'],
           ],
+        }, {
+          title: '应用场景',
+          children: [
+            ['./mp-dev-guide/scene/flow', '开发流程'],
+          ],
         }],
       }],
     }, {
