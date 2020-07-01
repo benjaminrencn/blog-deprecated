@@ -269,6 +269,7 @@ function getSidebar() {
           title: '应用场景',
           children: [
             ['./mp-dev-guide/scene/flow', '开发流程'],
+            ['./mp-dev-guide/scene/flex', 'Flex 布局'],
           ],
         }],
       }],
