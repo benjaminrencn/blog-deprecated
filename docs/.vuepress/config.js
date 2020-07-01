@@ -270,6 +270,7 @@ function getSidebar() {
           children: [
             ['./mp-dev-guide/scene/flow', '开发流程'],
             ['./mp-dev-guide/scene/flex', 'Flex 布局'],
+            ['./mp-dev-guide/scene/interaction', '常见交互反馈'],
           ],
         }],
       }],

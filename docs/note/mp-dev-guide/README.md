@@ -38,7 +38,7 @@ meta:
    <tr><td><a href="./environment/compatibility">兼容</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
   <tr><td rowspan="7">应用场景</td><td><a href="./scene/flow">开发流程</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
    <tr><td><a href="./scene/flex">Flex 布局</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./scene/">常见交互反馈</a></td><td></td></tr>
+   <tr><td><a href="./scene/interaction">常见交互反馈</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
    <tr><td><a href="./scene/">HTTPS 网络通信</a></td><td></td></tr>
    <tr><td><a href="./scene/">微信登录</a></td><td></td></tr>
    <tr><td><a href="./scene/">本地数据缓存</a></td><td></td></tr>

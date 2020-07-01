@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: 微信小程序 Flex 布局 概念、容器属性（`display`、`flex-direction`、`flex-wrap`、`justify-content`、`align-items`、`align-content`）、项目属性（`order`、`flex-shrink`、`flex-grow`、`flex-basis`、`flex`、`align-self`）。
+description: 微信小程序 Flex 布局 概念、容器属性（display、flex-direction、flex-wrap、justify-content、align-items、align-content）、项目属性（order、flex-shrink、flex-grow、flex-basis、flex、align-self）。
 meta:
   - name: keywords
     content: 小程序开发指南,微信小程序团队,应用场景,Flex 布局,微信小程序
