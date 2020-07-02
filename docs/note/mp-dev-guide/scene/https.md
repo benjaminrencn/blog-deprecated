@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-description: 微信小程序 HTTPS 网络通信、`wx.request`、服务器接口、请求参数、收到回包、一般使用技巧（超时设置、请求前后的状态处理）、排查异常的方法。
+description: 微信小程序 HTTPS 网络通信、wx.request、服务器接口、请求参数、收到回包、一般使用技巧（超时设置、请求前后的状态处理）、排查异常的方法。
 meta:
   - name: keywords
     content: 小程序开发指南,微信小程序团队,应用场景,HTTPS 网络通信,微信小程序
@@ -14,7 +14,7 @@ meta:
 \#HTTPS 网络通信#
 \#微信小程序#
 
-微信小程序 HTTPS 网络通信、`wx.request`、服务器接口、请求参数、收到回包、一般使用技巧（超时设置、请求前后的状态处理）、排查异常的方法。。
+微信小程序 HTTPS 网络通信、`wx.request`、服务器接口、请求参数、收到回包、一般使用技巧（超时设置、请求前后的状态处理）、排查异常的方法。
 
 ## [`wx.request`](https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html)
 

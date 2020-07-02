@@ -69,7 +69,7 @@ meta:
 
 ```js
 // /project/mp-dev-guide/hello/js/a.js
-console.log('a.js');
+console.log('a.js')
 ```
 
 ```js
