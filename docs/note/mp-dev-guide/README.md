@@ -42,7 +42,7 @@ meta:
    <tr><td><a href="./scene/https">HTTPS 网络通信</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
    <tr><td><a href="./scene/login">微信登录</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
    <tr><td><a href="./scene/storage">本地数据缓存</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./scene/">设备能力</a></td><td></td></tr>
+   <tr><td><a href="./scene/device">设备能力</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
 </tbody>
 </table>
 
