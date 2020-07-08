@@ -273,6 +273,7 @@ function getSidebar() {
             ['./mp-dev-guide/scene/interaction', '常见交互反馈'],
             ['./mp-dev-guide/scene/https', 'HTTPS 网络通信'],
             ['./mp-dev-guide/scene/login', '微信登录'],
+            ['./mp-dev-guide/scene/storage', '本地数据缓存'],
           ],
         }],
       }],
