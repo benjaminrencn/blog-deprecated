@@ -276,6 +276,11 @@ function getSidebar() {
             ['./mp-dev-guide/scene/storage', '本地数据缓存'],
             ['./mp-dev-guide/scene/device', '设备能力'],
           ],
+        }, {
+          title: '协同工作、发布',
+          children: [
+            ['./mp-dev-guide/cooperation/cooperation', '协同工作'],
+          ],
         }],
       }],
     }, {

@@ -31,18 +31,22 @@ meta:
     <tr><td><a href="./composition/wxss">WXSS 样式</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./composition/js">JavaScript 脚本</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
   <tr><td rowspan="6">宿主环境</td><td><a href="./environment/render-logic">渲染层、逻辑层</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./environment/program-view">程序、页面</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./environment/component">组件</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./environment/api">API</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./environment/event">事件</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./environment/compatibility">兼容</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./environment/program-view">程序、页面</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./environment/component">组件</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./environment/api">API</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./environment/event">事件</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./environment/compatibility">兼容</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
   <tr><td rowspan="7">应用场景</td><td><a href="./scene/flow">开发流程</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./scene/flex">Flex 布局</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./scene/interaction">常见交互反馈</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./scene/https">HTTPS 网络通信</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./scene/login">微信登录</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./scene/storage">本地数据缓存</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-   <tr><td><a href="./scene/device">设备能力</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./scene/flex">Flex 布局</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./scene/interaction">常见交互反馈</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./scene/https">HTTPS 网络通信</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./scene/login">微信登录</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./scene/storage">本地数据缓存</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./scene/device">设备能力</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+  <tr><td rowspan="4">协同工作、发布</td><td><a href="./cooperation/cooperation">协同工作</a></td><td></td></tr>
+    <tr><td><a href="./cooperation/">用户体验审视</a></td><td></td></tr>
+    <tr><td><a href="./cooperation/">发布</a></td><td></td></tr>
+    <tr><td><a href="./cooperation/">运营</a></td><td></td></tr>
 </tbody>
 </table>
 
