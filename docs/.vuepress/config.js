@@ -280,6 +280,7 @@ function getSidebar() {
           title: '协同工作、发布',
           children: [
             ['./mp-dev-guide/cooperation/cooperation', '协同工作'],
+            ['./mp-dev-guide/cooperation/ux', '用户体验审视'],
           ],
         }],
       }],
