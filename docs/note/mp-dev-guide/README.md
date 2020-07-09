@@ -45,8 +45,8 @@ meta:
     <tr><td><a href="./scene/device">设备能力</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
   <tr><td rowspan="4">协同工作、发布</td><td><a href="./cooperation/cooperation">协同工作</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./cooperation/ux">用户体验审视</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
-    <tr><td><a href="./cooperation/publish">发布</a></td><td></td></tr>
-    <tr><td><a href="./cooperation/">运营</a></td><td></td></tr>
+    <tr><td><a href="./cooperation/publish">发布</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./cooperation/operation">运营</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
 </tbody>
 </table>
 

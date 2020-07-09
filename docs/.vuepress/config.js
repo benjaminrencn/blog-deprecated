@@ -282,6 +282,7 @@ function getSidebar() {
             ['./mp-dev-guide/cooperation/cooperation', '协同工作'],
             ['./mp-dev-guide/cooperation/ux', '用户体验审视'],
             ['./mp-dev-guide/cooperation/publish', '发布'],
+            ['./mp-dev-guide/cooperation/operation', '运营'],
           ],
         }],
       }],
