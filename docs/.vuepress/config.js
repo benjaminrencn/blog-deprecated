@@ -284,6 +284,11 @@ function getSidebar() {
             ['./mp-dev-guide/cooperation/publish', '发布'],
             ['./mp-dev-guide/cooperation/operation', '运营'],
           ],
+        }, {
+          title: '底层框架',
+          children: [
+            ['./mp-dev-guide/framework/double-thread', '双线程模型'],
+          ],
         }],
       }],
     }, {

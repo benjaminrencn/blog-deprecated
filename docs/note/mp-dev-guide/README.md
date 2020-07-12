@@ -47,6 +47,10 @@ meta:
     <tr><td><a href="./cooperation/ux">用户体验审视</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./cooperation/publish">发布</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
     <tr><td><a href="./cooperation/operation">运营</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+  <tr><td rowspan="4">底层框架</td><td><a href="./framework/double-thread">双线程模型</a></td><td><vp-icon name="checkbox-selected" /></td></tr>
+    <tr><td><a href="./framework/">组件系统</a></td><td></td></tr>
+    <tr><td><a href="./framework/">原生组件</a></td><td></td></tr>
+    <tr><td><a href="./framework/">小程序与客户端通信原理</a></td><td></td></tr>
 </tbody>
 </table>
 
